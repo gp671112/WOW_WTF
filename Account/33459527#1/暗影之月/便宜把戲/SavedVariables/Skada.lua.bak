@@ -1,0 +1,3482 @@
+
+SkadaPerCharDB = {
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 454,
+			["players"] = {
+				{
+					["last"] = 1491758188,
+					["healingabsorbed"] = 0,
+					["class"] = "ROGUE",
+					["damaged"] = {
+						["泥居魚"] = 454,
+					},
+					["auras"] = {
+					},
+					["healingspells"] = {
+					},
+					["time"] = 3,
+					["interrupts"] = 0,
+					["damage"] = 454,
+					["damagespells"] = {
+						["刀劍斬擊"] = {
+							["hitmin"] = 187,
+							["id"] = 193315,
+							["min"] = 187,
+							["damage"] = 384,
+							["hitmax"] = 197,
+							["hit"] = 2,
+							["school"] = 1,
+							["totalhits"] = 2,
+							["max"] = 197,
+							["hitamount"] = 384,
+						},
+						["近戰攻擊"] = {
+							["hitmin"] = 23,
+							["id"] = 6603,
+							["damage"] = 70,
+							["min"] = 23,
+							["max"] = 24,
+							["hitmax"] = 24,
+							["hit"] = 3,
+							["totalhits"] = 5,
+							["school"] = 1,
+							["MISS"] = 2,
+							["hitamount"] = 70,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-963-04834FDB",
+					["first"] = 1491758185,
+					["healing"] = 0,
+					["damagetakenspells"] = {
+						["近戰攻擊"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 32,
+							["max"] = 32,
+							["name"] = "近戰攻擊",
+							["min"] = 32,
+							["totalhits"] = 1,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["school"] = 1,
+							["resisted"] = 0,
+							["glancing"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["role"] = "NONE",
+					["overhealing"] = 0,
+					["name"] = "便宜把戲",
+					["damagetaken"] = 32,
+					["maxhp"] = 1577,
+					["dispells"] = 0,
+					["ccbreaks"] = 0,
+					["power"] = {
+						{
+							["spells"] = {
+								[193315] = 0,
+							},
+							["amount"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["泥居魚"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 454,
+							["done"] = 32,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 454,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 32,
+				},
+			},
+			["mobtaken"] = 454,
+			["mobdone"] = 32,
+			["healing"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+				0, -- [1]
+			},
+			["time"] = 7,
+			["damagetaken"] = 32,
+			["name"] = "泥居魚",
+			["mobname"] = "泥居魚",
+			["starttime"] = 1491758183,
+			["mobhdone"] = 0,
+			["last_action"] = 1491758183,
+			["endtime"] = 1491758190,
+		}, -- [1]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 1839,
+			["players"] = {
+				{
+					["last"] = 1491758133,
+					["healingabsorbed"] = 0,
+					["class"] = "ROGUE",
+					["damaged"] = {
+						["魚人食腐者"] = 1839,
+					},
+					["auras"] = {
+						["手槍射擊"] = {
+							["name"] = "手槍射擊",
+							["active"] = 0,
+							["id"] = 185763,
+							["uptime"] = 6,
+							["auratype"] = "BUFF",
+						},
+						["大好機會"] = {
+							["name"] = "大好機會",
+							["active"] = 0,
+							["id"] = 195627,
+							["uptime"] = 3,
+							["auratype"] = "BUFF",
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 7,
+					["interrupts"] = 0,
+					["damage"] = 1839,
+					["damagespells"] = {
+						["手槍射擊"] = {
+							["hitmin"] = 281,
+							["id"] = 185763,
+							["min"] = 281,
+							["damage"] = 281,
+							["hitmax"] = 281,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 281,
+							["hitamount"] = 281,
+						},
+						["近戰攻擊"] = {
+							["hitmin"] = 23,
+							["criticalamount"] = 225,
+							["id"] = 6603,
+							["damage"] = 354,
+							["totalhits"] = 6,
+							["max"] = 114,
+							["min"] = 23,
+							["criticalmax"] = 114,
+							["hitmax"] = 56,
+							["hit"] = 4,
+							["school"] = 1,
+							["critical"] = 2,
+							["criticalmin"] = 111,
+							["hitamount"] = 129,
+						},
+						["刀劍斬擊"] = {
+							["hitmin"] = 198,
+							["id"] = 193315,
+							["min"] = 198,
+							["damage"] = 398,
+							["hitmax"] = 200,
+							["hit"] = 2,
+							["school"] = 1,
+							["totalhits"] = 2,
+							["max"] = 200,
+							["hitamount"] = 398,
+						},
+						["刺穿"] = {
+							["hitmin"] = 806,
+							["id"] = 2098,
+							["min"] = 806,
+							["damage"] = 806,
+							["hitmax"] = 806,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 806,
+							["hitamount"] = 806,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-963-04834FDB",
+					["first"] = 1491758126,
+					["healing"] = 0,
+					["damagetakenspells"] = {
+						["近戰攻擊"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 58,
+							["max"] = 34,
+							["name"] = "近戰攻擊",
+							["min"] = 24,
+							["totalhits"] = 2,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["school"] = 1,
+							["resisted"] = 0,
+							["glancing"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["role"] = "NONE",
+					["overhealing"] = 0,
+					["name"] = "便宜把戲",
+					["damagetaken"] = 58,
+					["maxhp"] = 1577,
+					["dispells"] = 0,
+					["ccbreaks"] = 0,
+					["power"] = {
+						[0] = {
+							["spells"] = {
+								[185763] = 2,
+								[193315] = 2,
+							},
+							["amount"] = 4,
+						},
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["魚人食腐者"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 1839,
+							["done"] = 58,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 1839,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 58,
+				},
+			},
+			["mobtaken"] = 1839,
+			["mobdone"] = 58,
+			["healing"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+				[0] = 4,
+			},
+			["time"] = 9,
+			["damagetaken"] = 58,
+			["name"] = "魚人食腐者 (2)",
+			["mobname"] = "魚人食腐者",
+			["starttime"] = 1491758125,
+			["mobhdone"] = 0,
+			["last_action"] = 1491758125,
+			["endtime"] = 1491758134,
+		}, -- [2]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 982,
+			["players"] = {
+				{
+					["last"] = 1491758122,
+					["healingabsorbed"] = 0,
+					["class"] = "ROGUE",
+					["damaged"] = {
+						["魚人食腐者"] = 982,
+					},
+					["auras"] = {
+						["大好機會"] = {
+							["name"] = "大好機會",
+							["active"] = 0,
+							["id"] = 195627,
+							["uptime"] = 2,
+							["auratype"] = "BUFF",
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 6,
+					["interrupts"] = 0,
+					["damage"] = 982,
+					["damagespells"] = {
+						["近戰攻擊"] = {
+							["hitmin"] = 25,
+							["criticalamount"] = 47,
+							["id"] = 6603,
+							["damage"] = 299,
+							["totalhits"] = 6,
+							["max"] = 57,
+							["min"] = 25,
+							["criticalmax"] = 47,
+							["critical"] = 1,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 57,
+							["criticalmin"] = 47,
+							["hitamount"] = 252,
+						},
+						["刀劍斬擊"] = {
+							["hitmin"] = 194,
+							["id"] = 193315,
+							["min"] = 194,
+							["damage"] = 194,
+							["hitmax"] = 194,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 194,
+							["hitamount"] = 194,
+						},
+						["刺穿"] = {
+							["hitmin"] = 489,
+							["id"] = 2098,
+							["min"] = 489,
+							["damage"] = 489,
+							["hitmax"] = 489,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 489,
+							["hitamount"] = 489,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-963-04834FDB",
+					["first"] = 1491758116,
+					["healing"] = 0,
+					["damagetakenspells"] = {
+						["近戰攻擊"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 23,
+							["max"] = 23,
+							["name"] = "近戰攻擊",
+							["min"] = 23,
+							["totalhits"] = 1,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["school"] = 1,
+							["resisted"] = 0,
+							["glancing"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["role"] = "NONE",
+					["overhealing"] = 0,
+					["name"] = "便宜把戲",
+					["damagetaken"] = 23,
+					["maxhp"] = 1577,
+					["dispells"] = 0,
+					["ccbreaks"] = 0,
+					["power"] = {
+						[0] = {
+							["spells"] = {
+								[193315] = 2,
+							},
+							["amount"] = 2,
+						},
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["魚人食腐者"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 982,
+							["done"] = 23,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 982,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 23,
+				},
+			},
+			["mobtaken"] = 982,
+			["mobdone"] = 23,
+			["healing"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+				[0] = 2,
+			},
+			["time"] = 8,
+			["damagetaken"] = 23,
+			["name"] = "魚人食腐者",
+			["mobname"] = "魚人食腐者",
+			["starttime"] = 1491758116,
+			["mobhdone"] = 0,
+			["last_action"] = 1491758116,
+			["endtime"] = 1491758124,
+		}, -- [3]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 1143,
+			["players"] = {
+				{
+					["last"] = 1491757108,
+					["healingabsorbed"] = 0,
+					["class"] = "ROGUE",
+					["damaged"] = {
+						["恐鷲"] = 344,
+						["混血赤脊山豺狼人"] = 799,
+					},
+					["auras"] = {
+						["手槍射擊"] = {
+							["name"] = "手槍射擊",
+							["active"] = 0,
+							["id"] = 185763,
+							["uptime"] = 1,
+							["auratype"] = "BUFF",
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 4,
+					["interrupts"] = 0,
+					["damage"] = 1143,
+					["damagespells"] = {
+						["手槍射擊"] = {
+							["hitmin"] = 172,
+							["id"] = 185763,
+							["min"] = 172,
+							["damage"] = 344,
+							["hitmax"] = 172,
+							["hit"] = 2,
+							["school"] = 1,
+							["totalhits"] = 2,
+							["max"] = 172,
+							["hitamount"] = 344,
+						},
+						["近戰攻擊"] = {
+							["hitmin"] = 52,
+							["id"] = 6603,
+							["min"] = 52,
+							["damage"] = 52,
+							["hitmax"] = 52,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 52,
+							["hitamount"] = 52,
+						},
+						["刺穿"] = {
+							["hitmin"] = 747,
+							["id"] = 2098,
+							["min"] = 747,
+							["damage"] = 747,
+							["hitmax"] = 747,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 747,
+							["hitamount"] = 747,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-963-04834FDB",
+					["first"] = 1491757104,
+					["healing"] = 0,
+					["damagetakenspells"] = {
+					},
+					["role"] = "NONE",
+					["overhealing"] = 0,
+					["name"] = "便宜把戲",
+					["damagetaken"] = 0,
+					["maxhp"] = 1482,
+					["dispells"] = 0,
+					["ccbreaks"] = 0,
+					["power"] = {
+						{
+							["spells"] = {
+								[185763] = 0,
+							},
+							["amount"] = 0,
+						}, -- [1]
+						[0] = {
+							["spells"] = {
+								[185763] = 1,
+							},
+							["amount"] = 1,
+						},
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["恐鷲"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 344,
+							["done"] = 0,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 344,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
+				},
+				["混血赤脊山豺狼人"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 799,
+							["done"] = 0,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 799,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
+				},
+			},
+			["mobtaken"] = 1143,
+			["mobdone"] = 0,
+			["healing"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+				0, -- [1]
+				[0] = 1,
+			},
+			["time"] = 6,
+			["damagetaken"] = 0,
+			["name"] = "恐鷲",
+			["mobname"] = "恐鷲",
+			["starttime"] = 1491757103,
+			["mobhdone"] = 0,
+			["last_action"] = 1491757103,
+			["endtime"] = 1491757109,
+		}, -- [4]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 1205,
+			["players"] = {
+				{
+					["last"] = 1491756972,
+					["healingabsorbed"] = 0,
+					["class"] = "ROGUE",
+					["damaged"] = {
+						["巨型血牙野豬"] = 807,
+						["混血赤脊山豺狼人"] = 398,
+					},
+					["auras"] = {
+						["偷襲"] = {
+							["name"] = "偷襲",
+							["active"] = 0,
+							["id"] = 1833,
+							["uptime"] = 1,
+							["auratype"] = "DEBUFF",
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 6,
+					["interrupts"] = 0,
+					["damage"] = 1205,
+					["damagespells"] = {
+						["近戰攻擊"] = {
+							["hitmin"] = 22,
+							["criticalamount"] = 44,
+							["id"] = 6603,
+							["damage"] = 275,
+							["totalhits"] = 6,
+							["max"] = 54,
+							["min"] = 22,
+							["criticalmax"] = 44,
+							["critical"] = 1,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 54,
+							["criticalmin"] = 44,
+							["hitamount"] = 231,
+						},
+						["刀劍斬擊"] = {
+							["hitmin"] = 177,
+							["id"] = 193315,
+							["min"] = 177,
+							["damage"] = 177,
+							["hitmax"] = 177,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 177,
+							["hitamount"] = 177,
+						},
+						["刺穿"] = {
+							["hitmin"] = 753,
+							["id"] = 2098,
+							["min"] = 753,
+							["damage"] = 753,
+							["hitmax"] = 753,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 753,
+							["hitamount"] = 753,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-963-04834FDB",
+					["first"] = 1491756966,
+					["healing"] = 0,
+					["damagetakenspells"] = {
+						["近戰攻擊"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 87,
+							["max"] = 31,
+							["name"] = "近戰攻擊",
+							["min"] = 27,
+							["totalhits"] = 3,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["school"] = 1,
+							["resisted"] = 0,
+							["glancing"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["role"] = "NONE",
+					["overhealing"] = 0,
+					["name"] = "便宜把戲",
+					["damagetaken"] = 87,
+					["maxhp"] = 1482,
+					["dispells"] = 0,
+					["ccbreaks"] = 0,
+					["power"] = {
+						[0] = {
+							["spells"] = {
+								[193315] = 1,
+							},
+							["amount"] = 1,
+						},
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["巨型血牙野豬"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 807,
+							["done"] = 0,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 807,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
+				},
+				["混血赤脊山豺狼人"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 398,
+							["done"] = 87,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 398,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 87,
+				},
+			},
+			["mobtaken"] = 1205,
+			["mobdone"] = 87,
+			["healing"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+				[0] = 1,
+			},
+			["time"] = 7,
+			["damagetaken"] = 87,
+			["name"] = "巨型血牙野豬 (2)",
+			["mobname"] = "巨型血牙野豬",
+			["starttime"] = 1491756966,
+			["mobhdone"] = 0,
+			["last_action"] = 1491756966,
+			["endtime"] = 1491756973,
+		}, -- [5]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 906,
+			["players"] = {
+				{
+					["last"] = 1491756911,
+					["healingabsorbed"] = 0,
+					["class"] = "ROGUE",
+					["damaged"] = {
+						["巨型血牙野豬"] = 407,
+						["赤脊山蠻卒"] = 499,
+					},
+					["auras"] = {
+					},
+					["healingspells"] = {
+					},
+					["time"] = 5,
+					["interrupts"] = 0,
+					["damage"] = 906,
+					["damagespells"] = {
+						["近戰攻擊"] = {
+							["hitmin"] = 22,
+							["criticalamount"] = 44,
+							["id"] = 6603,
+							["damage"] = 276,
+							["totalhits"] = 6,
+							["max"] = 54,
+							["min"] = 22,
+							["criticalmax"] = 44,
+							["critical"] = 1,
+							["hit"] = 5,
+							["school"] = 1,
+							["hitmax"] = 54,
+							["criticalmin"] = 44,
+							["hitamount"] = 232,
+						},
+						["刀劍斬擊"] = {
+							["hitmin"] = 182,
+							["id"] = 193315,
+							["min"] = 182,
+							["damage"] = 182,
+							["hitmax"] = 182,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 182,
+							["hitamount"] = 182,
+						},
+						["刺穿"] = {
+							["hitmin"] = 448,
+							["id"] = 2098,
+							["min"] = 448,
+							["damage"] = 448,
+							["hitmax"] = 448,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 448,
+							["hitamount"] = 448,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-963-04834FDB",
+					["first"] = 1491756906,
+					["healing"] = 0,
+					["damagetakenspells"] = {
+						["近戰攻擊"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["damage"] = 57,
+							["max"] = 38,
+							["name"] = "近戰攻擊",
+							["min"] = 19,
+							["totalhits"] = 2,
+							["critical"] = 0,
+							["blocked"] = 0,
+							["school"] = 1,
+							["resisted"] = 0,
+							["glancing"] = 0,
+							["absorbed"] = 0,
+						},
+					},
+					["role"] = "NONE",
+					["overhealing"] = 0,
+					["name"] = "便宜把戲",
+					["damagetaken"] = 57,
+					["maxhp"] = 1482,
+					["dispells"] = 0,
+					["ccbreaks"] = 0,
+					["power"] = {
+						[0] = {
+							["spells"] = {
+								[193315] = 1,
+							},
+							["amount"] = 1,
+						},
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["巨型血牙野豬"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 407,
+							["done"] = 19,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 407,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 19,
+				},
+				["赤脊山蠻卒"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 499,
+							["done"] = 38,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 499,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 38,
+				},
+			},
+			["mobtaken"] = 906,
+			["mobdone"] = 57,
+			["healing"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+				[0] = 1,
+			},
+			["time"] = 6,
+			["damagetaken"] = 57,
+			["name"] = "巨型血牙野豬",
+			["mobname"] = "巨型血牙野豬",
+			["starttime"] = 1491756906,
+			["mobhdone"] = 0,
+			["last_action"] = 1491756906,
+			["endtime"] = 1491756912,
+		}, -- [6]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 1,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 992,
+			["players"] = {
+				{
+					["last"] = 1491756798,
+					["healingabsorbed"] = 0,
+					["class"] = "ROGUE",
+					["damaged"] = {
+						["赤脊山痛擊者"] = 992,
+					},
+					["auras"] = {
+						["偷襲"] = {
+							["name"] = "偷襲",
+							["active"] = 0,
+							["id"] = 1833,
+							["uptime"] = 4,
+							["auratype"] = "DEBUFF",
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 7,
+					["interrupts"] = 0,
+					["damage"] = 992,
+					["damagespells"] = {
+						["近戰攻擊"] = {
+							["hitmin"] = 22,
+							["criticalamount"] = 209,
+							["id"] = 6603,
+							["damage"] = 360,
+							["totalhits"] = 6,
+							["max"] = 107,
+							["min"] = 22,
+							["criticalmax"] = 107,
+							["critical"] = 2,
+							["hit"] = 4,
+							["school"] = 1,
+							["hitmax"] = 55,
+							["criticalmin"] = 102,
+							["hitamount"] = 151,
+						},
+						["刀劍斬擊"] = {
+							["hitmin"] = 180,
+							["id"] = 193315,
+							["min"] = 180,
+							["damage"] = 180,
+							["hitmax"] = 180,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 180,
+							["hitamount"] = 180,
+						},
+						["刺穿"] = {
+							["hitmin"] = 452,
+							["id"] = 2098,
+							["min"] = 452,
+							["damage"] = 452,
+							["hitmax"] = 452,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 452,
+							["hitamount"] = 452,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-963-04834FDB",
+					["first"] = 1491756791,
+					["healing"] = 0,
+					["damagetakenspells"] = {
+					},
+					["role"] = "NONE",
+					["overhealing"] = 0,
+					["name"] = "便宜把戲",
+					["damagetaken"] = 0,
+					["maxhp"] = 1482,
+					["dispells"] = 0,
+					["ccbreaks"] = 1,
+					["power"] = {
+						[0] = {
+							["spells"] = {
+								[193315] = 1,
+							},
+							["amount"] = 1,
+						},
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["赤脊山痛擊者"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 992,
+							["done"] = 0,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 992,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
+				},
+			},
+			["mobtaken"] = 992,
+			["mobdone"] = 0,
+			["healing"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+				[0] = 1,
+			},
+			["time"] = 8,
+			["damagetaken"] = 0,
+			["name"] = "赤脊山痛擊者",
+			["mobname"] = "赤脊山痛擊者",
+			["starttime"] = 1491756791,
+			["mobhdone"] = 0,
+			["last_action"] = 1491756791,
+			["endtime"] = 1491756799,
+		}, -- [7]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 427,
+			["players"] = {
+				{
+					["last"] = 1491756720,
+					["healingabsorbed"] = 0,
+					["class"] = "ROGUE",
+					["damaged"] = {
+						["混血赤脊山豺狼人"] = 427,
+					},
+					["auras"] = {
+						["偷襲"] = {
+							["name"] = "偷襲",
+							["active"] = 0,
+							["id"] = 1833,
+							["uptime"] = 4,
+							["auratype"] = "DEBUFF",
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 5,
+					["interrupts"] = 0,
+					["damage"] = 427,
+					["damagespells"] = {
+						["刀劍斬擊"] = {
+							["hitmin"] = 173,
+							["id"] = 193315,
+							["min"] = 173,
+							["damage"] = 173,
+							["hitmax"] = 173,
+							["hit"] = 1,
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 173,
+							["hitamount"] = 173,
+						},
+						["近戰攻擊"] = {
+							["hitmin"] = 22,
+							["id"] = 6603,
+							["damage"] = 254,
+							["min"] = 22,
+							["school"] = 1,
+							["hitmax"] = 53,
+							["hit"] = 6,
+							["totalhits"] = 7,
+							["max"] = 53,
+							["MISS"] = 1,
+							["hitamount"] = 254,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-963-04834FDB",
+					["first"] = 1491756715,
+					["healing"] = 0,
+					["damagetakenspells"] = {
+					},
+					["role"] = "NONE",
+					["overhealing"] = 0,
+					["name"] = "便宜把戲",
+					["damagetaken"] = 0,
+					["maxhp"] = 1482,
+					["dispells"] = 0,
+					["ccbreaks"] = 0,
+					["power"] = {
+						[0] = {
+							["spells"] = {
+								[193315] = 1,
+							},
+							["amount"] = 1,
+						},
+					},
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["混血赤脊山豺狼人"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 427,
+							["done"] = 0,
+							["class"] = "ROGUE",
+							["role"] = "NONE",
+						},
+					},
+					["hdone"] = 0,
+					["hdonespell"] = {
+					},
+					["taken"] = 427,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["done"] = 0,
+				},
+			},
+			["mobtaken"] = 427,
+			["mobdone"] = 0,
+			["healing"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+				[0] = 1,
+			},
+			["time"] = 7,
+			["damagetaken"] = 0,
+			["name"] = "混血赤脊山豺狼人",
+			["mobname"] = "混血赤脊山豺狼人",
+			["starttime"] = 1491756715,
+			["mobhdone"] = 0,
+			["last_action"] = 1491756715,
+			["endtime"] = 1491756722,
+		}, -- [8]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 1,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 1293,
+			["players"] = {
+				{
+					["last"] = 1491679998,
+					["healingabsorbed"] = 0,
+					["class"] = "ROGUE",
+					["damaged"] = {
+						["獵潮魚人"] = 534,
+						["老瞎眼"] = 759,
+					},
+					["auras"] = {
+						["大好機會"] = {
+							["name"] = "大好機會",
+							["active"] = 0,
+							["id"] = 195627,
+							["auratype"] = "BUFF",
+							["uptime"] = 2,
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 3,
+					["interrupts"] = 0,
+					["damage"] = 1293,
+					["damagespells"] = {
+						["刺穿"] = {
+							["hitmin"] = 716,
+							["id"] = 2098,
+							["min"] = 716,
+							["hitamount"] = 716,
+							["hitmax"] = 716,
+							["hit"] = 1,
+							["school"] = 1,
+							["max"] = 716,
+							["totalhits"] = 1,
+							["damage"] = 716,
+						},
+						["刀劍斬擊"] = {
+							["hitmin"] = 162,
+							["criticalamount"] = 320,
+							["id"] = 193315,
+							["hitamount"] = 162,
+							["criticalmin"] = 320,
+							["critical"] = 1,
+							["min"] = 162,
+							["criticalmax"] = 320,
+							["hitmax"] = 162,
+							["hit"] = 1,
+							["totalhits"] = 2,
+							["school"] = 1,
+							["max"] = 320,
+							["damage"] = 482,
+						},
+						["近戰攻擊"] = {
+							["hitmin"] = 52,
+							["criticalamount"] = 43,
+							["id"] = 6603,
+							["hitamount"] = 52,
+							["criticalmin"] = 43,
+							["critical"] = 1,
+							["min"] = 43,
+							["criticalmax"] = 43,
+							["hitmax"] = 52,
+							["hit"] = 1,
+							["totalhits"] = 2,
+							["school"] = 1,
+							["max"] = 52,
+							["damage"] = 95,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-963-04834FDB",
+					["first"] = 1491679995,
+					["power"] = {
+						[0] = {
+							["amount"] = 2,
+							["spells"] = {
+								[193315] = 1,
+								[197834] = 1,
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["近戰攻擊"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 23,
+							["school"] = 1,
+							["name"] = "近戰攻擊",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 23,
+							["damage"] = 23,
+						},
+					},
+					["ccbreaks"] = 1,
+					["dispells"] = 0,
+					["name"] = "便宜把戲",
+					["maxhp"] = 1368,
+					["damagetaken"] = 23,
+					["overhealing"] = 0,
+					["role"] = "NONE",
+					["healing"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["獵潮魚人"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 534,
+							["done"] = 23,
+							["role"] = "NONE",
+							["class"] = "ROGUE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 23,
+					["taken"] = 534,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["老瞎眼"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 759,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "ROGUE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 759,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 1293,
+			["endtime"] = 1491680000,
+			["healing"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+				[0] = 2,
+			},
+			["starttime"] = 1491679994,
+			["damagetaken"] = 23,
+			["name"] = "老瞎眼",
+			["mobname"] = "老瞎眼",
+			["time"] = 6,
+			["mobhdone"] = 0,
+			["last_action"] = 1491679994,
+			["mobdone"] = 23,
+		}, -- [9]
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["auras"] = {
+			},
+			["damage"] = 2051,
+			["players"] = {
+				{
+					["last"] = 1491678416,
+					["healingabsorbed"] = 0,
+					["class"] = "ROGUE",
+					["damaged"] = {
+						["河爪蠻卒"] = 2051,
+					},
+					["auras"] = {
+						["手槍射擊"] = {
+							["name"] = "手槍射擊",
+							["active"] = 0,
+							["id"] = 185763,
+							["auratype"] = "BUFF",
+							["uptime"] = 2,
+						},
+						["大好機會"] = {
+							["name"] = "大好機會",
+							["active"] = 0,
+							["id"] = 195627,
+							["auratype"] = "BUFF",
+							["uptime"] = 1,
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 7,
+					["interrupts"] = 0,
+					["damage"] = 2051,
+					["damagespells"] = {
+						["刺穿"] = {
+							["criticalamount"] = 1321,
+							["id"] = 2098,
+							["min"] = 1321,
+							["criticalmax"] = 1321,
+							["critical"] = 1,
+							["criticalmin"] = 1321,
+							["school"] = 1,
+							["max"] = 1321,
+							["totalhits"] = 1,
+							["damage"] = 1321,
+						},
+						["手槍射擊"] = {
+							["hitmin"] = 231,
+							["id"] = 185763,
+							["min"] = 231,
+							["hitamount"] = 231,
+							["hitmax"] = 231,
+							["hit"] = 1,
+							["school"] = 1,
+							["max"] = 231,
+							["totalhits"] = 1,
+							["damage"] = 231,
+						},
+						["刀劍斬擊"] = {
+							["hitmin"] = 135,
+							["id"] = 193315,
+							["min"] = 135,
+							["hitamount"] = 416,
+							["hitmax"] = 142,
+							["hit"] = 3,
+							["school"] = 1,
+							["max"] = 142,
+							["totalhits"] = 3,
+							["damage"] = 416,
+						},
+						["近戰攻擊"] = {
+							["hitmin"] = 21,
+							["id"] = 6603,
+							["hitamount"] = 83,
+							["min"] = 21,
+							["max"] = 40,
+							["hitmax"] = 40,
+							["hit"] = 3,
+							["totalhits"] = 4,
+							["school"] = 1,
+							["MISS"] = 1,
+							["damage"] = 83,
+						},
+					},
+					["healed"] = {
+					},
+					["shielding"] = 0,
+					["id"] = "Player-963-04834FDB",
+					["first"] = 1491678409,
+					["power"] = {
+						[0] = {
+							["amount"] = 5,
+							["spells"] = {
+								[193315] = 2,
+								[185763] = 2,
+								[197834] = 1,
+							},
+						},
+					},
+					["damagetakenspells"] = {
+						["血腥打擊"] = {
+							["crushing"] = 0,
+							["id"] = 77558,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 23,
+							["school"] = 1,
+							["name"] = "血腥打擊",
+							["blocked"] = 0,
+							["totalhits"] = 2,
+							["resisted"] = 0,
+							["max"] = 23,
+							["damage"] = 46,
+						},
+						["近戰攻擊"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 16,
+							["school"] = 1,
+							["name"] = "近戰攻擊",
+							["blocked"] = 0,
+							["totalhits"] = 4,
+							["resisted"] = 0,
+							["max"] = 23,
+							["damage"] = 80,
+						},
+					},
+					["ccbreaks"] = 0,
+					["dispells"] = 0,
+					["name"] = "便宜把戲",
+					["maxhp"] = 1260,
+					["damagetaken"] = 126,
+					["overhealing"] = 0,
+					["role"] = "NONE",
+					["healing"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["河爪蠻卒"] = {
+					["players"] = {
+						["便宜把戲"] = {
+							["taken"] = 2051,
+							["done"] = 126,
+							["role"] = "NONE",
+							["class"] = "ROGUE",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 126,
+					["taken"] = 2051,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 2051,
+			["endtime"] = 1491678417,
+			["healing"] = 0,
+			["shielding"] = 0,
+			["power"] = {
+				[0] = 5,
+			},
+			["starttime"] = 1491678403,
+			["damagetaken"] = 126,
+			["name"] = "河爪蠻卒",
+			["mobname"] = "河爪蠻卒",
+			["time"] = 14,
+			["mobhdone"] = 0,
+			["last_action"] = 1491678403,
+			["mobdone"] = 126,
+		}, -- [10]
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 4,
+		["overhealing"] = 113,
+		["interrupts"] = 0,
+		["damage"] = 128724,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "ROGUE",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["超載的麥田魔像: 火箭推進"] = {
+						["name"] = "超載的麥田魔像: 火箭推進",
+						["active"] = 0,
+						["id"] = 79430,
+						["auratype"] = "BUFF",
+						["uptime"] = 25,
+					},
+					["大好機會"] = {
+						["name"] = "大好機會",
+						["id"] = 195627,
+						["auratype"] = "BUFF",
+						["uptime"] = 8,
+						["active"] = 0,
+					},
+					["灑水"] = {
+						["name"] = "灑水",
+						["active"] = 0,
+						["id"] = 80199,
+						["auratype"] = "BUFF",
+						["uptime"] = 2,
+					},
+					["偷襲"] = {
+						["name"] = "偷襲",
+						["active"] = 0,
+						["id"] = 1833,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 101,
+					},
+					["潛行"] = {
+						["name"] = "潛行",
+						["active"] = 0,
+						["id"] = 1784,
+						["uptime"] = 0,
+						["auratype"] = "BUFF",
+					},
+					["超載的麥田魔像: 切割痛擊"] = {
+						["name"] = "超載的麥田魔像: 切割痛擊",
+						["active"] = 0,
+						["id"] = 79425,
+						["auratype"] = "BUFF",
+						["uptime"] = 22,
+					},
+					["正中眉心"] = {
+						["name"] = "正中眉心",
+						["active"] = 0,
+						["id"] = 199804,
+						["uptime"] = 1,
+						["auratype"] = "BUFF",
+					},
+					["手槍射擊"] = {
+						["uptime"] = 19,
+						["active"] = 0,
+						["auratype"] = "BUFF",
+						["name"] = "手槍射擊",
+						["id"] = 185763,
+					},
+				},
+				["role"] = "NONE",
+				["time"] = 994,
+				["interrupts"] = 0,
+				["damage"] = 128724,
+				["damagespells"] = {
+					["剔骨"] = {
+						["hitmin"] = 65,
+						["criticalamount"] = 2479,
+						["id"] = 196819,
+						["hitamount"] = 3309,
+						["criticalmin"] = 87,
+						["hitmax"] = 158,
+						["min"] = 65,
+						["criticalmax"] = 301,
+						["critical"] = 11,
+						["hit"] = 29,
+						["school"] = 1,
+						["totalhits"] = 40,
+						["max"] = 301,
+						["damage"] = 5788,
+					},
+					["刀劍斬擊"] = {
+						["hitamount"] = 20798,
+						["hitmin"] = 94,
+						["criticalamount"] = 9252,
+						["EVADE"] = 2,
+						["id"] = 193315,
+						["criticalmin"] = 154,
+						["totalhits"] = 184,
+						["min"] = 94,
+						["criticalmax"] = 421,
+						["hitmax"] = 213,
+						["hit"] = 148,
+						["school"] = 1,
+						["critical"] = 34,
+						["max"] = 421,
+						["damage"] = 30050,
+					},
+					["偷襲"] = {
+						["id"] = 1833,
+						["max"] = 0,
+						["totalhits"] = 1,
+						["IMMUNE"] = 1,
+						["school"] = 1,
+						["damage"] = 0,
+					},
+					["超載的麥田魔像: 切割痛擊"] = {
+						["hitmin"] = 113,
+						["id"] = 79423,
+						["min"] = 113,
+						["hitamount"] = 2812,
+						["hitmax"] = 174,
+						["hit"] = 19,
+						["school"] = 1,
+						["max"] = 174,
+						["totalhits"] = 19,
+						["damage"] = 2812,
+					},
+					["超載的麥田魔像: 火箭發射"] = {
+						["hitmin"] = 214,
+						["id"] = 79434,
+						["min"] = 214,
+						["hitamount"] = 8921,
+						["hitmax"] = 300,
+						["hit"] = 41,
+						["school"] = 1,
+						["max"] = 300,
+						["totalhits"] = 41,
+						["damage"] = 8921,
+					},
+					["邪惡攻擊"] = {
+						["hitmin"] = 10,
+						["criticalamount"] = 4358,
+						["id"] = 1752,
+						["damage"] = 8348,
+						["criticalmin"] = 20,
+						["hitmax"] = 55,
+						["min"] = 10,
+						["criticalmax"] = 110,
+						["critical"] = 65,
+						["hit"] = 121,
+						["totalhits"] = 186,
+						["school"] = 1,
+						["max"] = 110,
+						["hitamount"] = 3990,
+					},
+					["手槍射擊"] = {
+						["hitmin"] = 117,
+						["criticalamount"] = 1864,
+						["id"] = 185763,
+						["damage"] = 5357,
+						["criticalmin"] = 246,
+						["hitmax"] = 281,
+						["min"] = 117,
+						["criticalmax"] = 434,
+						["critical"] = 6,
+						["hit"] = 19,
+						["totalhits"] = 25,
+						["school"] = 1,
+						["max"] = 434,
+						["hitamount"] = 3493,
+					},
+					["被制服的山谷雙頭巨人: 近戰攻擊"] = {
+						["hitmin"] = 104,
+						["id"] = 6603,
+						["min"] = 104,
+						["damage"] = 104,
+						["hitmax"] = 104,
+						["hit"] = 1,
+						["school"] = 1,
+						["totalhits"] = 1,
+						["max"] = 104,
+						["hitamount"] = 104,
+					},
+					["刺穿"] = {
+						["hitmin"] = 207,
+						["criticalamount"] = 16084,
+						["id"] = 2098,
+						["hitamount"] = 27302,
+						["criticalmin"] = 430,
+						["hitmax"] = 860,
+						["min"] = 207,
+						["criticalmax"] = 1444,
+						["critical"] = 17,
+						["hit"] = 51,
+						["school"] = 1,
+						["totalhits"] = 68,
+						["max"] = 1444,
+						["damage"] = 43386,
+					},
+					["近戰攻擊"] = {
+						["damage"] = 22886,
+						["EVADE"] = 1,
+						["hitmin"] = 1,
+						["criticalamount"] = 9263,
+						["id"] = 6603,
+						["criticalmin"] = 4,
+						["school"] = 1,
+						["critical"] = 246,
+						["min"] = 1,
+						["criticalmax"] = 119,
+						["hitmax"] = 62,
+						["hit"] = 616,
+						["totalhits"] = 985,
+						["max"] = 119,
+						["MISS"] = 122,
+						["hitamount"] = 13623,
+					},
+					["正中眉心"] = {
+						["hitmin"] = 487,
+						["criticalamount"] = 585,
+						["id"] = 199804,
+						["damage"] = 1072,
+						["totalhits"] = 2,
+						["max"] = 585,
+						["min"] = 487,
+						["criticalmax"] = 585,
+						["hitmax"] = 487,
+						["hit"] = 1,
+						["school"] = 1,
+						["critical"] = 1,
+						["criticalmin"] = 585,
+						["hitamount"] = 487,
+					},
+				},
+				["healed"] = {
+					["Player-963-04834FDB"] = {
+						["role"] = "NONE",
+						["name"] = "便宜把戲",
+						["amount"] = 70,
+						["class"] = "ROGUE",
+						["shielding"] = 0,
+					},
+				},
+				["deathlog"] = {
+					{
+						["ts"] = 1491756972.613,
+						["amount"] = -31,
+						["hp"] = 1426,
+						["spellid"] = 88163,
+						["srcname"] = "混血赤脊山豺狼人",
+					}, -- [1]
+					{
+						["ts"] = 1491758118.311,
+						["amount"] = -23,
+						["hp"] = 1236,
+						["spellid"] = 88163,
+						["srcname"] = "魚人食腐者",
+					}, -- [2]
+					{
+						["ts"] = 1491758128.027,
+						["amount"] = -24,
+						["hp"] = 1229,
+						["spellid"] = 88163,
+						["srcname"] = "魚人食腐者",
+					}, -- [3]
+					{
+						["ts"] = 1491758131.178,
+						["amount"] = -34,
+						["srcname"] = "魚人食腐者",
+						["spellid"] = 88163,
+						["hp"] = 1205,
+					}, -- [4]
+					{
+						["ts"] = 1491758154.643,
+						["amount"] = -25,
+						["srcname"] = "魚人斥候",
+						["spellid"] = 88163,
+						["hp"] = 1283,
+					}, -- [5]
+					{
+						["ts"] = 1491758186.309,
+						["amount"] = -32,
+						["spellid"] = 88163,
+						["srcname"] = "泥居魚",
+						["hp"] = 1433,
+					}, -- [6]
+					{
+						["ts"] = 1491758720.776,
+						["amount"] = -68,
+						["spellid"] = 88163,
+						["srcname"] = "山谷雙頭巨人",
+						["hp"] = 1660,
+					}, -- [7]
+					{
+						["ts"] = 1491758722.793,
+						["amount"] = -76,
+						["spellid"] = 88163,
+						["srcname"] = "山谷雙頭巨人",
+						["hp"] = 1592,
+					}, -- [8]
+					{
+						["ts"] = 1491756831.067,
+						["amount"] = -30,
+						["spellid"] = 88163,
+						["srcname"] = "狼蛛",
+						["hp"] = 1482,
+					}, -- [9]
+					{
+						["ts"] = 1491756880.915,
+						["amount"] = -25,
+						["spellid"] = 88163,
+						["srcname"] = "狼蛛",
+						["hp"] = 1482,
+					}, -- [10]
+					{
+						["ts"] = 1491756908.565,
+						["amount"] = -38,
+						["spellid"] = 88163,
+						["srcname"] = "赤脊山蠻卒",
+						["hp"] = 1482,
+					}, -- [11]
+					{
+						["ts"] = 1491756910.881,
+						["amount"] = -19,
+						["spellid"] = 88163,
+						["hp"] = 1444,
+						["srcname"] = "巨型血牙野豬",
+					}, -- [12]
+					{
+						["ts"] = 1491756931.097,
+						["amount"] = -24,
+						["spellid"] = 88163,
+						["hp"] = 1482,
+						["srcname"] = "混血赤脊山豺狼人",
+					}, -- [13]
+					{
+						["ts"] = 1491756968.379,
+						["amount"] = -29,
+						["spellid"] = 88163,
+						["hp"] = 1482,
+						["srcname"] = "混血赤脊山豺狼人",
+					}, -- [14]
+					{
+						["ts"] = 1491756970.446,
+						["amount"] = -27,
+						["spellid"] = 88163,
+						["srcname"] = "混血赤脊山豺狼人",
+						["hp"] = 1453,
+					}, -- [15]
+					["pos"] = 9,
+				},
+				["id"] = "Player-963-04834FDB",
+				["maxhp"] = 435,
+				["dispells"] = 0,
+				["damagetakenspells"] = {
+					["兇惡切割"] = {
+						["crushing"] = 0,
+						["id"] = 87337,
+						["absorbed"] = 0,
+						["min"] = 7,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["school"] = 1,
+						["name"] = "兇惡切割",
+						["blocked"] = 0,
+						["totalhits"] = 4,
+						["resisted"] = 0,
+						["max"] = 14,
+						["damage"] = 47,
+					},
+					["近戰攻擊"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["damage"] = 3681,
+						["max"] = 76,
+						["name"] = "近戰攻擊",
+						["glancing"] = 0,
+						["totalhits"] = 328,
+						["critical"] = 5,
+						["blocked"] = 0,
+						["school"] = 1,
+						["resisted"] = 0,
+						["min"] = 1,
+						["absorbed"] = 0,
+					},
+					["血腥打擊"] = {
+						["crushing"] = 0,
+						["id"] = 77558,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 23,
+						["school"] = 1,
+						["name"] = "血腥打擊",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 23,
+						["damage"] = 46,
+					},
+					["寒冰箭"] = {
+						["crushing"] = 0,
+						["id"] = 13322,
+						["absorbed"] = 0,
+						["min"] = 18,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["school"] = 16,
+						["name"] = "寒冰箭",
+						["blocked"] = 0,
+						["totalhits"] = 12,
+						["resisted"] = 0,
+						["max"] = 21,
+						["damage"] = 236,
+					},
+					["出血"] = {
+						["crushing"] = 0,
+						["id"] = 30478,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 19,
+						["school"] = 1,
+						["name"] = "出血",
+						["blocked"] = 0,
+						["totalhits"] = 2,
+						["resisted"] = 0,
+						["max"] = 21,
+						["damage"] = 40,
+					},
+					["水箭"] = {
+						["crushing"] = 0,
+						["id"] = 32011,
+						["damage"] = 66,
+						["max"] = 35,
+						["name"] = "水箭",
+						["min"] = 31,
+						["totalhits"] = 2,
+						["critical"] = 0,
+						["blocked"] = 0,
+						["school"] = 16,
+						["resisted"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+					},
+				},
+				["ccbreaks"] = 4,
+				["overhealing"] = 113,
+				["name"] = "便宜把戲",
+				["damagetaken"] = 4116,
+				["shielding"] = 0,
+				["healing"] = 70,
+				["healingspells"] = {
+					["赤紅藥瓶"] = {
+						["shielding"] = 0,
+						["id"] = 185311,
+						["healing"] = 70,
+						["min"] = 0,
+						["name"] = "赤紅藥瓶",
+						["absorbed"] = 0,
+						["critical"] = 0,
+						["max"] = 61,
+						["overhealing"] = 113,
+						["hits"] = 3,
+					},
+				},
+				["power"] = {
+					{
+						["amount"] = 1,
+						["spells"] = {
+							[1752] = 0,
+							[185763] = 1,
+							[197834] = 0,
+							[193315] = 0,
+						},
+					}, -- [1]
+					{
+						["amount"] = 0,
+						["spells"] = {
+							[185763] = 0,
+						},
+					}, -- [2]
+					[0] = {
+						["spells"] = {
+							[193315] = 144,
+							[185763] = 20,
+							[197834] = 28,
+							[1752] = 161,
+						},
+						["amount"] = 353,
+					},
+				},
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["霍格的爪牙"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 175,
+						["done"] = 8,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 175,
+				["done"] = 8,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["迪菲亞小偷"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 102,
+						["done"] = 21,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 102,
+				["done"] = 21,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["魚人斥候"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 193,
+						["done"] = 25,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 193,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 25,
+			},
+			["狗頭人礦工"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1158,
+						["done"] = 69,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1158,
+				["done"] = 69,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["河爪蠻卒"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2907,
+						["done"] = 167,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 167,
+				["taken"] = 2907,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["充滿能量的收割傀儡"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 10944,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 10944,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["乳牛"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 162,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 162,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["碎屍鳥"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1516,
+						["done"] = 33,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 33,
+				["taken"] = 1516,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["赤脊山蠻卒"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1896,
+						["done"] = 38,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1896,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 38,
+			},
+			["無家可歸的暴風城居民"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 863,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 863,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["矮小的河爪豺狼人"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1218,
+						["done"] = 12,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1218,
+				["done"] = 12,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["瑪里莎‧杜派格"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 650,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 650,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["魚人劫掠者"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1180,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 1180,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["黑石座狼"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 434,
+						["done"] = 98,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 434,
+				["done"] = 98,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["狗頭人掘地工"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2981,
+						["done"] = 48,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 48,
+				["taken"] = 2981,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["魚人採獵者"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 3229,
+						["done"] = 432,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 49,
+				["htakenspell"] = {
+					["喝下初級藥水"] = {
+						["min"] = 49,
+						["crits"] = 0,
+						["max"] = 49,
+						["healing"] = 49,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 3229,
+				["done"] = 432,
+				["htaken"] = 49,
+				["hdonespell"] = {
+					["喝下初級藥水"] = {
+						["min"] = 49,
+						["crits"] = 0,
+						["max"] = 49,
+						["healing"] = 49,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["小碎屍鳥"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 799,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 799,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["魚人"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 3475,
+						["done"] = 28,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 3475,
+				["done"] = 28,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["河爪監工"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2118,
+						["done"] = 70,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 70,
+				["taken"] = 2118,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["強盜"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2551,
+						["done"] = 37,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 2551,
+				["done"] = 37,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["阿爾多‧泥爪"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 892,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 892,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["河爪豺狼人"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1120,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 1120,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["河爪草藥師"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2865,
+						["done"] = 91,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 91,
+				["taken"] = 2865,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["河爪斥候"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1526,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 1526,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["暴風城步兵"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 68,
+				["htakenspell"] = {
+					["治療禱言"] = {
+						["min"] = 12,
+						["crits"] = 0,
+						["max"] = 13,
+						["healing"] = 51,
+						["overhealing"] = 0,
+						["hits"] = 4,
+					},
+					["恢復"] = {
+						["min"] = 2,
+						["crits"] = 0,
+						["max"] = 3,
+						["healing"] = 17,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+				},
+			},
+			["『殺戮者』庫爾托克"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 332,
+						["done"] = 19,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 332,
+				["done"] = 19,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["山谷雙頭巨人"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 104,
+						["done"] = 144,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 104,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 144,
+			},
+			["蘇倫娜‧凱爾東"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 200,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 200,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["覓食的灰狼"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1610,
+						["done"] = 15,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1610,
+				["done"] = 15,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["泥居魚"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 454,
+						["done"] = 32,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 454,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 32,
+			},
+			["血牙野豬"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 993,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 993,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["公主"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 458,
+						["done"] = 44,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 458,
+				["done"] = 44,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["灘行魚人"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1609,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 1609,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["森林灰狼"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 548,
+						["done"] = 8,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 548,
+				["done"] = 8,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["山狗"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 4474,
+						["done"] = 14,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 14,
+				["taken"] = 4474,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["貝利格拉布"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 975,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 975,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["遊民"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 287,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 287,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["老瞎眼"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 759,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 759,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["看守傀儡"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 4880,
+						["done"] = 68,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 68,
+				["taken"] = 4880,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["森林蜘蛛"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 197,
+						["done"] = 65,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 197,
+				["done"] = 65,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["金牙"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 554,
+						["done"] = 10,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 554,
+				["done"] = 10,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["魚人食腐者"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 5169,
+						["done"] = 81,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 5169,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 81,
+			},
+			["巨型血牙野豬"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2264,
+						["done"] = 19,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 2264,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 19,
+			},
+			["狼蛛"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2303,
+						["done"] = 55,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 2303,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 55,
+			},
+			["帕克斯頓修士"] = {
+				["players"] = {
+				},
+				["hdone"] = 68,
+				["hdonespell"] = {
+					["治療禱言"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 13,
+						["healing"] = 51,
+						["overhealing"] = 12,
+						["hits"] = 5,
+					},
+					["恢復"] = {
+						["min"] = 2,
+						["crits"] = 0,
+						["max"] = 3,
+						["healing"] = 17,
+						["overhealing"] = 0,
+						["hits"] = 8,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["htakenspell"] = {
+					["治療禱言"] = {
+						["min"] = 0,
+						["crits"] = 0,
+						["max"] = 0,
+						["healing"] = 0,
+						["overhealing"] = 12,
+						["hits"] = 1,
+					},
+				},
+			},
+			["癩皮狼"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 243,
+						["done"] = 82,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 243,
+				["done"] = 82,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["恐鷲"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1404,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1404,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["河爪秘術使"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2117,
+						["done"] = 71,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 71,
+				["taken"] = 2117,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["蛇"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 300,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 300,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["詹姆士‧克拉克"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 508,
+						["done"] = 30,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 508,
+				["done"] = 30,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["黑石間諜"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 578,
+						["done"] = 21,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 578,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 21,
+			},
+			["埃爾蘭‧杜德摩爾"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 396,
+						["done"] = 32,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 396,
+				["done"] = 32,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["小森林熊"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1868,
+						["done"] = 14,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1868,
+				["done"] = 14,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["黑石入侵者"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1848,
+						["done"] = 59,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1848,
+				["done"] = 59,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["暴徒"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 567,
+						["done"] = 47,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 47,
+				["taken"] = 567,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["魚人神諭者"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1681,
+						["done"] = 38,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 38,
+				["taken"] = 1681,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["赤脊山秘術使"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 464,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 464,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["河爪豺狼人前鋒"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1668,
+						["done"] = 18,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1668,
+				["done"] = 18,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["流浪巫師"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2825,
+						["done"] = 325,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 2825,
+				["done"] = 325,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["詹戈‧汙皮"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1334,
+						["done"] = 72,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 72,
+				["taken"] = 1334,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["石牙野豬"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 571,
+						["done"] = 36,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 571,
+				["done"] = 36,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["魚人潛伏者"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2757,
+						["done"] = 439,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 2757,
+				["done"] = 439,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["烏爾圖斯"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 489,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 489,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["河爪強盜"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 4133,
+						["done"] = 301,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 301,
+				["taken"] = 4133,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["幼狼"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 755,
+						["done"] = 9,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 755,
+				["done"] = 9,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["霍格"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 923,
+						["done"] = 57,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 923,
+				["done"] = 57,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["混血赤脊山豺狼人"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 4832,
+						["done"] = 111,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 4832,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 111,
+			},
+			["哥布林暗殺者"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 719,
+						["done"] = 52,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 719,
+				["done"] = 52,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["裂谷軟泥怪"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 2676,
+						["done"] = 23,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 2676,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 23,
+			},
+			["赤脊山痛擊者"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 3184,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 3184,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["狗頭人隧道工"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1321,
+						["done"] = 198,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 1321,
+				["done"] = 198,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["月溪暴徒"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 5677,
+						["done"] = 115,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 115,
+				["taken"] = 5677,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["獵潮魚人"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 3454,
+						["done"] = 201,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 201,
+				["taken"] = 3454,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["西部荒野流浪漢"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 1231,
+						["done"] = 14,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 1231,
+				["done"] = 14,
+				["htaken"] = 0,
+				["htakenspell"] = {
+				},
+			},
+			["赤脊山猛擊者"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 4546,
+						["done"] = 0,
+						["class"] = "ROGUE",
+						["role"] = "NONE",
+					},
+				},
+				["hdone"] = 0,
+				["hdonespell"] = {
+				},
+				["taken"] = 4546,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["done"] = 0,
+			},
+			["被洗腦的貴族"] = {
+				["players"] = {
+					["便宜把戲"] = {
+						["taken"] = 531,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "ROGUE",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 531,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 128724,
+		["healing"] = 70,
+		["auras"] = {
+		},
+		["power"] = {
+			1, -- [1]
+			0, -- [2]
+			[0] = 353,
+		},
+		["starttime"] = 1491337287,
+		["damagetaken"] = 4116,
+		["name"] = "總體的",
+		["time"] = 697,
+		["shielding"] = 0,
+		["mobhdone"] = 117,
+		["last_action"] = 1491337287,
+		["mobdone"] = 4116,
+	},
+}

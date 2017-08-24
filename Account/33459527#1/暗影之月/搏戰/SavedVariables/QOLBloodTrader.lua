@@ -1,0 +1,2 @@
+
+PlayerBuyAmount = 1

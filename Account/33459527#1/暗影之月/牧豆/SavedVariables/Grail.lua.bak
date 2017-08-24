@@ -1,0 +1,37 @@
+
+GrailDatabasePlayer = {
+	["controlCompletedQuests"] = {
+	},
+	["serverUpdated"] = "2017-01-02 13:38",
+	["abandonedQuests"] = {
+	},
+	["buffsExperienced"] = {
+		[1860] = 8388608,
+	},
+	["dailyGroups"] = {
+	},
+	["completedQuests"] = {
+		[985] = 4160749568,
+		[987] = 511,
+		[991] = 112640,
+		[978] = 530432,
+		[995] = 536870912,
+		[997] = 13312,
+		[986] = 4294934541,
+		[1335] = 1048576,
+		[993] = 256,
+		[257] = 4096,
+		[994] = 15724920,
+		[996] = 1073749504,
+		[1000] = 256,
+	},
+	["completedResettableQuests"] = {
+	},
+	["actuallyCompletedQuests"] = {
+	},
+	["spellsCast"] = {
+		[1860] = 8388608,
+		[26] = 8,
+		[18] = 256,
+	},
+}

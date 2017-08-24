@@ -1,0 +1,40 @@
+
+Storyline_Data = {
+	["npc_blacklist"] = {
+	},
+	["scaling"] = {
+	},
+	["debug"] = {
+		["timing"] = {
+		},
+	},
+	["config"] = {
+		["useKeyboard"] = true,
+		["disableForDailies"] = false,
+		["disableInInstances"] = false,
+		["textSpeedFactor"] = 0.5,
+		["forceGossip"] = false,
+		["useLayoutEngine"] = false,
+		["QuestTitle"] = {
+			["Font"] = "預設",
+			["Size"] = 17,
+		},
+		["locale"] = "zhTW",
+		["debug"] = false,
+		["autoEquip"] = false,
+		["NextAction"] = {
+			["Font"] = "預設",
+			["Size"] = 15,
+		},
+		["NPCName"] = {
+			["Font"] = "預設",
+			["Size"] = 17,
+		},
+		["DialogText"] = {
+			["Font"] = "預設",
+			["Size"] = 17,
+		},
+		["hideOriginalFrames"] = true,
+		["lockFrame"] = false,
+	},
+}

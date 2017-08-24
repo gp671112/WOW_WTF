@@ -1,0 +1,41 @@
+VER 3 010000000000000A "地震術" "INV_MISC_QUESTIONMARK"
+#showtooltip 地震術
+/cast [@cursor] 地震術
+END
+VER 3 010000000000000C "坐騎/狼" "INV_MISC_QUESTIONMARK"
+/use [nocombat,outdoors] 先知狂怒風暴; 
+/cast [indoors] 鬼魂之狼;
+/cast [combat] 鬼魂之狼;
+END
+VER 3 0100000000000008 "女王之賜" "INV_MISC_QUESTIONMARK"
+#showtooltip 女王之賜
+/cast [@cursor] 女王之賜
+END
+VER 3 0100000000000009 "岩漿圖騰" "INV_MISC_QUESTIONMARK"
+#showtooltip 岩漿圖騰
+/cast [@cursor] 岩漿圖騰
+END
+VER 3 0100000000000006 "治療之雨" "INV_MISC_QUESTIONMARK"
+#showtooltip 治癒之雨
+/cast [@cursor] 治癒之雨
+END
+VER 3 0100000000000003 "治療波" "136043"
+#showtooltip 治療波
+/cast [@mouseover,help,nodead][@target,help,nodead][@targettarget,help][@player] 治療波
+END
+VER 3 0100000000000004 "治療鏈" "136042"
+#showtooltip 治療鍊
+/cast [@mouseover,help,nodead][@target,help,nodead][@targettarget,help][@player] 治療鍊
+END
+VER 3 0100000000000005 "洶湧治療" "136044"
+#showtooltip 洶湧治療
+/cast [@mouseover,help,nodead][@target,help,nodead][@targettarget,help][@player] 洶湧治療
+END
+VER 3 010000000000000B "激流" "INV_MISC_QUESTIONMARK"
+#showtooltip 激流
+/cast [@mouseover,help,nodead][@target,help,nodead][@targettarget,help][@player] 激流
+END
+VER 3 0100000000000007 "靈魂連結" "INV_MISC_QUESTIONMARK"
+#showtooltip 靈魂連結圖騰
+/cast [@cursor] 靈魂連結圖騰
+END

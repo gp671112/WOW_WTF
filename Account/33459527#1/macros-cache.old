@@ -1,0 +1,8 @@
+VER 3 0000000000000005 "使用飾品2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000002 "補師攻擊" "132097"
+#showtooltip
+/連續施法 reset=11 審判,十字軍聖擊,奉獻,十字軍聖擊,十字軍聖擊
+END

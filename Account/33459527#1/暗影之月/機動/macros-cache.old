@@ -1,0 +1,18 @@
+VER 3 0100000000000004 "假死/裝死" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 假死
+/cast 裝死
+END
+VER 3 0100000000000003 "寵物施放心靈治療" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/施放 [target=player] 心靈治療
+END
+VER 3 0100000000000002 "眼鏡蛇+寵物攻擊" "INV_MISC_QUESTIONMARK"
+#showtooltip 眼鏡蛇射擊
+/petattack
+/cast 眼鏡蛇射擊
+END
+VER 3 0100000000000001 "誤導" "INV_MISC_QUESTIONMARK"
+#showtooltip 誤導
+/click MisdirectTankButton
+END

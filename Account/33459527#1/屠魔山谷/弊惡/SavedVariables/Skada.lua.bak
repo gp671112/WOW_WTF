@@ -1,0 +1,306 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ccbreaks"] = 0,
+		["time"] = 12,
+		["interrupts"] = 0,
+		["damage"] = 87,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "WARLOCK",
+				["damaged"] = {
+				},
+				["dispells"] = 0,
+				["healingspells"] = {
+					["墓穴之觸"] = {
+						["shielding"] = 0,
+						["id"] = 127802,
+						["healing"] = 0,
+						["min"] = 0,
+						["multistrike"] = 0,
+						["name"] = "墓穴之觸",
+						["max"] = 0,
+						["critical"] = 0,
+						["absorbed"] = 0,
+						["overhealing"] = 17,
+						["hits"] = 1,
+					},
+				},
+				["time"] = 11,
+				["interrupts"] = 0,
+				["power"] = {
+				},
+				["damage"] = 87,
+				["damagespells"] = {
+					["暗影箭"] = {
+						["hitmin"] = 14,
+						["max"] = 14,
+						["min"] = 14,
+						["hitmax"] = 14,
+						["hit"] = 5,
+						["totalhits"] = 5,
+						["hitamount"] = 70,
+						["id"] = 232670,
+						["damage"] = 70,
+					},
+					["墓穴之觸"] = {
+						["hitmin"] = 17,
+						["max"] = 17,
+						["min"] = 17,
+						["hitmax"] = 17,
+						["hit"] = 1,
+						["totalhits"] = 1,
+						["hitamount"] = 17,
+						["id"] = 127802,
+						["damage"] = 17,
+					},
+				},
+				["ccbreaks"] = 0,
+				["healed"] = {
+					["Player-978-047C49D9"] = {
+						["role"] = "NONE",
+						["name"] = "弊惡",
+						["amount"] = 0,
+						["class"] = "WARLOCK",
+						["shielding"] = 0,
+					},
+				},
+				["shielding"] = 0,
+				["id"] = "Player-978-047C49D9",
+				["damagetaken"] = 17,
+				["damagetakenspells"] = {
+					["近戰攻擊"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["min"] = 5,
+						["critical"] = 0,
+						["glancing"] = 0,
+						["absorbed"] = 0,
+						["name"] = "近戰攻擊",
+						["blocked"] = 0,
+						["totalhits"] = 3,
+						["resisted"] = 0,
+						["max"] = 6,
+						["damage"] = 17,
+					},
+				},
+				["auras"] = {
+				},
+				["maxhp"] = 168,
+				["name"] = "弊惡",
+				["deathlog"] = {
+					{
+						["absorb"] = 0,
+						["amount"] = 0,
+						["hp"] = 168,
+						["ts"] = 1480870141.825,
+						["spellid"] = 127802,
+						["srcname"] = "弊惡",
+					}, -- [1]
+					{
+						["ts"] = 1480870144.392,
+						["amount"] = -6,
+						["hp"] = 168,
+						["spellid"] = 88163,
+						["srcname"] = "無腦的殭屍",
+					}, -- [2]
+					{
+						["ts"] = 1480870148.408,
+						["amount"] = -5,
+						["hp"] = 162,
+						["spellid"] = 88163,
+						["srcname"] = "無腦的殭屍",
+					}, -- [3]
+					{
+						["ts"] = 1480870150.409,
+						["amount"] = -6,
+						["hp"] = 157,
+						["spellid"] = 88163,
+						["srcname"] = "無腦的殭屍",
+					}, -- [4]
+					["pos"] = 5,
+				},
+				["healing"] = 0,
+				["overhealing"] = 17,
+				["role"] = "NONE",
+				["multistrikes"] = 0,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["damagetaken"] = 17,
+		["shielding"] = 0,
+		["healing"] = 0,
+		["power"] = {
+		},
+		["overhealing"] = 17,
+		["mobtaken"] = 87,
+		["mobdone"] = 17,
+		["name"] = "總體的",
+		["mobs"] = {
+			["無腦的殭屍"] = {
+				["players"] = {
+					["弊惡"] = {
+						["taken"] = 87,
+						["done"] = 17,
+						["role"] = "NONE",
+						["class"] = "WARLOCK",
+					},
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+				},
+				["taken"] = 87,
+				["done"] = 17,
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["starttime"] = 1480870141,
+		["mobhdone"] = 0,
+		["last_action"] = 1480870141,
+		["multistrikes"] = 0,
+	},
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["dispells"] = 0,
+			["ccbreaks"] = 0,
+			["time"] = 12,
+			["interrupts"] = 0,
+			["endtime"] = 1480870153,
+			["damage"] = 87,
+			["players"] = {
+				{
+					["last"] = 1480870152,
+					["healingabsorbed"] = 0,
+					["class"] = "WARLOCK",
+					["damaged"] = {
+						["無腦的殭屍"] = 87,
+					},
+					["dispells"] = 0,
+					["healingspells"] = {
+						["墓穴之觸"] = {
+							["shielding"] = 0,
+							["id"] = 127802,
+							["healing"] = 0,
+							["min"] = 0,
+							["multistrike"] = 0,
+							["name"] = "墓穴之觸",
+							["max"] = 0,
+							["critical"] = 0,
+							["absorbed"] = 0,
+							["overhealing"] = 17,
+							["hits"] = 1,
+						},
+					},
+					["time"] = 11,
+					["interrupts"] = 0,
+					["damage"] = 87,
+					["damagespells"] = {
+						["暗影箭"] = {
+							["hitmin"] = 14,
+							["max"] = 14,
+							["min"] = 14,
+							["hitmax"] = 14,
+							["hit"] = 5,
+							["totalhits"] = 5,
+							["hitamount"] = 70,
+							["id"] = 232670,
+							["damage"] = 70,
+						},
+						["墓穴之觸"] = {
+							["hitmin"] = 17,
+							["max"] = 17,
+							["min"] = 17,
+							["hitmax"] = 17,
+							["hit"] = 1,
+							["totalhits"] = 1,
+							["hitamount"] = 17,
+							["id"] = 127802,
+							["damage"] = 17,
+						},
+					},
+					["power"] = {
+					},
+					["healed"] = {
+						["Player-978-047C49D9"] = {
+							["role"] = "NONE",
+							["name"] = "弊惡",
+							["amount"] = 0,
+							["class"] = "WARLOCK",
+							["shielding"] = 0,
+						},
+					},
+					["shielding"] = 0,
+					["id"] = "Player-978-047C49D9",
+					["first"] = 1480870141,
+					["ccbreaks"] = 0,
+					["damagetakenspells"] = {
+						["近戰攻擊"] = {
+							["crushing"] = 0,
+							["id"] = 6603,
+							["min"] = 5,
+							["critical"] = 0,
+							["glancing"] = 0,
+							["absorbed"] = 0,
+							["name"] = "近戰攻擊",
+							["blocked"] = 0,
+							["totalhits"] = 3,
+							["resisted"] = 0,
+							["max"] = 6,
+							["damage"] = 17,
+						},
+					},
+					["damagetaken"] = 17,
+					["auras"] = {
+					},
+					["name"] = "弊惡",
+					["maxhp"] = 168,
+					["healing"] = 0,
+					["overhealing"] = 17,
+					["role"] = "NONE",
+					["multistrikes"] = 0,
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["damagetaken"] = 17,
+			["shielding"] = 0,
+			["mobs"] = {
+				["無腦的殭屍"] = {
+					["players"] = {
+						["弊惡"] = {
+							["taken"] = 87,
+							["done"] = 17,
+							["role"] = "NONE",
+							["class"] = "WARLOCK",
+						},
+					},
+					["hdone"] = 0,
+					["htakenspell"] = {
+					},
+					["taken"] = 87,
+					["done"] = 17,
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["healing"] = 0,
+			["power"] = {
+			},
+			["overhealing"] = 17,
+			["mobtaken"] = 87,
+			["mobdone"] = 17,
+			["name"] = "無腦的殭屍",
+			["mobname"] = "無腦的殭屍",
+			["starttime"] = 1480870141,
+			["mobhdone"] = 0,
+			["last_action"] = 1480870141,
+			["multistrikes"] = 0,
+		}, -- [1]
+	},
+}

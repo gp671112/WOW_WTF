@@ -1,0 +1,7 @@
+VER 3 0000000000000005 "使用飾品2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000006 "拉人喊話" "451167"
+我正在拉 *%t* ，請來幫我點歐，謝謝
+END

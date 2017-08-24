@@ -1,0 +1,28 @@
+
+AtlasLootCharDB = {
+	["__addonrevision"] = 4325,
+	["GUI"] = {
+		["classFilter"] = true,
+		["selected"] = {
+			"AtlasLoot_Classic", -- [1]
+			"Maraudon", -- [2]
+			nil, -- [3]
+			1, -- [4]
+			0, -- [5]
+		},
+		["point"] = {
+			[3] = "CENTER",
+			[4] = -1.99994921684265,
+			[5] = -23.0001411437988,
+		},
+	},
+	["MiniMapButton"] = {
+		["point"] = {
+			"CENTER", -- [1]
+			nil, -- [2]
+			"CENTER", -- [3]
+			-76.3760070800781, -- [4]
+			-23.8055877685547, -- [5]
+		},
+	},
+}

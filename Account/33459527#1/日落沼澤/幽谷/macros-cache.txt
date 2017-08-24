@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "旅行型態" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nocombat,outdoors,nostance:3]旅行形態; [nocombat,indoors,nostance:2] 獵豹形態; [combat,nostance:2] 獵豹形態; [stance:3] 旅行形態; [stance:2] 獵豹形態;
+END

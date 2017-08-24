@@ -1,0 +1,30 @@
+VER 3 0100000000000002 "劍刃/劫毀" "INV_MISC_QUESTIONMARK"
+#showtooltip 劍刃風暴
+/cast [@cursor] 劍刃風暴
+END
+VER 3 0100000000000005 "戰鬥狂嘯+浴血" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 戰鬥狂嘯
+/cast 浴血
+END
+VER 3 0100000000000006 "暴怒+使用兩個飾品" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 暴怒
+/use 13
+/use 14
+END
+VER 3 0100000000000004 "武器爆發" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 戰鬥狂嘯
+/use 14
+/cast 劍刃風暴
+END
+VER 3 0100000000000003 "盾猛+狂暴之怒" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast 盾牌猛擊
+/cast 狂暴之怒
+END
+VER 3 0100000000000001 "英勇躍擊" "INV_MISC_QUESTIONMARK"
+#showtooltip 英勇躍擊
+/cast [@cursor] 英勇躍擊
+END

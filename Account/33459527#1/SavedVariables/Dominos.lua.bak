@@ -1,0 +1,327 @@
+
+DominosDB = {
+	["namespaces"] = {
+		["ProgressBars"] = {
+			["global"] = {
+				["version"] = 1,
+			},
+		},
+		["ActionSets"] = {
+			["global"] = {
+				["version"] = 1,
+			},
+			["profiles"] = {
+				["聖騎士"] = {
+					["七蓮 - 屠魔山谷"] = {
+						["actionSets"] = {
+							"spell|209202|spell", -- [1]
+							"spell|26573|spell", -- [2]
+							"spell|213652|spell", -- [3]
+							"spell|96231|spell", -- [4]
+							nil, -- [5]
+							"spell|31935|spell", -- [6]
+							"spell|204019|spell", -- [7]
+							"spell|20271|spell", -- [8]
+							"spell|53600|spell", -- [9]
+							nil, -- [10]
+							"spell|62124|spell", -- [11]
+							"spell|853|spell", -- [12]
+							[58] = "summonmount|134",
+							[61] = "item|141605",
+							[62] = "spell|80451|spell",
+							[18] = "spell|7328|spell",
+							[37] = "spell|633|spell",
+							[38] = "spell|190784|spell",
+							[39] = "spell|195710|spell",
+							[40] = "spell|115750|spell",
+							[47] = "spell|7328|spell",
+							[48] = "spell|213644|spell",
+							[49] = "spell|642|spell",
+							[50] = "spell|86659|spell",
+							[51] = "spell|1022|spell",
+							[52] = "spell|31850|spell",
+							[53] = "spell|31884|spell",
+							[54] = "spell|215652|spell",
+							[56] = "spell|19750|spell",
+							[57] = "summonmount|105",
+						},
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["七蓮 - 屠魔山谷"] = "聖騎士",
+	},
+	["profiles"] = {
+		["聖騎士"] = {
+			["minimap"] = {
+				["minimapPos"] = 160.14471804902,
+			},
+			["frames"] = {
+				{
+					["showInPetBattleUI"] = false,
+					["point"] = "RIGHT",
+					["scale"] = 1,
+					["showInOverrideUI"] = false,
+					["y"] = -224,
+					["x"] = -260,
+					["showstates"] = "",
+					["spacing"] = 0,
+					["padH"] = 2,
+					["padW"] = 2,
+					["numButtons"] = 12,
+					["pages"] = {
+						["PALADIN"] = {
+							["page2"] = 1,
+							["page5"] = 4,
+							["page4"] = 3,
+							["page3"] = 2,
+							["page6"] = 5,
+						},
+					},
+				}, -- [1]
+				{
+					["showInPetBattleUI"] = false,
+					["point"] = "RIGHT",
+					["scale"] = 1,
+					["showInOverrideUI"] = false,
+					["showstates"] = "",
+					["y"] = -157,
+					["x"] = -214,
+					["spacing"] = 2,
+					["padH"] = 2,
+					["padW"] = 2,
+					["numButtons"] = 12,
+					["pages"] = {
+						["PALADIN"] = {
+						},
+					},
+				}, -- [2]
+				{
+					["showInPetBattleUI"] = false,
+					["point"] = "RIGHT",
+					["scale"] = 1,
+					["showInOverrideUI"] = false,
+					["padW"] = 2,
+					["x"] = -207,
+					["fadeAlpha"] = 0.2,
+					["spacing"] = 2,
+					["padH"] = 2,
+					["y"] = -96,
+					["pages"] = {
+						["PALADIN"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [3]
+				{
+					["showInPetBattleUI"] = false,
+					["scale"] = 1,
+					["showInOverrideUI"] = false,
+					["fadeAlpha"] = 0.1,
+					["padW"] = 2,
+					["x"] = 406,
+					["columns"] = 6,
+					["spacing"] = 2,
+					["padH"] = 2,
+					["y"] = -18,
+					["pages"] = {
+						["PALADIN"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [4]
+				{
+					["showInPetBattleUI"] = false,
+					["point"] = "RIGHT",
+					["scale"] = 1,
+					["showInOverrideUI"] = false,
+					["fadeAlpha"] = 0.1,
+					["padW"] = 2,
+					["x"] = -244,
+					["columns"] = 6,
+					["spacing"] = 2,
+					["padH"] = 2,
+					["y"] = 182,
+					["pages"] = {
+						["PALADIN"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [5]
+				{
+					["showInPetBattleUI"] = false,
+					["point"] = "TOP",
+					["scale"] = 1.5,
+					["showInOverrideUI"] = false,
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 10,
+					["padH"] = 2,
+					["y"] = -100,
+					["pages"] = {
+						["PALADIN"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [6]
+				{
+					["showInPetBattleUI"] = false,
+					["point"] = "RIGHT",
+					["scale"] = 1,
+					["showInOverrideUI"] = false,
+					["hidden"] = true,
+					["padW"] = 2,
+					["spacing"] = 2,
+					["padH"] = 2,
+					["columns"] = 1,
+					["pages"] = {
+						["PALADIN"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [7]
+				{
+					["showInPetBattleUI"] = false,
+					["point"] = "RIGHT",
+					["scale"] = 1,
+					["showInOverrideUI"] = false,
+					["hidden"] = true,
+					["padW"] = 2,
+					["x"] = -40,
+					["spacing"] = 2,
+					["padH"] = 2,
+					["columns"] = 1,
+					["pages"] = {
+						["PALADIN"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [8]
+				{
+					["showInPetBattleUI"] = false,
+					["point"] = "RIGHT",
+					["scale"] = 1,
+					["showInOverrideUI"] = false,
+					["hidden"] = true,
+					["padW"] = 2,
+					["x"] = -80,
+					["spacing"] = 2,
+					["padH"] = 2,
+					["columns"] = 1,
+					["pages"] = {
+						["PALADIN"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [9]
+				{
+					["showInPetBattleUI"] = false,
+					["point"] = "RIGHT",
+					["scale"] = 1,
+					["showInOverrideUI"] = false,
+					["hidden"] = true,
+					["padW"] = 2,
+					["x"] = -120,
+					["spacing"] = 2,
+					["padH"] = 2,
+					["columns"] = 1,
+					["pages"] = {
+						["PALADIN"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [10]
+				["骰子面板"] = {
+					["showInPetBattleUI"] = true,
+					["columns"] = 1,
+					["spacing"] = 2,
+					["anchor"] = "額外快捷鍵TC",
+					["showInOverrideUI"] = true,
+					["y"] = -218,
+				},
+				["微型選單"] = {
+					["showInPetBattleUI"] = false,
+					["fadeAlpha"] = 0.2,
+					["point"] = "BOTTOMRIGHT",
+					["showInOverrideUI"] = false,
+					["columns"] = 6,
+				},
+				["額外快捷鍵"] = {
+					["y"] = 210,
+					["x"] = 0,
+					["point"] = "BOTTOM",
+					["showInOverrideUI"] = false,
+					["showInPetBattleUI"] = false,
+				},
+				["背包"] = {
+					["y"] = 75,
+					["fadeAlpha"] = 0.2,
+					["point"] = "BOTTOMRIGHT",
+					["spacing"] = 2,
+					["showInOverrideUI"] = false,
+					["showInPetBattleUI"] = false,
+				},
+				["寵物"] = {
+					["showInPetBattleUI"] = false,
+					["point"] = "BOTTOM",
+					["scale"] = 0.9,
+					["showInOverrideUI"] = false,
+					["y"] = 160,
+					["x"] = -460,
+					["spacing"] = 2,
+					["columns"] = 5,
+				},
+				["首領戰特殊能量"] = {
+					["y"] = 175,
+					["x"] = 0,
+					["point"] = "BOTTOM",
+					["showInOverrideUI"] = true,
+					["showInPetBattleUI"] = true,
+				},
+				["載具"] = {
+					["y"] = 108,
+					["x"] = 243,
+					["point"] = "BOTTOM",
+					["showInOverrideUI"] = false,
+					["showInPetBattleUI"] = false,
+				},
+				["通知面板"] = {
+					["showInPetBattleUI"] = true,
+					["x"] = 0,
+					["columns"] = 1,
+					["spacing"] = 2,
+					["showInOverrideUI"] = true,
+					["y"] = 260,
+					["point"] = "BOTTOM",
+				},
+				["經驗值"] = {
+					["point"] = "BOTTOM",
+					["lockMode"] = true,
+					["padW"] = 2,
+					["spacing"] = 1,
+					["mode"] = "xp",
+					["alwaysShowText"] = false,
+					["texture"] = "blizzard",
+					["showInPetBattleUI"] = false,
+					["columns"] = 20,
+					["showInOverrideUI"] = false,
+					["y"] = 0,
+					["x"] = 0,
+					["font"] = "Friz Quadrata TT",
+					["height"] = 6,
+					["display"] = {
+						["value"] = true,
+						["bonus"] = true,
+						["max"] = true,
+						["label"] = true,
+					},
+					["padH"] = 2,
+					["numButtons"] = 20,
+				},
+			},
+		},
+	},
+}
+DominosVersion = "7.1.4"

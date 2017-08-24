@@ -1,0 +1,1624 @@
+
+SkadaPerCharDB = {
+	["sets"] = {
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ffdamagedone"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["endtime"] = 1503216814,
+			["damagetaken"] = 226,
+			["damage"] = 92071853,
+			["players"] = {
+				{
+					["last"] = 1503216813,
+					["healingabsorbed"] = 0,
+					["class"] = "SHAMAN",
+					["damaged"] = {
+						["影劍指揮官"] = 3368572,
+						["影劍縛魂者"] = 24024643,
+						["影劍法力惡魔"] = 12908046,
+						["影劍刺客"] = 10359806,
+						["影劍生命塑形者"] = 15914604,
+						["影劍鎮壓者"] = 25496182,
+					},
+					["auras"] = {
+						["風暴匯聚"] = {
+							["name"] = "風暴匯聚",
+							["active"] = 0,
+							["school"] = 1,
+							["id"] = 198300,
+							["auratype"] = "BUFF",
+							["uptime"] = 5,
+						},
+						["風怒"] = {
+							["name"] = "風怒",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 205648,
+							["auratype"] = "BUFF",
+							["uptime"] = 1,
+						},
+						["風暴鞭笞"] = {
+							["name"] = "風暴鞭笞",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 195222,
+							["auratype"] = "BUFF",
+							["uptime"] = 5,
+						},
+						["軍團之殞盟誓"] = {
+							["name"] = "軍團之殞盟誓",
+							["active"] = 0,
+							["school"] = 1,
+							["id"] = 242584,
+							["auratype"] = "BUFF",
+							["uptime"] = 6,
+						},
+						["閃電轟擊"] = {
+							["name"] = "閃電轟擊",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 187878,
+							["auratype"] = "BUFF",
+							["uptime"] = 5,
+						},
+						["風暴使者"] = {
+							["name"] = "風暴使者",
+							["active"] = 0,
+							["school"] = 1,
+							["id"] = 201846,
+							["auratype"] = "BUFF",
+							["uptime"] = 5,
+						},
+						["疾風打擊"] = {
+							["name"] = "疾風打擊",
+							["active"] = 0,
+							["school"] = 1,
+							["id"] = 198293,
+							["auratype"] = "BUFF",
+							["uptime"] = 5,
+						},
+						["崩石流土"] = {
+							["name"] = "崩石流土",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 202004,
+							["auratype"] = "BUFF",
+							["uptime"] = 6,
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 11,
+					["interrupts"] = 0,
+					["ccbreaks"] = 0,
+					["shielding"] = 0,
+					["damage"] = 92071853,
+					["damagespells"] = {
+						["閃電轟擊"] = {
+							["hitmin"] = 2986182,
+							["criticalamount"] = 45625187,
+							["id"] = 187874,
+							["hitamount"] = 38119534,
+							["criticalmin"] = 6015095,
+							["hitmax"] = 3368572,
+							["min"] = 2986182,
+							["criticalmax"] = 6870417,
+							["critical"] = 7,
+							["hit"] = 12,
+							["totalhits"] = 19,
+							["school"] = 8,
+							["max"] = 6870417,
+							["damage"] = 83744721,
+						},
+						["石化打擊"] = {
+							["hitmin"] = 6056835,
+							["id"] = 193786,
+							["hitamount"] = 6056835,
+							["min"] = 6056835,
+							["EVADE"] = 1,
+							["hitmax"] = 6056835,
+							["hit"] = 1,
+							["totalhits"] = 2,
+							["max"] = 6056835,
+							["school"] = 8,
+							["damage"] = 6056835,
+						},
+						["暴風轟擊"] = {
+							["criticalamount"] = 1259138,
+							["id"] = 210801,
+							["EVADE"] = 1,
+							["min"] = 629569,
+							["criticalmax"] = 629569,
+							["critical"] = 2,
+							["criticalmin"] = 629569,
+							["totalhits"] = 3,
+							["max"] = 629569,
+							["school"] = 8,
+							["damage"] = 1259138,
+						},
+						["近戰攻擊"] = {
+							["hitmin"] = 1011159,
+							["id"] = 6603,
+							["hitamount"] = 1011159,
+							["min"] = 1011159,
+							["EVADE"] = 1,
+							["hitmax"] = 1011159,
+							["hit"] = 1,
+							["totalhits"] = 2,
+							["max"] = 1011159,
+							["school"] = 1,
+							["damage"] = 1011159,
+						},
+					},
+					["first"] = 1503216802,
+					["healed"] = {
+					},
+					["power"] = {
+						[0] = {
+							["amount"] = 62,
+							["spells"] = {
+								[193786] = 62,
+							},
+						},
+					},
+					["id"] = "Player-963-047B487D",
+					["healing"] = 0,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+						["燃燒殆盡"] = {
+							["crushing"] = 0,
+							["id"] = 46218,
+							["absorbed"] = 0,
+							["glancing"] = 0,
+							["critical"] = 0,
+							["min"] = 226,
+							["school"] = 4,
+							["name"] = "燃燒殆盡",
+							["blocked"] = 0,
+							["totalhits"] = 1,
+							["resisted"] = 0,
+							["max"] = 226,
+							["damage"] = 226,
+						},
+					},
+					["ffdamagedonespells"] = {
+					},
+					["ffdamagedonetargets"] = {
+					},
+					["name"] = "披薩餅",
+					["ffdamagedone"] = 0,
+					["damagetaken"] = 226,
+					["maxhp"] = 3647040,
+					["overhealing"] = 0,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["影劍指揮官"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 3368572,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 3368572,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影劍縛魂者"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 24024643,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 24024643,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["火爆惡魔"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 0,
+							["done"] = 226,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 226,
+					["taken"] = 0,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影劍法力惡魔"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 12908046,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 12908046,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影劍刺客"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 10359806,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 10359806,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影劍生命塑形者"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 15914604,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 15914604,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["影劍鎮壓者"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 25496182,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 25496182,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 92071853,
+			["power"] = {
+				[0] = 62,
+			},
+			["healing"] = 0,
+			["ccbreaks"] = 0,
+			["dispells"] = 0,
+			["starttime"] = 1503216786,
+			["time"] = 28,
+			["name"] = "影劍縛魂者",
+			["mobname"] = "影劍縛魂者",
+			["shielding"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1503216786,
+			["mobdone"] = 226,
+		}, -- [1]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ffdamagedone"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["endtime"] = 1503216324,
+			["damagetaken"] = 0,
+			["gotboss"] = true,
+			["damage"] = 0,
+			["players"] = {
+				{
+					["last"] = 1503216272,
+					["healingabsorbed"] = 0,
+					["class"] = "SHAMAN",
+					["damaged"] = {
+					},
+					["auras"] = {
+					},
+					["healingspells"] = {
+					},
+					["time"] = 0,
+					["interrupts"] = 0,
+					["ccbreaks"] = 0,
+					["shielding"] = 0,
+					["damage"] = 0,
+					["damagespells"] = {
+					},
+					["first"] = 1503216272,
+					["healed"] = {
+					},
+					["power"] = {
+					},
+					["id"] = "Player-963-047B487D",
+					["healing"] = 0,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["ffdamagedonetargets"] = {
+					},
+					["name"] = "披薩餅",
+					["ffdamagedone"] = 0,
+					["damagetaken"] = 0,
+					["maxhp"] = 3647040,
+					["overhealing"] = 0,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+			},
+			["mobtaken"] = 0,
+			["power"] = {
+			},
+			["healing"] = 0,
+			["ccbreaks"] = 0,
+			["dispells"] = 0,
+			["starttime"] = 1503216270,
+			["time"] = 54,
+			["name"] = "布魯托魯斯",
+			["mobname"] = "布魯托魯斯",
+			["shielding"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1503216270,
+			["mobdone"] = 0,
+		}, -- [2]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ffdamagedone"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["endtime"] = 1503216261,
+			["damagetaken"] = 0,
+			["damage"] = 18202073,
+			["players"] = {
+				{
+					["last"] = 1503216259,
+					["healingabsorbed"] = 0,
+					["class"] = "SHAMAN",
+					["damaged"] = {
+						["日刃大法師"] = 629569,
+						["日刃暗黑牧師"] = 3299345,
+						["日刃秘術師"] = 2292365,
+						["日刃曙光牧師"] = 10971342,
+						["日刃復仇者"] = 1009452,
+					},
+					["auras"] = {
+						["風暴匯聚"] = {
+							["name"] = "風暴匯聚",
+							["active"] = 0,
+							["school"] = 1,
+							["id"] = 198300,
+							["auratype"] = "BUFF",
+							["uptime"] = 4,
+						},
+						["火舌"] = {
+							["name"] = "火舌",
+							["active"] = 0,
+							["school"] = 4,
+							["id"] = 194084,
+							["auratype"] = "BUFF",
+							["uptime"] = 5,
+						},
+						["風暴鞭笞"] = {
+							["name"] = "風暴鞭笞",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 195222,
+							["auratype"] = "BUFF",
+							["uptime"] = 4,
+						},
+						["軍團之殞盟誓"] = {
+							["name"] = "軍團之殞盟誓",
+							["active"] = 0,
+							["school"] = 1,
+							["id"] = 242584,
+							["auratype"] = "BUFF",
+							["uptime"] = 6,
+						},
+						["崩石流土"] = {
+							["name"] = "崩石流土",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 202004,
+							["auratype"] = "BUFF",
+							["uptime"] = 6,
+						},
+						["元能之魂"] = {
+							["name"] = "元能之魂",
+							["active"] = 0,
+							["school"] = 1,
+							["id"] = 198240,
+							["auratype"] = "BUFF",
+							["uptime"] = 0,
+						},
+						["鬼魂之狼"] = {
+							["name"] = "鬼魂之狼",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 2645,
+							["auratype"] = "BUFF",
+							["uptime"] = 0,
+						},
+						["風怒"] = {
+							["name"] = "風怒",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 205648,
+							["auratype"] = "BUFF",
+							["uptime"] = 1,
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 12,
+					["interrupts"] = 0,
+					["ccbreaks"] = 0,
+					["shielding"] = 0,
+					["damage"] = 18202073,
+					["damagespells"] = {
+						["火舌打擊"] = {
+							["hitmin"] = 3268849,
+							["id"] = 193796,
+							["min"] = 3268849,
+							["hitamount"] = 3268849,
+							["hitmax"] = 3268849,
+							["hit"] = 1,
+							["school"] = 4,
+							["max"] = 3268849,
+							["totalhits"] = 1,
+							["damage"] = 3268849,
+						},
+						["近戰攻擊"] = {
+							["hitmin"] = 1009452,
+							["criticalamount"] = 1645659,
+							["id"] = 6603,
+							["hitamount"] = 1009452,
+							["criticalmin"] = 1645659,
+							["critical"] = 1,
+							["min"] = 1009452,
+							["criticalmax"] = 1645659,
+							["hitmax"] = 1009452,
+							["hit"] = 1,
+							["totalhits"] = 2,
+							["school"] = 1,
+							["max"] = 1645659,
+							["damage"] = 2655111,
+						},
+						["閃電轟擊"] = {
+							["hitmin"] = 3299345,
+							["id"] = 187874,
+							["min"] = 3299345,
+							["hitamount"] = 3299345,
+							["hitmax"] = 3299345,
+							["hit"] = 1,
+							["school"] = 8,
+							["max"] = 3299345,
+							["totalhits"] = 1,
+							["damage"] = 3299345,
+						},
+						["野性突擊"] = {
+							["hitmin"] = 2292365,
+							["id"] = 215802,
+							["min"] = 2292365,
+							["hitamount"] = 2292365,
+							["hitmax"] = 2292365,
+							["hit"] = 1,
+							["school"] = 1,
+							["max"] = 2292365,
+							["totalhits"] = 1,
+							["damage"] = 2292365,
+						},
+						["暴風轟擊"] = {
+							["criticalamount"] = 629569,
+							["id"] = 210801,
+							["min"] = 629569,
+							["criticalmax"] = 629569,
+							["critical"] = 1,
+							["criticalmin"] = 629569,
+							["school"] = 8,
+							["max"] = 629569,
+							["totalhits"] = 1,
+							["damage"] = 629569,
+						},
+						["石化打擊"] = {
+							["hitmin"] = 6056834,
+							["id"] = 193786,
+							["min"] = 6056834,
+							["hitamount"] = 6056834,
+							["hitmax"] = 6056834,
+							["hit"] = 1,
+							["school"] = 8,
+							["max"] = 6056834,
+							["totalhits"] = 1,
+							["damage"] = 6056834,
+						},
+					},
+					["first"] = 1503216247,
+					["healed"] = {
+					},
+					["power"] = {
+						[0] = {
+							["amount"] = 36,
+							["spells"] = {
+								[193786] = 31,
+								[187890] = 5,
+							},
+						},
+					},
+					["id"] = "Player-963-047B487D",
+					["healing"] = 0,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["ffdamagedonetargets"] = {
+					},
+					["name"] = "披薩餅",
+					["ffdamagedone"] = 0,
+					["damagetaken"] = 0,
+					["maxhp"] = 3647040,
+					["overhealing"] = 0,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["日刃大法師"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 629569,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 629569,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["日刃暗黑牧師"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 3299345,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 3299345,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["日刃秘術師"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 2292365,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 2292365,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["日刃曙光牧師"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 10971342,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 10971342,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+				["日刃復仇者"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 1009452,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 1009452,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 18202073,
+			["power"] = {
+				[0] = 36,
+			},
+			["healing"] = 0,
+			["ccbreaks"] = 0,
+			["dispells"] = 0,
+			["starttime"] = 1503216241,
+			["time"] = 20,
+			["name"] = "日刃曙光牧師",
+			["mobname"] = "日刃曙光牧師",
+			["shielding"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1503216241,
+			["mobdone"] = 0,
+		}, -- [3]
+		{
+			["healingabsorbed"] = 0,
+			["auras"] = {
+			},
+			["ffdamagedone"] = 0,
+			["overhealing"] = 0,
+			["interrupts"] = 0,
+			["endtime"] = 1503216189,
+			["damagetaken"] = 0,
+			["gotboss"] = true,
+			["damage"] = 13319942,
+			["players"] = {
+				{
+					["last"] = 1503216187,
+					["healingabsorbed"] = 0,
+					["class"] = "SHAMAN",
+					["damaged"] = {
+						["『墮落者』塞斯諾瓦"] = 13319942,
+					},
+					["auras"] = {
+						["崩石流土"] = {
+							["name"] = "崩石流土",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 202004,
+							["auratype"] = "BUFF",
+							["uptime"] = 5,
+						},
+						["風暴鞭笞"] = {
+							["name"] = "風暴鞭笞",
+							["active"] = 0,
+							["school"] = 8,
+							["id"] = 195222,
+							["auratype"] = "BUFF",
+							["uptime"] = 5,
+						},
+						["鬼靈國度"] = {
+							["name"] = "鬼靈國度",
+							["active"] = 0,
+							["school"] = 64,
+							["id"] = 46021,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 5,
+						},
+						["鬼靈枯竭"] = {
+							["name"] = "鬼靈枯竭",
+							["active"] = 0,
+							["school"] = 32,
+							["id"] = 44867,
+							["auratype"] = "DEBUFF",
+							["uptime"] = 2,
+						},
+					},
+					["healingspells"] = {
+					},
+					["time"] = 16,
+					["interrupts"] = 0,
+					["ccbreaks"] = 0,
+					["shielding"] = 0,
+					["damage"] = 13319942,
+					["damagespells"] = {
+						["石化打擊"] = {
+							["criticalamount"] = 12355942,
+							["id"] = 193786,
+							["min"] = 12355942,
+							["criticalmax"] = 12355942,
+							["critical"] = 1,
+							["criticalmin"] = 12355942,
+							["school"] = 8,
+							["max"] = 12355942,
+							["totalhits"] = 1,
+							["damage"] = 12355942,
+						},
+						["風暴鞭笞"] = {
+							["school"] = 1,
+							["totalhits"] = 1,
+							["max"] = 0,
+							["IMMUNE"] = 1,
+							["id"] = 195256,
+							["damage"] = 0,
+						},
+						["近戰攻擊"] = {
+							["hitmin"] = 964000,
+							["id"] = 6603,
+							["IMMUNE"] = 11,
+							["min"] = 964000,
+							["hitamount"] = 964000,
+							["hitmax"] = 964000,
+							["hit"] = 1,
+							["totalhits"] = 13,
+							["max"] = 964000,
+							["MISS"] = 1,
+							["damage"] = 964000,
+						},
+					},
+					["first"] = 1503216171,
+					["healed"] = {
+					},
+					["power"] = {
+						[0] = {
+							["amount"] = 36,
+							["spells"] = {
+								[193786] = 31,
+								[187890] = 5,
+							},
+						},
+					},
+					["id"] = "Player-963-047B487D",
+					["healing"] = 0,
+					["dispells"] = 0,
+					["damagetakenspells"] = {
+					},
+					["ffdamagedonespells"] = {
+					},
+					["ffdamagedonetargets"] = {
+					},
+					["name"] = "披薩餅",
+					["ffdamagedone"] = 0,
+					["damagetaken"] = 0,
+					["maxhp"] = 3647040,
+					["overhealing"] = 0,
+					["role"] = "NONE",
+				}, -- [1]
+			},
+			["deaths"] = 0,
+			["mobs"] = {
+				["『墮落者』塞斯諾瓦"] = {
+					["players"] = {
+						["披薩餅"] = {
+							["taken"] = 13319942,
+							["done"] = 0,
+							["role"] = "NONE",
+							["class"] = "SHAMAN",
+						},
+					},
+					["hdone"] = 0,
+					["done"] = 0,
+					["taken"] = 13319942,
+					["htakenspell"] = {
+					},
+					["htaken"] = 0,
+					["hdonespell"] = {
+					},
+				},
+			},
+			["mobtaken"] = 13319942,
+			["power"] = {
+				[0] = 36,
+			},
+			["healing"] = 0,
+			["ccbreaks"] = 0,
+			["dispells"] = 0,
+			["starttime"] = 1503216170,
+			["time"] = 19,
+			["name"] = "卡雷苟斯",
+			["mobname"] = "卡雷苟斯",
+			["shielding"] = 0,
+			["mobhdone"] = 0,
+			["last_action"] = 1503216170,
+			["mobdone"] = 0,
+		}, -- [4]
+	},
+	["total"] = {
+		["healingabsorbed"] = 0,
+		["auras"] = {
+		},
+		["ffdamagedone"] = 0,
+		["overhealing"] = 0,
+		["interrupts"] = 0,
+		["damage"] = 141896154,
+		["players"] = {
+			{
+				["healingabsorbed"] = 0,
+				["class"] = "SHAMAN",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["風暴匯聚"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["id"] = 198300,
+						["auratype"] = "BUFF",
+						["name"] = "風暴匯聚",
+					},
+					["風怒"] = {
+						["uptime"] = 4,
+						["active"] = 0,
+						["auratype"] = "BUFF",
+						["school"] = 8,
+						["name"] = "風怒",
+						["id"] = 205648,
+					},
+					["風暴鞭笞"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 8,
+						["id"] = 195222,
+						["auratype"] = "BUFF",
+						["name"] = "風暴鞭笞",
+					},
+					["崩石流土"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 8,
+						["id"] = 202004,
+						["auratype"] = "BUFF",
+						["name"] = "崩石流土",
+					},
+					["閃電轟擊"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 8,
+						["id"] = 187878,
+						["auratype"] = "BUFF",
+						["name"] = "閃電轟擊",
+					},
+					["疾風打擊"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["id"] = 198293,
+						["auratype"] = "BUFF",
+						["name"] = "疾風打擊",
+					},
+					["軍團之殞盟誓"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["id"] = 242584,
+						["auratype"] = "BUFF",
+						["name"] = "軍團之殞盟誓",
+					},
+					["暴擊烈焰"] = {
+						["name"] = "暴擊烈焰",
+						["active"] = 0,
+						["school"] = 4,
+						["id"] = 240842,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 0,
+					},
+					["風暴使者"] = {
+						["uptime"] = 0,
+						["active"] = 0,
+						["school"] = 1,
+						["id"] = 201846,
+						["auratype"] = "BUFF",
+						["name"] = "風暴使者",
+					},
+					["鬼靈國度"] = {
+						["name"] = "鬼靈國度",
+						["active"] = 0,
+						["school"] = 64,
+						["id"] = 46021,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 5,
+					},
+					["鬼靈枯竭"] = {
+						["name"] = "鬼靈枯竭",
+						["active"] = 0,
+						["school"] = 32,
+						["id"] = 44867,
+						["auratype"] = "DEBUFF",
+						["uptime"] = 60,
+					},
+					["元能之魂"] = {
+						["name"] = "元能之魂",
+						["active"] = 0,
+						["school"] = 1,
+						["id"] = 198240,
+						["auratype"] = "BUFF",
+						["uptime"] = 0,
+					},
+					["鬼魂之狼"] = {
+						["name"] = "鬼魂之狼",
+						["active"] = 0,
+						["school"] = 8,
+						["id"] = 2645,
+						["auratype"] = "BUFF",
+						["uptime"] = 0,
+					},
+					["聚能閃電"] = {
+						["uptime"] = 1,
+						["active"] = 0,
+						["school"] = 1,
+						["id"] = 215632,
+						["auratype"] = "BUFF",
+						["name"] = "聚能閃電",
+					},
+					["火舌"] = {
+						["uptime"] = 16,
+						["active"] = 0,
+						["school"] = 4,
+						["id"] = 194084,
+						["auratype"] = "BUFF",
+						["name"] = "火舌",
+					},
+				},
+				["healingspells"] = {
+				},
+				["time"] = 45,
+				["interrupts"] = 0,
+				["deathlog"] = {
+					{
+						["ts"] = 1503216101.557,
+						["amount"] = -132,
+						["spellid"] = 47248,
+						["srcname"] = "日刃秘術師",
+						["hp"] = 3493499,
+					}, -- [1]
+					{
+						["ts"] = 1503216636.363,
+						["amount"] = -98,
+						["spellid"] = 88163,
+						["srcname"] = "布魯托魯斯",
+						["hp"] = 3176802,
+					}, -- [2]
+					{
+						["ts"] = 1503216636.863,
+						["amount"] = -56,
+						["spellid"] = 88163,
+						["srcname"] = "布魯托魯斯",
+						["hp"] = 3176704,
+					}, -- [3]
+					{
+						["ts"] = 1503216637.363,
+						["amount"] = -118,
+						["spellid"] = 88163,
+						["srcname"] = "布魯托魯斯",
+						["hp"] = 3176648,
+					}, -- [4]
+					{
+						["ts"] = 1503216803.077,
+						["amount"] = -226,
+						["spellid"] = 46218,
+						["srcname"] = "火爆惡魔",
+						["hp"] = 3646814,
+					}, -- [5]
+					{
+						["spellname"] = "Falling",
+						["ts"] = 1503216835.409,
+						["hp"] = 3266329,
+						["amount"] = -380615,
+					}, -- [6]
+					{
+						["ts"] = 1503216836.359,
+						["amount"] = -51,
+						["spellid"] = 88163,
+						["srcname"] = "莎珂蕾希女士",
+						["hp"] = 3266227,
+					}, -- [7]
+					{
+						["ts"] = 1503216837.359,
+						["amount"] = -129,
+						["spellid"] = 88163,
+						["srcname"] = "大術士艾黎瑟絲",
+						["hp"] = 3266176,
+					}, -- [8]
+					["pos"] = 9,
+				},
+				["ccbreaks"] = 0,
+				["damage"] = 141896154,
+				["damagespells"] = {
+					["風暴鞭笞"] = {
+						["school"] = 1,
+						["totalhits"] = 1,
+						["max"] = 0,
+						["IMMUNE"] = 1,
+						["id"] = 195256,
+						["damage"] = 0,
+					},
+					["閃電轟擊"] = {
+						["hitmin"] = 2986182,
+						["criticalamount"] = 45625187,
+						["id"] = 187874,
+						["hitamount"] = 41418879,
+						["criticalmin"] = 6015095,
+						["hitmax"] = 3368572,
+						["min"] = 2986182,
+						["criticalmax"] = 6870417,
+						["critical"] = 7,
+						["hit"] = 13,
+						["totalhits"] = 20,
+						["school"] = 8,
+						["max"] = 6870417,
+						["damage"] = 87044066,
+					},
+					["野性突擊"] = {
+						["hitmin"] = 2292365,
+						["id"] = 215802,
+						["min"] = 2292365,
+						["hitamount"] = 2292365,
+						["hitmax"] = 2292365,
+						["hit"] = 1,
+						["school"] = 1,
+						["max"] = 2292365,
+						["totalhits"] = 1,
+						["damage"] = 2292365,
+					},
+					["火舌打擊"] = {
+						["hitmin"] = 3268849,
+						["id"] = 193796,
+						["min"] = 3268849,
+						["hitamount"] = 6537698,
+						["hitmax"] = 3268849,
+						["hit"] = 2,
+						["school"] = 4,
+						["max"] = 3268849,
+						["totalhits"] = 2,
+						["damage"] = 6537698,
+					},
+					["近戰攻擊"] = {
+						["hitamount"] = 5074952,
+						["EVADE"] = 1,
+						["hitmin"] = 456662,
+						["criticalmin"] = 1645659,
+						["id"] = 6603,
+						["IMMUNE"] = 11,
+						["criticalamount"] = 3469254,
+						["critical"] = 2,
+						["min"] = 456662,
+						["criticalmax"] = 1823595,
+						["hitmax"] = 1011159,
+						["hit"] = 6,
+						["totalhits"] = 22,
+						["max"] = 1823595,
+						["MISS"] = 2,
+						["damage"] = 8544206,
+					},
+					["暴風轟擊"] = {
+						["criticalamount"] = 1888707,
+						["id"] = 210801,
+						["EVADE"] = 1,
+						["min"] = 629569,
+						["criticalmax"] = 629569,
+						["critical"] = 3,
+						["criticalmin"] = 629569,
+						["totalhits"] = 4,
+						["max"] = 629569,
+						["school"] = 8,
+						["damage"] = 1888707,
+					},
+					["風怒攻擊"] = {
+						["hitmin"] = 852272,
+						["id"] = 25504,
+						["min"] = 852272,
+						["hitamount"] = 3458670,
+						["hitmax"] = 1361383,
+						["hit"] = 3,
+						["school"] = 1,
+						["max"] = 1361383,
+						["totalhits"] = 3,
+						["damage"] = 3458670,
+					},
+					["火舌攻擊"] = {
+						["hitmin"] = 385698,
+						["id"] = 10444,
+						["min"] = 385698,
+						["hitamount"] = 385698,
+						["hitmax"] = 385698,
+						["hit"] = 1,
+						["school"] = 4,
+						["max"] = 385698,
+						["totalhits"] = 1,
+						["damage"] = 385698,
+					},
+					["石化打擊"] = {
+						["hitamount"] = 19388802,
+						["hitmin"] = 6056834,
+						["criticalamount"] = 12355942,
+						["EVADE"] = 1,
+						["id"] = 193786,
+						["criticalmin"] = 12355942,
+						["school"] = 8,
+						["min"] = 6056834,
+						["criticalmax"] = 12355942,
+						["critical"] = 1,
+						["hit"] = 3,
+						["totalhits"] = 5,
+						["hitmax"] = 7275133,
+						["max"] = 12355942,
+						["damage"] = 31744744,
+					},
+				},
+				["shielding"] = 0,
+				["healed"] = {
+				},
+				["power"] = {
+					[0] = {
+						["amount"] = 206,
+						["spells"] = {
+							[193786] = 155,
+							[187890] = 51,
+						},
+					},
+				},
+				["id"] = "Player-963-047B487D",
+				["healing"] = 0,
+				["dispells"] = 0,
+				["damagetakenspells"] = {
+					["燃燒殆盡"] = {
+						["crushing"] = 0,
+						["id"] = 46218,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 226,
+						["school"] = 4,
+						["name"] = "燃燒殆盡",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 226,
+						["damage"] = 226,
+					},
+					["暗影箭"] = {
+						["crushing"] = 0,
+						["id"] = 47248,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 132,
+						["school"] = 32,
+						["name"] = "暗影箭",
+						["blocked"] = 0,
+						["totalhits"] = 1,
+						["resisted"] = 0,
+						["max"] = 132,
+						["damage"] = 132,
+					},
+					["近戰攻擊"] = {
+						["crushing"] = 0,
+						["id"] = 6603,
+						["absorbed"] = 0,
+						["glancing"] = 0,
+						["critical"] = 0,
+						["min"] = 51,
+						["school"] = 1,
+						["name"] = "近戰攻擊",
+						["blocked"] = 0,
+						["totalhits"] = 5,
+						["resisted"] = 0,
+						["max"] = 129,
+						["damage"] = 452,
+					},
+				},
+				["ffdamagedonespells"] = {
+				},
+				["ffdamagedonetargets"] = {
+				},
+				["name"] = "披薩餅",
+				["ffdamagedone"] = 0,
+				["damagetaken"] = 810,
+				["maxhp"] = 3647040,
+				["overhealing"] = 0,
+				["role"] = "NONE",
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["日刃大法師"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 629569,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 629569,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["日刃暗黑牧師"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 3299345,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 3299345,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["火爆惡魔"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 0,
+						["done"] = 226,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 226,
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["影劍縛魂者"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 24024643,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 24024643,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["莎珂蕾希女士"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 0,
+						["done"] = 51,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 51,
+				["taken"] = 0,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["影劍生命塑形者"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 15914604,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 15914604,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["日刃秘術師"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 2292365,
+						["done"] = 132,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 132,
+				["taken"] = 2292365,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["影劍指揮官"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 3368572,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 3368572,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["魔龍謎霧"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 1823595,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 1823595,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["影劍刺客"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 10359806,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 10359806,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["影劍鎮壓者"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 25496182,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 25496182,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["布魯托魯斯"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 10475569,
+						["done"] = 272,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 272,
+				["taken"] = 10475569,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["影劍法力惡魔"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 12908046,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 12908046,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["日刃復仇者"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 1009452,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 1009452,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["大術士艾黎瑟絲"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 6003122,
+						["done"] = 129,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 1624594,
+				["done"] = 129,
+				["taken"] = 6003122,
+				["htakenspell"] = {
+					["激憤"] = {
+						["min"] = 1624594,
+						["crits"] = 0,
+						["max"] = 1624594,
+						["healing"] = 1624594,
+						["overhealing"] = 4375406,
+						["hits"] = 1,
+					},
+				},
+				["htaken"] = 1624594,
+				["hdonespell"] = {
+					["激憤"] = {
+						["min"] = 1624594,
+						["crits"] = 0,
+						["max"] = 1624594,
+						["healing"] = 1624594,
+						["overhealing"] = 4375406,
+						["hits"] = 1,
+					},
+				},
+			},
+			["日刃曙光牧師"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 10971342,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 10971342,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+			["『墮落者』塞斯諾瓦"] = {
+				["players"] = {
+					["披薩餅"] = {
+						["taken"] = 13319942,
+						["done"] = 0,
+						["role"] = "NONE",
+						["class"] = "SHAMAN",
+					},
+				},
+				["hdone"] = 0,
+				["done"] = 0,
+				["taken"] = 13319942,
+				["htakenspell"] = {
+				},
+				["htaken"] = 0,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 141896154,
+		["power"] = {
+			[0] = 206,
+		},
+		["healing"] = 0,
+		["ccbreaks"] = 0,
+		["dispells"] = 0,
+		["starttime"] = 1503216081,
+		["time"] = 121,
+		["name"] = "總體的",
+		["damagetaken"] = 810,
+		["shielding"] = 0,
+		["mobhdone"] = 1624594,
+		["last_action"] = 1503216081,
+		["mobdone"] = 810,
+	},
+}
