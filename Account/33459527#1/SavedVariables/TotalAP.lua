@@ -4,8 +4,8 @@ TotalArtifactPowerSettings = {
 		["披薩餅 - 暗影之月"] = "Default",
 		["搏戰 - 暗影之月"] = "Default",
 		["便宜把戲 - 暗影之月"] = "Default",
-		["機動 - 暗影之月"] = "Default",
 		["幽谷 - 日落沼澤"] = "Default",
+		["機動 - 暗影之月"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -16,70 +16,60 @@ TotalArtifactPowerSettings = {
 TotalArtifactPowerCache = {
 	["披薩餅 - 暗影之月"] = {
 		{
-			["thisLevelUnspentAP"] = 291516265,
-			["isIgnored"] = false,
-			["numTraitsPurchased"] = 53,
+			["thisLevelUnspentAP"] = 852730165,
 			["artifactTier"] = 2,
+			["numTraitsPurchased"] = 53,
+			["isIgnored"] = false,
 		}, -- [1]
 		{
 			["thisLevelUnspentAP"] = 3160100,
-			["isIgnored"] = false,
-			["numTraitsPurchased"] = 53,
 			["artifactTier"] = 2,
+			["numTraitsPurchased"] = 53,
+			["isIgnored"] = false,
 		}, -- [2]
 		{
 			["thisLevelUnspentAP"] = 33105870,
-			["artifactTier"] = 2,
-			["numTraitsPurchased"] = 53,
 			["isIgnored"] = false,
+			["numTraitsPurchased"] = 53,
+			["artifactTier"] = 2,
 		}, -- [3]
 		["bankCache"] = {
 			["inBankAP"] = 0,
 			["numItems"] = 0,
 		},
 	},
-	["煌天 - 屠魔山谷"] = {
+	["幽谷 - 日落沼澤"] = {
 	},
 	["搏戰 - 暗影之月"] = {
 		{
-			["thisLevelUnspentAP"] = 330729920,
-			["artifactTier"] = 2,
-			["numTraitsPurchased"] = 56,
+			["thisLevelUnspentAP"] = 877143520,
 			["isIgnored"] = false,
+			["numTraitsPurchased"] = 56,
+			["artifactTier"] = 2,
 		}, -- [1]
 		{
 			["thisLevelUnspentAP"] = 717873,
-			["artifactTier"] = 2,
-			["numTraitsPurchased"] = 56,
 			["isIgnored"] = false,
+			["numTraitsPurchased"] = 56,
+			["artifactTier"] = 2,
 		}, -- [2]
 		{
 			["thisLevelUnspentAP"] = 155859165,
-			["artifactTier"] = 2,
-			["numTraitsPurchased"] = 56,
 			["isIgnored"] = false,
+			["numTraitsPurchased"] = 56,
+			["artifactTier"] = 2,
 		}, -- [3]
 		["bankCache"] = {
 			["inBankAP"] = 0,
 			["numItems"] = 0,
 		},
 	},
-	["七蓮 - 屠魔山谷"] = {
-		[3] = {
-			["thisLevelUnspentAP"] = 51595,
-			["isIgnored"] = false,
-			["numTraitsPurchased"] = 28,
-			["artifactTier"] = 1,
-		},
-	},
-	["便宜把戲 - 暗影之月"] = {
-	},
 	["機動 - 暗影之月"] = {
 		{
-			["thisLevelUnspentAP"] = 13343885,
-			["isIgnored"] = false,
-			["numTraitsPurchased"] = 52,
+			["thisLevelUnspentAP"] = 311151285,
 			["artifactTier"] = 2,
+			["numTraitsPurchased"] = 52,
+			["isIgnored"] = false,
 		}, -- [1]
 		{
 			["thisLevelUnspentAP"] = 2922320,
@@ -88,12 +78,22 @@ TotalArtifactPowerCache = {
 			["isIgnored"] = false,
 		}, -- [2]
 		{
-			["thisLevelUnspentAP"] = 185889070,
-			["artifactTier"] = 2,
-			["numTraitsPurchased"] = 50,
+			["thisLevelUnspentAP"] = 20907820,
 			["isIgnored"] = false,
+			["numTraitsPurchased"] = 52,
+			["artifactTier"] = 2,
 		}, -- [3]
 	},
-	["幽谷 - 日落沼澤"] = {
+	["七蓮 - 屠魔山谷"] = {
+		[3] = {
+			["thisLevelUnspentAP"] = 51595,
+			["artifactTier"] = 1,
+			["numTraitsPurchased"] = 28,
+			["isIgnored"] = false,
+		},
+	},
+	["煌天 - 屠魔山谷"] = {
+	},
+	["便宜把戲 - 暗影之月"] = {
 	},
 }

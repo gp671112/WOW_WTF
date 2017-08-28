@@ -9,6 +9,11 @@ VER 3 0100000000000003 "寵物特殊技能" "877479"
 /cast 赤吉之賜
 /cast 上古狂亂
 END
+VER 3 0100000000000005 "巨龜守護" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura 巨龜守護
+/cast 巨龜守護
+END
 VER 3 0100000000000002 "眼鏡蛇+寵物攻擊" "INV_MISC_QUESTIONMARK"
 #showtooltip 眼鏡蛇射擊
 /petattack

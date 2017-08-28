@@ -3,9 +3,11 @@ VER 3 0100000000000004 "假死/裝死" "INV_MISC_QUESTIONMARK"
 /cast 假死
 /cast 裝死
 END
-VER 3 0100000000000003 "寵物施放心靈治療" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000003 "寵物特殊技能" "877479"
 #showtooltip
-/施放 [target=player] 心靈治療
+/cast [target=player] 心靈治療
+/cast 赤吉之賜
+/cast 上古狂亂
 END
 VER 3 0100000000000002 "眼鏡蛇+寵物攻擊" "INV_MISC_QUESTIONMARK"
 #showtooltip 眼鏡蛇射擊

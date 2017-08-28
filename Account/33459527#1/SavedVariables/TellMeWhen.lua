@@ -5,14 +5,14 @@ TellMeWhenDB = {
 		["機動 - 暗影之月"] = "機動 - 暗影之月",
 		["弊惡 - 屠魔山谷"] = "弊惡 - 屠魔山谷",
 		["便宜把戲 - 暗影之月"] = "便宜把戲 - 暗影之月",
-		["甘到府 - 暗影之月"] = "甘到府 - 暗影之月",
+		["幽谷 - 日落沼澤"] = "幽谷 - 日落沼澤",
 		["便宜把戲 - 亞雷戈斯"] = "便宜把戲 - 亞雷戈斯",
-		["煌天 - 屠魔山谷"] = "煌天 - 屠魔山谷",
+		["搏戰 - 暗影之月"] = "搏戰 - 暗影之月",
 		["彈性手感 - 屠魔山谷"] = "彈性手感 - 屠魔山谷",
 		["牧豆 - 暗影之月"] = "牧豆 - 暗影之月",
 		["七蓮 - 屠魔山谷"] = "七蓮 - 屠魔山谷",
-		["搏戰 - 暗影之月"] = "搏戰 - 暗影之月",
-		["幽谷 - 日落沼澤"] = "幽谷 - 日落沼澤",
+		["煌天 - 屠魔山谷"] = "煌天 - 屠魔山谷",
+		["甘到府 - 暗影之月"] = "甘到府 - 暗影之月",
 	},
 	["global"] = {
 		["TextLayouts"] = {
@@ -43,32 +43,40 @@ TellMeWhenDB = {
 			["SUG_FIRSTHELP"] = true,
 			["SCROLLBAR_DROPDOWN"] = true,
 			["ICON_POCKETWATCH_FIRSTSEE"] = true,
-			["CNDT_PARENTHESES_FIRSTSEE"] = true,
 			["CNDT_ANDOR_FIRSTSEE"] = true,
+			["CNDT_PARENTHESES_FIRSTSEE"] = true,
 		},
 		["AllowCombatConfig"] = true,
 	},
 	["Version"] = 83302,
 	["profiles"] = {
 		["披薩餅 - 暗影之月"] = {
+			["Locked"] = true,
+			["Version"] = 83302,
 			["Groups"] = {
 				{
+					["GUID"] = "TMW:group:1PEkc63I4W0f",
+					["Columns"] = 2,
 					["Scale"] = 1.53852868080139,
 					["Rows"] = 5,
-					["EnabledSpecs"] = {
-						[263] = false,
-						[264] = false,
-					},
-					["Columns"] = 2,
 					["Icons"] = {
 						{
+							["Enabled"] = true,
 							["Type"] = "reactive",
 							["Name"] = "大地震擊",
 							["Conditions"] = {
 								{
 									["Type"] = "MAELSTROM",
-									["Operator"] = ">=",
 									["Level"] = 105,
+									["Operator"] = ">=",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
@@ -81,26 +89,18 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "OnShow",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Enabled"] = true,
 						}, -- [1]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "元素衝擊",
-							["ShowTimerText"] = true,
 							["SettingsPerView"] = {
 								["icon"] = {
 									["TextLayout"] = "icon2",
 								},
 							},
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -112,46 +112,46 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [2]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["ShowTimerText"] = true,
-							["Name"] = "熔岩爆發",
+							["Type"] = "cooldown",
 							["Events"] = {
 								{
-									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
-									["Event"] = "WCSP",
 									["OnConditionConditions"] = {
 										{
 											["Type"] = "BUFFSTACKS",
 											["Checked"] = true,
-											["Operator"] = ">=",
-											["Name"] = "熔岩奔騰",
 											["Level"] = 1,
+											["Name"] = "熔岩奔騰",
+											["Operator"] = ">=",
 										}, -- [1]
 										["n"] = 1,
 									},
+									["Type"] = "Animations",
+									["Event"] = "WCSP",
+									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								{
-									["AnimColor"] = "7f1200ff",
 									["Type"] = "Animations",
 									["Animation"] = "ICONFLASH",
+									["AnimColor"] = "7f1200ff",
 									["Event"] = "OnCondition",
 									["OnConditionConditions"] = {
 										{
-											["Type"] = "SPELLCHARGES",
-											["Operator"] = ">=",
-											["Name"] = "熔岩爆發",
 											["Level"] = 2,
+											["Type"] = "SPELLCHARGES",
+											["Name"] = "熔岩爆發",
+											["Operator"] = ">=",
 										}, -- [1]
 										["n"] = 1,
 									},
 								}, -- [2]
 								["n"] = 2,
 							},
+							["Name"] = "熔岩爆發",
 							["States"] = {
 								{
 								}, -- [1]
@@ -163,14 +163,11 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [3]
 						{
-							["ShowTimer"] = true,
-							["Type"] = "buff",
-							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Name"] = "風暴守護者; 大漩渦之力",
+							["Type"] = "cooldown",
+							["Name"] = "風暴守護者",
 							["States"] = {
 								{
 								}, -- [1]
@@ -182,6 +179,11 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 						{
+							["Enabled"] = true,
+							["ShowTimer"] = true,
+							["ShowTimerText"] = true,
+							["Type"] = "buff",
+							["Name"] = "大漩渦之力",
 							["States"] = {
 								{
 								}, -- [1]
@@ -193,10 +195,18 @@ TellMeWhenDB = {
 							},
 						}, -- [5]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["BuffOrDebuff"] = "HARMFUL",
 							["Unit"] = "target",
+							["HideIfNoUnits"] = true,
 							["OnlyMine"] = true,
+							["Name"] = "烈焰震擊",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1PEkhXkNrvJs",
+								},
+							},
 							["Type"] = "buff",
 							["Conditions"] = {
 								{
@@ -204,31 +214,25 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
-							["Name"] = "烈焰震擊",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
 									["Magnitude"] = 2,
 									["Animation"] = "ICONSHAKE",
-									["Event"] = "WCSP",
 									["OnConditionConditions"] = {
 										{
 											["Type"] = "DEBUFFDUR",
 											["Checked"] = true,
-											["Unit"] = "target",
-											["Operator"] = "<=",
 											["Name"] = "烈焰震擊",
 											["Level"] = 4,
+											["Operator"] = "<=",
+											["Unit"] = "target",
 										}, -- [1]
 										["n"] = 1,
 									},
+									["Event"] = "WCSP",
 								}, -- [1]
 								["n"] = 1,
-							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1PEkhXkNrvJs",
-								},
 							},
 							["States"] = {
 								{
@@ -241,22 +245,21 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["HideIfNoUnits"] = true,
-							["Enabled"] = true,
 						}, -- [6]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "buff",
 							["Name"] = "邪惡協定",
-							["ShowTimerText"] = true,
+							["Type"] = "buff",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
-									["Animation"] = "ACTVTNGLOW",
 									["Event"] = "OnShow",
+									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -266,12 +269,11 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [7]
 						{
+							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "火元素",
-							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -283,9 +285,9 @@ TellMeWhenDB = {
 							},
 						}, -- [8]
 						{
+							["Enabled"] = true,
 							["Type"] = "cooldown",
 							["Name"] = "卓越術",
-							["Enabled"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -297,15 +299,25 @@ TellMeWhenDB = {
 							},
 						}, -- [9]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "totem",
 							["ShowTimerText"] = true,
-							["Name"] = "精通圖騰",
 							["SettingsPerView"] = {
 								["icon"] = {
 									["TextLayout"] = "icon2",
 								},
 							},
+							["Type"] = "totem",
+							["Conditions"] = {
+								{
+									["Level"] = 1,
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Name"] = "共鳴圖騰",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Name"] = "精通圖騰",
 							["States"] = {
 								{
 								}, -- [1]
@@ -315,16 +327,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["Name"] = "共鳴圖騰",
-									["Level"] = 1,
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Enabled"] = true,
 						}, -- [10]
 						{
 							["States"] = {
@@ -407,29 +409,60 @@ TellMeWhenDB = {
 					},
 					["LayoutDirection"] = 5,
 					["Name"] = "元素",
-					["GUID"] = "TMW:group:1PEkc63I4W0f",
+					["EnabledSpecs"] = {
+						[263] = false,
+						[264] = false,
+					},
 					["Point"] = {
 						["y"] = 15.1519736762833,
 						["x"] = 169.281850774802,
 					},
 				}, -- [1]
 				{
+					["GUID"] = "TMW:group:1PSoDBlr7lFu",
 					["Point"] = {
 						["y"] = 13.8413820737635,
 						["x"] = 153.411885321289,
 					},
 					["Scale"] = 1.55333638191223,
 					["Rows"] = 5,
-					["EnabledSpecs"] = {
-						[264] = false,
-						[262] = false,
-					},
-					["Columns"] = 1,
 					["Icons"] = {
 						{
+							["ManaCheck"] = true,
 							["Type"] = "reactive",
 							["Name"] = "風暴打擊",
-							["ManaCheck"] = true,
+							["Enabled"] = true,
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Level"] = 1,
+									["Name"] = "火舌",
+									["Operator"] = ">=",
+								}, -- [1]
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Level"] = 1,
+									["Name"] = "崩石流土",
+									["Operator"] = ">=",
+								}, -- [2]
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Level"] = 1,
+									["Name"] = "火舌",
+									["Operator"] = ">=",
+								}, -- [3]
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Level"] = 1,
+									["Name"] = "崩石流土",
+									["Operator"] = ">=",
+								}, -- [4]
+								["n"] = 4,
+							},
 							["CooldownCheck"] = true,
 							["States"] = {
 								{
@@ -440,42 +473,39 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+						}, -- [1]
+						{
+							["Enabled"] = true,
+							["Type"] = "cooldown",
+							["Name"] = "閃電箭; 熔岩暴擊",
 							["Conditions"] = {
 								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
+									["Type"] = "MAELSTROM",
+									["Level"] = 40,
 									["Operator"] = ">=",
-									["Name"] = "火舌",
-									["Level"] = 1,
 								}, -- [1]
 								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "崩石流土",
 									["Level"] = 1,
+									["Type"] = "SPELLCD",
+									["Name"] = "風暴打擊",
+									["Operator"] = ">=",
 								}, -- [2]
 								{
 									["Type"] = "BUFFSTACKS",
 									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "火舌",
 									["Level"] = 1,
+									["Name"] = "火舌",
+									["Operator"] = ">=",
 								}, -- [3]
 								{
 									["Type"] = "BUFFSTACKS",
 									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "崩石流土",
 									["Level"] = 1,
+									["Name"] = "崩石流土",
+									["Operator"] = ">=",
 								}, -- [4]
 								["n"] = 4,
 							},
-							["Enabled"] = true,
-						}, -- [1]
-						{
-							["Type"] = "cooldown",
-							["Name"] = "閃電箭; 熔岩暴擊",
 							["States"] = {
 								{
 								}, -- [1]
@@ -485,35 +515,6 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Conditions"] = {
-								{
-									["Type"] = "MAELSTROM",
-									["Operator"] = ">=",
-									["Level"] = 40,
-								}, -- [1]
-								{
-									["Type"] = "SPELLCD",
-									["Operator"] = ">=",
-									["Name"] = "風暴打擊",
-									["Level"] = 1,
-								}, -- [2]
-								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "火舌",
-									["Level"] = 1,
-								}, -- [3]
-								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["Operator"] = ">=",
-									["Name"] = "崩石流土",
-									["Level"] = 1,
-								}, -- [4]
-								["n"] = 4,
-							},
-							["Enabled"] = true,
 						}, -- [2]
 						{
 							["States"] = {
@@ -527,35 +528,36 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "buff",
 							["Name"] = "火舌",
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1PEkhXkNrvJs",
+								},
+							},
+							["Type"] = "buff",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
 									["Magnitude"] = 2,
 									["Animation"] = "ICONSHAKE",
-									["Event"] = "WCSP",
 									["OnConditionConditions"] = {
 										{
 											["Type"] = "BUFFDUR",
 											["Checked"] = true,
-											["Operator"] = "<=",
-											["Name"] = "火舌",
 											["Level"] = 2,
+											["Name"] = "火舌",
+											["Operator"] = "<=",
 										}, -- [1]
 										{
 											["Type"] = "COMBAT",
 										}, -- [2]
 										["n"] = 2,
 									},
+									["Event"] = "WCSP",
 								}, -- [1]
 								["n"] = 1,
-							},
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1PEkhXkNrvJs",
-								},
 							},
 							["States"] = {
 								{
@@ -568,35 +570,35 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
-							["Enabled"] = true,
 						}, -- [4]
 						{
+							["Enabled"] = true,
 							["ShowTimer"] = true,
-							["Type"] = "cooldown",
 							["Name"] = "石化打擊",
-							["ShowTimerText"] = true,
+							["Type"] = "cooldown",
 							["Events"] = {
 								{
 									["Type"] = "Animations",
 									["Magnitude"] = 2,
 									["Animation"] = "ICONSHAKE",
-									["Event"] = "WCSP",
 									["OnConditionConditions"] = {
 										{
 											["Type"] = "BUFFDUR",
 											["Checked"] = true,
-											["Operator"] = "<=",
-											["Name"] = "崩石流土",
 											["Level"] = 2,
+											["Name"] = "崩石流土",
+											["Operator"] = "<=",
 										}, -- [1]
 										{
 											["Type"] = "COMBAT",
 										}, -- [2]
 										["n"] = 2,
 									},
+									["Event"] = "WCSP",
 								}, -- [1]
 								["n"] = 1,
 							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -611,7 +613,6 @@ TellMeWhenDB = {
 									["Alpha"] = 0.5,
 								},
 							},
-							["Enabled"] = true,
 						}, -- [5]
 						{
 							["States"] = {
@@ -677,17 +678,19 @@ TellMeWhenDB = {
 					},
 					["LayoutDirection"] = 5,
 					["Name"] = "增強",
-					["GUID"] = "TMW:group:1PSoDBlr7lFu",
+					["EnabledSpecs"] = {
+						[264] = false,
+						[262] = false,
+					},
+					["Columns"] = 1,
 				}, -- [2]
 			},
 			["NumGroups"] = 2,
-			["Version"] = 83302,
-			["Locked"] = true,
 		},
 		["機動 - 暗影之月"] = {
 			["Locked"] = true,
-			["NumGroups"] = 3,
 			["Version"] = 83302,
+			["NumGroups"] = 3,
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1Okh2R4E_CGE",
@@ -699,9 +702,6 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
-							["Unit"] = "pet",
-							["Type"] = "buff",
-							["Name"] = "獸劈斬",
 							["States"] = {
 								{
 								}, -- [1]
@@ -711,6 +711,9 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Name"] = "獸劈斬",
+							["Type"] = "buff",
+							["Unit"] = "pet",
 						}, -- [1]
 						{
 							["States"] = {
@@ -742,9 +745,9 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
 							["Enabled"] = true,
-							["Name"] = "擊殺命令",
-							["CooldownCheck"] = true,
 							["Type"] = "cooldown",
+							["CooldownCheck"] = true,
+							["Name"] = "擊殺命令",
 							["States"] = {
 								{
 								}, -- [1]
@@ -892,14 +895,11 @@ TellMeWhenDB = {
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1Ou8yOot1XDf",
-					["Columns"] = 2,
-					["Name"] = "射擊",
-					["EnabledSpecs"] = {
-						[253] = false,
-						[255] = false,
+					["Point"] = {
+						["y"] = 16.8753341096563,
+						["x"] = 161.249909022756,
 					},
-					["Scale"] = 1.60000288486481,
-					["Rows"] = 5,
+					["Columns"] = 2,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -965,16 +965,15 @@ TellMeWhenDB = {
 								{
 									["Type"] = "DEBUFFSTACKS",
 									["Checked"] = true,
-									["Unit"] = "target",
+									["Operator"] = ">=",
 									["Level"] = 1,
 									["Name"] = "易傷",
-									["Operator"] = ">=",
+									["Unit"] = "target",
 								}, -- [1]
 								["n"] = 1,
 							},
 							["Events"] = {
 								{
-									["Type"] = "Animations",
 									["OnConditionConditions"] = {
 										{
 											["Type"] = "BUFFNUMBER",
@@ -985,6 +984,7 @@ TellMeWhenDB = {
 										}, -- [1]
 										["n"] = 1,
 									},
+									["Type"] = "Animations",
 									["Event"] = "WCSP",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
@@ -1092,10 +1092,13 @@ TellMeWhenDB = {
 							},
 						}, -- [10]
 					},
-					["Point"] = {
-						["y"] = 16.8753341096563,
-						["x"] = 161.249909022756,
+					["Scale"] = 1.60000288486481,
+					["Rows"] = 5,
+					["EnabledSpecs"] = {
+						[253] = false,
+						[255] = false,
 					},
+					["Name"] = "射擊",
 				}, -- [2]
 				{
 					["GUID"] = "TMW:group:1OvzRwh80UUT",
@@ -1108,7 +1111,6 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["Name"] = "摩克納薩爾策略",
 							["Type"] = "buff",
-							["ShowTimerText"] = true,
 							["Events"] = {
 								{
 									["Type"] = "Animations",
@@ -1132,6 +1134,7 @@ TellMeWhenDB = {
 								}, -- [1]
 								["n"] = 1,
 							},
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -1148,10 +1151,6 @@ TellMeWhenDB = {
 							["Enabled"] = true,
 							["ShowTimer"] = true,
 							["ShowTimerText"] = true,
-							["Unit"] = "target",
-							["BuffOrDebuff"] = "HARMFUL",
-							["Type"] = "buff",
-							["Name"] = "割裂",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1161,6 +1160,10 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["BuffOrDebuff"] = "HARMFUL",
+							["Name"] = "割裂",
+							["Type"] = "buff",
+							["Unit"] = "target",
 						}, -- [2]
 						{
 							["States"] = {
@@ -1178,9 +1181,9 @@ TellMeWhenDB = {
 							["ShowTimer"] = true,
 							["Name"] = "202800",
 							["Enabled"] = true,
-							["ShowTimerText"] = true,
-							["CooldownCheck"] = true,
 							["Type"] = "cooldown",
+							["CooldownCheck"] = true,
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -1197,21 +1200,20 @@ TellMeWhenDB = {
 							["Name"] = "貓鼬撕咬",
 							["Events"] = {
 								{
-									["Type"] = "Animations",
 									["OnConditionConditions"] = {
 										{
-											["Type"] = "SPELLCHARGES",
 											["Level"] = 2,
+											["Type"] = "SPELLCHARGES",
 											["Name"] = "貓鼬撕咬",
 											["Operator"] = ">=",
 										}, -- [1]
 										["n"] = 1,
 									},
+									["Type"] = "Animations",
 									["Event"] = "OnCondition",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								{
-									["Type"] = "Animations",
 									["OnConditionConditions"] = {
 										{
 											["Type"] = "BUFFDUR",
@@ -1222,6 +1224,7 @@ TellMeWhenDB = {
 										}, -- [1]
 										["n"] = 1,
 									},
+									["Type"] = "Animations",
 									["Event"] = "WCSP",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [2]
@@ -1427,9 +1430,9 @@ TellMeWhenDB = {
 							["Name"] = "焚燒",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Magnitude"] = 5,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ICONSHAKE",
 								}, -- [1]
 								["n"] = 1,
@@ -1554,9 +1557,9 @@ TellMeWhenDB = {
 				}, -- [1]
 			},
 		},
-		["甘到府 - 暗影之月"] = {
+		["幽谷 - 日落沼澤"] = {
 			["Locked"] = true,
-			["Version"] = 82501,
+			["Version"] = 83302,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -1605,7 +1608,7 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["GUID"] = "TMW:group:1OUM_AmGZU4p",
+					["GUID"] = "TMW:group:1POxJEq=mG_v",
 				}, -- [1]
 			},
 		},
@@ -1615,11 +1618,6 @@ TellMeWhenDB = {
 			["Groups"] = {
 				{
 					["GUID"] = "TMW:group:1OxF2Mk_diYr",
-					["Scale"] = 1.73332989215851,
-					["Point"] = {
-						["y"] = 51.3463675194626,
-						["x"] = 144.231065105758,
-					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -1681,16 +1679,35 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
+					["Point"] = {
+						["y"] = 51.3463675194626,
+						["x"] = 144.231065105758,
+					},
+					["Scale"] = 1.73332989215851,
 				}, -- [1]
 			},
 		},
-		["煌天 - 屠魔山谷"] = {
-			["Locked"] = true,
-			["Version"] = 83302,
+		["搏戰 - 暗影之月"] = {
 			["Groups"] = {
 				{
+					["Point"] = {
+						["y"] = 9.78858885171985,
+						["x"] = 163.086728400886,
+					},
+					["Scale"] = 1.5666515827179,
+					["Rows"] = 6,
+					["EnabledSpecs"] = {
+						[73] = false,
+						[71] = false,
+					},
+					["Columns"] = 1,
 					["Icons"] = {
 						{
+							["ShowTimer"] = true,
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "狂怒",
 							["States"] = {
 								{
 								}, -- [1]
@@ -1713,6 +1730,502 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 						{
+							["Type"] = "reactive",
+							["Name"] = "斬殺",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "WCSP",
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "BUFFSTACKS",
+											["Operator"] = ">=",
+											["Name"] = "石心",
+											["Level"] = 1,
+										}, -- [1]
+										["n"] = 1,
+									},
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [3]
+						{
+							["Type"] = "reactive",
+							["Name"] = "暴怒",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "WCSP",
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "RAGE_ABS",
+											["Operator"] = ">=",
+											["Level"] = 100,
+										}, -- [1]
+										{
+											["Type"] = "LUA",
+											["Name"] = "GetSpellPowerCost(184367)[1].cost == 0",
+											["AndOr"] = "OR",
+										}, -- [2]
+										["n"] = 2,
+									},
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [4]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "嗜血",
+							["Enabled"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Type"] = "reactive",
+							["Name"] = "狂怒之擊",
+							["CooldownCheck"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [6]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						[13] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[14] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+					},
+					["LayoutDirection"] = 5,
+					["Name"] = "狂戰",
+					["GUID"] = "TMW:group:1OJF0CoNSXog",
+				}, -- [1]
+				{
+					["Scale"] = 1.58334338665009,
+					["Rows"] = 6,
+					["EnabledSpecs"] = {
+						[72] = false,
+						[71] = false,
+					},
+					["Columns"] = 1,
+					["Icons"] = {
+						{
+							["ShowTimer"] = true,
+							["OnlyMine"] = true,
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["Name"] = "132404",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Magnitude"] = 3,
+									["Animation"] = "ICONSHAKE",
+									["Event"] = "WCSP",
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "SPELLCHARGES",
+											["Operator"] = ">=",
+											["Name"] = "盾牌格擋",
+											["Level"] = 1,
+										}, -- [1]
+										{
+											["Type"] = "MANAUSABLE",
+											["Name"] = "盾牌格擋",
+										}, -- [2]
+										{
+											["Type"] = "BUFFDUR",
+											["Checked"] = true,
+											["Operator"] = "<=",
+											["Name"] = "132404",
+											["Level"] = 1,
+										}, -- [3]
+										{
+											["Type"] = "COMBAT",
+										}, -- [4]
+										["n"] = 4,
+									},
+								}, -- [1]
+								["n"] = 1,
+							},
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "icon2",
+								},
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [1]
+						{
+							["Type"] = "reactive",
+							["Name"] = "無視苦痛",
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "盾牌格擋",
+									["Level"] = 1,
+								}, -- [1]
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "龍鱗",
+									["PrtsBefore"] = 1,
+									["Level"] = 1,
+								}, -- [2]
+								{
+									["Type"] = "BUFFSTACKS",
+									["Operator"] = ">=",
+									["AndOr"] = "OR",
+									["Name"] = "復仇：無視苦痛",
+									["Level"] = 1,
+								}, -- [3]
+								{
+									["Type"] = "RAGE_ABS",
+									["PrtsAfter"] = 1,
+									["Operator"] = ">=",
+									["Level"] = 75,
+									["AndOr"] = "OR",
+								}, -- [4]
+								["n"] = 4,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ICONSHAKE",
+									["Event"] = "OnShow",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Enabled"] = true,
+						}, -- [2]
+						{
+							["ShowTimer"] = true,
+							["Type"] = "cooldown",
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Name"] = "盾牌猛擊",
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Type"] = "reactive",
+							["Name"] = "復仇",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "WCSP",
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "LUA",
+											["Name"] = "GetSpellPowerCost(6572)[1].cost == 0",
+										}, -- [1]
+										{
+											["Type"] = "BUFFSTACKS",
+											["Checked"] = true,
+											["Operator"] = ">=",
+											["AndOr"] = "OR",
+											["Name"] = "復仇：復仇",
+											["Level"] = 1,
+										}, -- [2]
+										["n"] = 2,
+									},
+								}, -- [1]
+								["n"] = 1,
+							},
+							["CooldownCheck"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Conditions"] = {
+								{
+									["Type"] = "BUFFSTACKS",
+									["Checked"] = true,
+									["Operator"] = ">=",
+									["Name"] = "盾牌格擋",
+									["Level"] = 1,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Enabled"] = true,
+						}, -- [4]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "雷霆一擊",
+							["Enabled"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [5]
+						{
+							["Type"] = "reactive",
+							["Name"] = "勝利在望",
+							["CooldownCheck"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [6]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+						[14] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[13] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[20] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[19] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+					},
+					["LayoutDirection"] = 5,
+					["Name"] = "防戰",
+					["GUID"] = "TMW:group:1OJQoOvhaz1J",
+					["Point"] = {
+						["y"] = 9.56799569728025,
+						["x"] = 170.051436081735,
+					},
+				}, -- [2]
+				{
+					["Scale"] = 1.5941,
+					["Rows"] = 6,
+					["Columns"] = 1,
+					["Icons"] = {
+						{
+							["Type"] = "cooldown",
+							["Name"] = "戰鬥狂嘯",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "OnShow",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [1]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["ShowTimer"] = true,
+							["OnlyMine"] = true,
+							["ShowTimerText"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -1724,6 +2237,11 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 						{
+							["ShowTimer"] = true,
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["Name"] = "盾牆",
+							["OnlyMine"] = true,
 							["States"] = {
 								{
 								}, -- [1]
@@ -1733,11 +2251,374 @@ TellMeWhenDB = {
 								{
 								}, -- [4]
 							},
+							["Enabled"] = true,
 						}, -- [4]
+						{
+							["ShowTimer"] = true,
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["Name"] = "挫志怒吼",
+							["OnlyMine"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [5]
+						{
+							["ShowTimer"] = true,
+							["Type"] = "buff",
+							["ShowTimerText"] = true,
+							["Name"] = "破釜沉舟",
+							["OnlyMine"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [6]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+						[13] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
 					},
-					["GUID"] = "TMW:group:1OJDETqx6NIV",
-				}, -- [1]
+					["LayoutDirection"] = 5,
+					["Name"] = "減傷/爆發",
+					["GUID"] = "TMW:group:1ONmq5VlvX9U",
+					["Point"] = {
+						["y"] = 9.33268338450982,
+						["x"] = 200.583746447329,
+					},
+				}, -- [3]
+				{
+					["Scale"] = 1.6,
+					["Rows"] = 6,
+					["EnabledSpecs"] = {
+						[72] = false,
+						[73] = false,
+					},
+					["Columns"] = 1,
+					["Icons"] = {
+						{
+							["ShowTimer"] = true,
+							["BuffOrDebuff"] = "HARMFUL",
+							["Unit"] = "target",
+							["Type"] = "buff",
+							["Name"] = "撕裂",
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Magnitude"] = 2,
+									["Animation"] = "ICONSHAKE",
+									["Event"] = "WCSP",
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "DEBUFFDUR",
+											["Checked"] = true,
+											["Operator"] = "<=",
+											["Unit"] = "target",
+											["Name"] = "撕裂",
+											["Level"] = 2,
+										}, -- [1]
+										["n"] = 1,
+									},
+								}, -- [1]
+								["n"] = 1,
+							},
+							["OnlyMine"] = true,
+							["SettingsPerView"] = {
+								["icon"] = {
+									["TextLayout"] = "TMW:textlayout:1PEkhXkNrvJs",
+								},
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Enabled"] = true,
+						}, -- [1]
+						{
+							["Type"] = "reactive",
+							["Name"] = "壓制",
+							["Enabled"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [2]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [3]
+						{
+							["Type"] = "cooldown",
+							["Name"] = "千鈞潰擊",
+							["CooldownCheck"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ICONSHAKE",
+									["Event"] = "OnShow",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Enabled"] = true,
+						}, -- [4]
+						{
+							["Type"] = "reactive",
+							["Name"] = "斬殺",
+							["Conditions"] = {
+								{
+									["Type"] = "DEBUFFSTACKS",
+									["Checked"] = true,
+									["Operator"] = "<",
+									["Unit"] = "target",
+									["Name"] = "處決者的精準",
+									["Level"] = 2,
+								}, -- [1]
+								["n"] = 1,
+							},
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ICONSHAKE",
+									["Event"] = "OnShow",
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Enabled"] = true,
+						}, -- [5]
+						{
+							["ShowTimer"] = true,
+							["Type"] = "reactive",
+							["ShowTimerText"] = true,
+							["Enabled"] = true,
+							["Events"] = {
+								{
+									["Type"] = "Animations",
+									["Animation"] = "ACTVTNGLOW",
+									["Event"] = "WCSP",
+									["OnConditionConditions"] = {
+										{
+											["Type"] = "BUFFSTACKS",
+											["Checked"] = true,
+											["Name"] = "粉碎防禦",
+											["PrtsBefore"] = 1,
+											["Level"] = 1,
+										}, -- [1]
+										{
+											["Type"] = "DEBUFFSTACKS",
+											["Checked"] = true,
+											["PrtsAfter"] = 1,
+											["Unit"] = "target",
+											["Name"] = "千鈞潰擊",
+											["Level"] = 1,
+										}, -- [2]
+										{
+											["Type"] = "DEBUFFSTACKS",
+											["Checked"] = true,
+											["Unit"] = "target",
+											["Level"] = 2,
+											["Name"] = "處決者的精準",
+											["AndOr"] = "OR",
+										}, -- [3]
+										["n"] = 3,
+									},
+								}, -- [1]
+								["n"] = 1,
+							},
+							["Name"] = "致死打擊",
+							["CooldownCheck"] = true,
+							["States"] = {
+								{
+								}, -- [1]
+								{
+									["Alpha"] = 0.5,
+								}, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+								[102] = {
+									["Alpha"] = 0.5,
+								},
+							},
+						}, -- [6]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [7]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [8]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [9]
+						{
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						}, -- [10]
+						[13] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[14] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+					},
+					["LayoutDirection"] = 5,
+					["Name"] = "武器戰",
+					["GUID"] = "TMW:group:1ONq7VbVExyT",
+					["Point"] = {
+						["y"] = 9.06369781494141,
+						["x"] = 156.562683105469,
+					},
+				}, -- [4]
 			},
+			["NumGroups"] = 4,
+			["Version"] = 83302,
+			["Locked"] = true,
 		},
 		["彈性手感 - 屠魔山谷"] = {
 			["Locked"] = true,
@@ -1869,12 +2750,6 @@ TellMeWhenDB = {
 						["y"] = -28.4113040061644,
 						["x"] = 180.714179362955,
 					},
-					["EnabledSpecs"] = {
-						[66] = false,
-						[65] = false,
-					},
-					["Scale"] = 1.32335698604584,
-					["Rows"] = 4,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -2591,13 +3466,26 @@ TellMeWhenDB = {
 							},
 						}, -- [60]
 					},
+					["Scale"] = 1.32335698604584,
+					["Rows"] = 4,
+					["EnabledSpecs"] = {
+						[66] = false,
+						[65] = false,
+					},
 					["Columns"] = 1,
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1OGOKUFC3mK4",
 					["Columns"] = 1,
-					["Name"] = "懲戒耗星",
+					["Point"] = {
+						["y"] = 41.3794728554724,
+						["x"] = 126.207453452846,
+					},
 					["Scale"] = 1.93332862854004,
+					["EnabledSpecs"] = {
+						[66] = false,
+						[65] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -2605,9 +3493,9 @@ TellMeWhenDB = {
 							["Name"] = "聖殿騎士之裁決",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -2656,14 +3544,7 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["EnabledSpecs"] = {
-						[66] = false,
-						[65] = false,
-					},
-					["Point"] = {
-						["y"] = 41.3794728554724,
-						["x"] = 126.207453452846,
-					},
+					["Name"] = "懲戒耗星",
 				}, -- [2]
 				{
 					["GUID"] = "TMW:group:1OGOeV8haU3X",
@@ -2672,12 +3553,6 @@ TellMeWhenDB = {
 						["y"] = -26.999818953898,
 						["x"] = 203.999182536755,
 					},
-					["EnabledSpecs"] = {
-						[70] = false,
-						[65] = false,
-					},
-					["Scale"] = 1.33333230018616,
-					["Rows"] = 4,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -3465,13 +4340,26 @@ TellMeWhenDB = {
 							},
 						}, -- [70]
 					},
+					["Scale"] = 1.33333230018616,
+					["Rows"] = 4,
+					["EnabledSpecs"] = {
+						[70] = false,
+						[65] = false,
+					},
 					["Columns"] = 2,
 				}, -- [3]
 				{
 					["GUID"] = "TMW:group:1OGOzLYdS=Tz",
 					["Columns"] = 1,
-					["Name"] = "防護buff",
+					["Point"] = {
+						["y"] = 48.5191231389744,
+						["x"] = 173.781384740982,
+					},
 					["Scale"] = 1.5767,
+					["EnabledSpecs"] = {
+						[70] = false,
+						[65] = false,
+					},
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -3501,22 +4389,15 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 					},
-					["EnabledSpecs"] = {
-						[70] = false,
-						[65] = false,
-					},
-					["Point"] = {
-						["y"] = 48.5191231389744,
-						["x"] = 173.781384740982,
-					},
+					["Name"] = "防護buff",
 				}, -- [4]
 				{
 					["LayoutDirection"] = 5,
+					["GUID"] = "TMW:group:1OGYA4sXRQm9",
 					["Point"] = {
 						["y"] = 3.22724021826668,
 						["x"] = 253.804281858098,
 					},
-					["Columns"] = 1,
 					["Name"] = "減傷",
 					["Scale"] = 1.39444375038147,
 					["Rows"] = 6,
@@ -3860,7 +4741,7 @@ TellMeWhenDB = {
 							},
 						}, -- [28]
 					},
-					["GUID"] = "TMW:group:1OGYA4sXRQm9",
+					["Columns"] = 1,
 				}, -- [5]
 				{
 					["GUID"] = "TMW:group:1OGt0W937tzv",
@@ -3877,9 +4758,9 @@ TellMeWhenDB = {
 							["Name"] = "神聖震擊",
 							["Events"] = {
 								{
-									["Event"] = "OnShow",
-									["Type"] = "Animations",
 									["Infinite"] = true,
+									["Type"] = "Animations",
+									["Event"] = "OnShow",
 									["Animation"] = "ACTVTNGLOW",
 								}, -- [1]
 								["n"] = 1,
@@ -4096,21 +4977,13 @@ TellMeWhenDB = {
 			},
 			["NumGroups"] = 6,
 		},
-		["搏戰 - 暗影之月"] = {
+		["煌天 - 屠魔山谷"] = {
 			["Locked"] = true,
+			["Version"] = 83302,
 			["Groups"] = {
 				{
-					["GUID"] = "TMW:group:1OJF0CoNSXog",
-					["Columns"] = 1,
-					["Scale"] = 1.5666515827179,
-					["Rows"] = 6,
 					["Icons"] = {
 						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["Type"] = "buff",
-							["Name"] = "狂怒",
 							["States"] = {
 								{
 								}, -- [1]
@@ -4133,26 +5006,6 @@ TellMeWhenDB = {
 							},
 						}, -- [2]
 						{
-							["Enabled"] = true,
-							["Type"] = "reactive",
-							["Name"] = "斬殺",
-							["Events"] = {
-								{
-									["OnConditionConditions"] = {
-										{
-											["Level"] = 1,
-											["Type"] = "BUFFSTACKS",
-											["Name"] = "石心",
-											["Operator"] = ">=",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Type"] = "Animations",
-									["Event"] = "WCSP",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -4164,30 +5017,6 @@ TellMeWhenDB = {
 							},
 						}, -- [3]
 						{
-							["Enabled"] = true,
-							["Type"] = "reactive",
-							["Name"] = "暴怒",
-							["Events"] = {
-								{
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "RAGE_ABS",
-											["Level"] = 100,
-											["Operator"] = ">=",
-										}, -- [1]
-										{
-											["Type"] = "LUA",
-											["Name"] = "GetSpellPowerCost(184367)[1].cost == 0",
-											["AndOr"] = "OR",
-										}, -- [2]
-										["n"] = 2,
-									},
-									["Type"] = "Animations",
-									["Event"] = "WCSP",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
 							["States"] = {
 								{
 								}, -- [1]
@@ -4198,840 +5027,14 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						}, -- [4]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "嗜血",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["Type"] = "reactive",
-							["Name"] = "狂怒之擊",
-							["CooldownCheck"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						[13] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[14] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
 					},
-					["LayoutDirection"] = 5,
-					["Name"] = "狂戰",
-					["EnabledSpecs"] = {
-						[73] = false,
-						[71] = false,
-					},
-					["Point"] = {
-						["y"] = 9.78858885171985,
-						["x"] = 163.086728400886,
-					},
+					["GUID"] = "TMW:group:1OJDETqx6NIV",
 				}, -- [1]
-				{
-					["GUID"] = "TMW:group:1OJQoOvhaz1J",
-					["Point"] = {
-						["y"] = 9.56799569728025,
-						["x"] = 170.051436081735,
-					},
-					["Scale"] = 1.58334338665009,
-					["Rows"] = 6,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "icon2",
-								},
-							},
-							["Type"] = "buff",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Magnitude"] = 3,
-									["Animation"] = "ICONSHAKE",
-									["OnConditionConditions"] = {
-										{
-											["Level"] = 1,
-											["Type"] = "SPELLCHARGES",
-											["Name"] = "盾牌格擋",
-											["Operator"] = ">=",
-										}, -- [1]
-										{
-											["Name"] = "盾牌格擋",
-											["Type"] = "MANAUSABLE",
-										}, -- [2]
-										{
-											["Type"] = "BUFFDUR",
-											["Checked"] = true,
-											["Level"] = 1,
-											["Name"] = "132404",
-											["Operator"] = "<=",
-										}, -- [3]
-										{
-											["Type"] = "COMBAT",
-										}, -- [4]
-										["n"] = 4,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Name"] = "132404",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["Type"] = "reactive",
-							["Name"] = "無視苦痛",
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["Level"] = 1,
-									["Name"] = "盾牌格擋",
-									["Operator"] = ">=",
-								}, -- [1]
-								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["PrtsBefore"] = 1,
-									["Level"] = 1,
-									["Name"] = "龍鱗",
-									["Operator"] = ">=",
-								}, -- [2]
-								{
-									["Type"] = "BUFFSTACKS",
-									["Name"] = "復仇：無視苦痛",
-									["Level"] = 1,
-									["AndOr"] = "OR",
-									["Operator"] = ">=",
-								}, -- [3]
-								{
-									["Type"] = "RAGE_ABS",
-									["AndOr"] = "OR",
-									["Level"] = 75,
-									["PrtsAfter"] = 1,
-									["Operator"] = ">=",
-								}, -- [4]
-								["n"] = 4,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ICONSHAKE",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "盾牌猛擊",
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["Type"] = "reactive",
-							["Name"] = "復仇",
-							["Events"] = {
-								{
-									["OnConditionConditions"] = {
-										{
-											["Name"] = "GetSpellPowerCost(6572)[1].cost == 0",
-											["Type"] = "LUA",
-										}, -- [1]
-										{
-											["Type"] = "BUFFSTACKS",
-											["Checked"] = true,
-											["Level"] = 1,
-											["AndOr"] = "OR",
-											["Name"] = "復仇：復仇",
-											["Operator"] = ">=",
-										}, -- [2]
-										["n"] = 2,
-									},
-									["Type"] = "Animations",
-									["Event"] = "WCSP",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Conditions"] = {
-								{
-									["Type"] = "BUFFSTACKS",
-									["Checked"] = true,
-									["Level"] = 1,
-									["Name"] = "盾牌格擋",
-									["Operator"] = ">=",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["CooldownCheck"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "雷霆一擊",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["Type"] = "reactive",
-							["Name"] = "勝利在望",
-							["CooldownCheck"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-						[14] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[13] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[20] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[19] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-					},
-					["LayoutDirection"] = 5,
-					["Name"] = "防戰",
-					["EnabledSpecs"] = {
-						[72] = false,
-						[71] = false,
-					},
-					["Columns"] = 1,
-				}, -- [2]
-				{
-					["LayoutDirection"] = 5,
-					["GUID"] = "TMW:group:1ONmq5VlvX9U",
-					["Point"] = {
-						["y"] = 9.33268338450982,
-						["x"] = 200.583746447329,
-					},
-					["Name"] = "減傷/爆發",
-					["Scale"] = 1.5941,
-					["Rows"] = 6,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "戰鬥狂嘯",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["OnlyMine"] = true,
-							["ShowTimer"] = true,
-							["ShowTimerText"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "盾牆",
-							["Type"] = "buff",
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "挫志怒吼",
-							["Type"] = "buff",
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "破釜沉舟",
-							["Type"] = "buff",
-							["OnlyMine"] = true,
-							["ShowTimerText"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [6]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-						[13] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-					},
-					["Columns"] = 1,
-				}, -- [3]
-				{
-					["GUID"] = "TMW:group:1ONq7VbVExyT",
-					["Point"] = {
-						["y"] = 9.06369781494141,
-						["x"] = 156.562683105469,
-					},
-					["Scale"] = 1.6,
-					["Rows"] = 6,
-					["Icons"] = {
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["BuffOrDebuff"] = "HARMFUL",
-							["Unit"] = "target",
-							["OnlyMine"] = true,
-							["Name"] = "撕裂",
-							["SettingsPerView"] = {
-								["icon"] = {
-									["TextLayout"] = "TMW:textlayout:1PEkhXkNrvJs",
-								},
-							},
-							["Type"] = "buff",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Magnitude"] = 2,
-									["Animation"] = "ICONSHAKE",
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "DEBUFFDUR",
-											["Checked"] = true,
-											["Name"] = "撕裂",
-											["Level"] = 2,
-											["Operator"] = "<=",
-											["Unit"] = "target",
-										}, -- [1]
-										["n"] = 1,
-									},
-									["Event"] = "WCSP",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [1]
-						{
-							["Enabled"] = true,
-							["Type"] = "reactive",
-							["Name"] = "壓制",
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [2]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [3]
-						{
-							["Enabled"] = true,
-							["Type"] = "cooldown",
-							["Name"] = "千鈞潰擊",
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ICONSHAKE",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["CooldownCheck"] = true,
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [4]
-						{
-							["Enabled"] = true,
-							["Type"] = "reactive",
-							["Name"] = "斬殺",
-							["Conditions"] = {
-								{
-									["Type"] = "DEBUFFSTACKS",
-									["Checked"] = true,
-									["Name"] = "處決者的精準",
-									["Level"] = 2,
-									["Operator"] = "<",
-									["Unit"] = "target",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["Events"] = {
-								{
-									["Type"] = "Animations",
-									["Event"] = "OnShow",
-									["Animation"] = "ICONSHAKE",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [5]
-						{
-							["Enabled"] = true,
-							["ShowTimer"] = true,
-							["Name"] = "致死打擊",
-							["Type"] = "reactive",
-							["CooldownCheck"] = true,
-							["ShowTimerText"] = true,
-							["Events"] = {
-								{
-									["OnConditionConditions"] = {
-										{
-											["Type"] = "BUFFSTACKS",
-											["Checked"] = true,
-											["PrtsBefore"] = 1,
-											["Level"] = 1,
-											["Name"] = "粉碎防禦",
-										}, -- [1]
-										{
-											["Type"] = "DEBUFFSTACKS",
-											["Checked"] = true,
-											["Name"] = "千鈞潰擊",
-											["Level"] = 1,
-											["PrtsAfter"] = 1,
-											["Unit"] = "target",
-										}, -- [2]
-										{
-											["Type"] = "DEBUFFSTACKS",
-											["Checked"] = true,
-											["AndOr"] = "OR",
-											["Level"] = 2,
-											["Name"] = "處決者的精準",
-											["Unit"] = "target",
-										}, -- [3]
-										["n"] = 3,
-									},
-									["Type"] = "Animations",
-									["Event"] = "WCSP",
-									["Animation"] = "ACTVTNGLOW",
-								}, -- [1]
-								["n"] = 1,
-							},
-							["States"] = {
-								{
-								}, -- [1]
-								{
-									["Alpha"] = 0.5,
-								}, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-								[102] = {
-									["Alpha"] = 0.5,
-								},
-							},
-						}, -- [6]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [7]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [8]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [9]
-						{
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						}, -- [10]
-						[13] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[14] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-					},
-					["LayoutDirection"] = 5,
-					["Name"] = "武器戰",
-					["EnabledSpecs"] = {
-						[72] = false,
-						[73] = false,
-					},
-					["Columns"] = 1,
-				}, -- [4]
 			},
-			["Version"] = 83302,
-			["NumGroups"] = 4,
 		},
-		["幽谷 - 日落沼澤"] = {
+		["甘到府 - 暗影之月"] = {
 			["Locked"] = true,
-			["Version"] = 83302,
+			["Version"] = 82501,
 			["Groups"] = {
 				{
 					["Icons"] = {
@@ -5080,7 +5083,7 @@ TellMeWhenDB = {
 							},
 						}, -- [4]
 					},
-					["GUID"] = "TMW:group:1POxJEq=mG_v",
+					["GUID"] = "TMW:group:1OUM_AmGZU4p",
 				}, -- [1]
 			},
 		},

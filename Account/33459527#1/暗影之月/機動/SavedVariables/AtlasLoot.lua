@@ -5,8 +5,8 @@ AtlasLootCharDB = {
 		["classFilter"] = true,
 		["selected"] = {
 			nil, -- [1]
-			"TheNighthold", -- [2]
-			9, -- [3]
+			"TombofSargeras", -- [2]
+			8, -- [3]
 			10, -- [4]
 			0, -- [5]
 		},

@@ -10,8 +10,8 @@ TaxiDataCollection = {
 		["阿格瑪之錘"] = "488:0:1638233580",
 		["沙亞蘭"] = "1033:0:1583183694",
 		["盒中鎮"] = "544:0:1929094993",
-		["安多哈爾"] = "22:0:2074059643",
 		["貿易區"] = "301:0:2598944900",
+		["安多哈爾"] = "22:0:2074059643",
 	},
 }
 DugisGuideViewerProfiles = {
@@ -20,15 +20,15 @@ DugisGuideViewerProfiles = {
 		["機動 - 暗影之月"] = "機動 - 暗影之月",
 		["弊惡 - 屠魔山谷"] = "弊惡 - 屠魔山谷",
 		["煌天 - 屠魔山谷"] = "煌天 - 屠魔山谷",
-		["甘到府 - 暗影之月"] = "甘到府 - 暗影之月",
-		["便宜把戲 - 暗影之月"] = "便宜把戲 - 暗影之月",
+		["幽谷 - 日落沼澤"] = "幽谷 - 日落沼澤",
+		["陵獵 - 屠魔山谷"] = "陵獵 - 屠魔山谷",
 		["便宜把戲 - 亞雷戈斯"] = "便宜把戲 - 亞雷戈斯",
-		["搏戰 - 暗影之月"] = "搏戰 - 暗影之月",
 		["彈性手感 - 屠魔山谷"] = "彈性手感 - 屠魔山谷",
+		["搏戰 - 暗影之月"] = "搏戰 - 暗影之月",
 		["牧豆 - 暗影之月"] = "牧豆 - 暗影之月",
 		["七蓮 - 屠魔山谷"] = "七蓮 - 屠魔山谷",
-		["陵獵 - 屠魔山谷"] = "陵獵 - 屠魔山谷",
-		["幽谷 - 日落沼澤"] = "幽谷 - 日落沼澤",
+		["便宜把戲 - 暗影之月"] = "便宜把戲 - 暗影之月",
+		["甘到府 - 暗影之月"] = "甘到府 - 暗影之月",
 	},
 	["profiles"] = {
 		["披薩餅 - 暗影之月"] = {
@@ -54,13 +54,70 @@ DugisGuideViewerProfiles = {
 					{
 						["checked"] = true,
 					}, -- [16]
+					["showNotCollectedPets"] = true,
+					["EssentialsMode"] = 1,
+					[43] = {
+						["checked"] = false,
+					},
+					["showCollectedPets"] = true,
+					["SettingsRevision"] = 10,
+					["QuestRecordTable"] = {
+						["framePositions"] = {
+							["DugisMainBorder"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["DugisArrowFrame"] = {
+								["yOfs"] = -102.000007629395,
+								["xOfs"] = -5,
+								["point"] = "TOP",
+								["relativePoint"] = "TOP",
+							},
+							["DugisGuideViewer_ModelViewer"] = {
+							},
+							["DugisGuideViewer_TargetFrame"] = {
+							},
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["ObjectiveTrackerFrameHandlerFrame"] = {
+								["yOfs"] = -211.000061035156,
+								["xOfs"] = -4.00016117095947,
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+							},
+							["DugisWatchBackground"] = {
+								["relativeTo"] = "MinimapCluster",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "BOTTOMRIGHT",
+								["yOfs"] = 0,
+								["xOfs"] = -4,
+							},
+							["DugisSmallFrameContainer"] = {
+							},
+							["DugisOnOffButton"] = {
+								["relativeTo"] = "Minimap",
+								["point"] = "RIGHT",
+								["relativePoint"] = "LEFT",
+								["yOfs"] = 35.0000038146973,
+								["xOfs"] = 13.0000009536743,
+							},
+						},
+					},
+					[203] = {
+						["checked"] = 0,
+					},
 					[21] = {
 						["checked"] = false,
 					},
 					[42] = {
-						["checked"] = false,
-					},
-					[43] = {
 						["checked"] = false,
 					},
 					[44] = {
@@ -75,63 +132,6 @@ DugisGuideViewerProfiles = {
 							"恢復", -- [5]
 						},
 					},
-					["EssentialsMode"] = 1,
-					["QuestRecordTable"] = {
-						["framePositions"] = {
-							["DugisMainBorder"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["DugisArrowFrame"] = {
-								["point"] = "TOP",
-								["relativePoint"] = "TOP",
-								["yOfs"] = -102.000007629395,
-								["xOfs"] = -5,
-							},
-							["DugisGuideViewer_ModelViewer"] = {
-							},
-							["DugisOnOffButton"] = {
-								["relativeTo"] = "Minimap",
-								["point"] = "RIGHT",
-								["relativePoint"] = "LEFT",
-								["yOfs"] = 35.0000038146973,
-								["xOfs"] = 13.0000009536743,
-							},
-							["DugisSmallFrameContainer"] = {
-							},
-							["ObjectiveTrackerFrameHandlerFrame"] = {
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-								["yOfs"] = -211.000061035156,
-								["xOfs"] = -4.00016117095947,
-							},
-							["DugisWatchBackground"] = {
-								["relativeTo"] = "MinimapCluster",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "BOTTOMRIGHT",
-								["yOfs"] = 0,
-								["xOfs"] = -4,
-							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["DugisGuideViewer_TargetFrame"] = {
-							},
-						},
-					},
-					[203] = {
-						["checked"] = 0,
-					},
-					["SettingsRevision"] = 10,
-					["showCollectedPets"] = true,
-					["showNotCollectedPets"] = true,
 				},
 			},
 		},
@@ -166,18 +166,10 @@ DugisGuideViewerProfiles = {
 					[43] = {
 						["checked"] = false,
 					},
-					[110] = {
-						["options"] = {
-							"None", -- [1]
-							"Active Talent Specialization", -- [2]
-							"野獸控制", -- [3]
-							"射擊", -- [4]
-							"生存", -- [5]
-						},
+					[203] = {
+						["checked"] = 0,
 					},
-					[21] = {
-						["checked"] = false,
-					},
+					["SettingsRevision"] = 10,
 					["QuestRecordTable"] = {
 						["framePositions"] = {
 							["DugisMainBorder"] = {
@@ -194,14 +186,14 @@ DugisGuideViewerProfiles = {
 							},
 							["DugisGuideViewer_ModelViewer"] = {
 							},
-							["DugisGuideViewer_TargetFrame"] = {
+							["DugisOnOffButton"] = {
+								["relativeTo"] = "Minimap",
+								["point"] = "RIGHT",
+								["relativePoint"] = "LEFT",
+								["yOfs"] = 35.0000038146973,
+								["xOfs"] = 13.0000009536743,
 							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
+							["DugisSmallFrameContainer"] = {
 							},
 							["ObjectiveTrackerFrameHandlerFrame"] = {
 								["yOfs"] = -231.999938964844,
@@ -216,27 +208,35 @@ DugisGuideViewerProfiles = {
 								["yOfs"] = 50,
 								["xOfs"] = 13.0000009536743,
 							},
-							["DugisSmallFrameContainer"] = {
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
 							},
-							["DugisOnOffButton"] = {
-								["relativeTo"] = "Minimap",
-								["point"] = "RIGHT",
-								["relativePoint"] = "LEFT",
-								["yOfs"] = 35.0000038146973,
-								["xOfs"] = 13.0000009536743,
+							["DugisGuideViewer_TargetFrame"] = {
 							},
 						},
 					},
-					[42] = {
+					["showCollectedPets"] = true,
+					[21] = {
 						["checked"] = false,
 					},
-					["SettingsRevision"] = 10,
-					["showCollectedPets"] = true,
+					[110] = {
+						["options"] = {
+							"None", -- [1]
+							"Active Talent Specialization", -- [2]
+							"野獸控制", -- [3]
+							"射擊", -- [4]
+							"生存", -- [5]
+						},
+					},
 					[44] = {
 						["checked"] = false,
 					},
-					[203] = {
-						["checked"] = 0,
+					[42] = {
+						["checked"] = false,
 					},
 				},
 			},
@@ -247,12 +247,6 @@ DugisGuideViewerProfiles = {
 					["showNotCollectedPets"] = true,
 					["EssentialsMode"] = 1,
 					[43] = {
-						["checked"] = false,
-					},
-					[34] = {
-						["checked"] = false,
-					},
-					[5] = {
 						["checked"] = false,
 					},
 					["QuestRecordTable"] = {
@@ -271,14 +265,13 @@ DugisGuideViewerProfiles = {
 							},
 							["DugisGuideViewer_ModelViewer"] = {
 							},
-							["DugisGuideViewer_TargetFrame"] = {
+							["DugisOnOffButton"] = {
+								["yOfs"] = -174,
+								["xOfs"] = -20.0004119873047,
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
 							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
+							["DugisSmallFrameContainer"] = {
 							},
 							["ObjectiveTrackerFrameHandlerFrame"] = {
 								["relativeTo"] = "UIParent",
@@ -294,15 +287,22 @@ DugisGuideViewerProfiles = {
 								["yOfs"] = 0,
 								["xOfs"] = -10,
 							},
-							["DugisSmallFrameContainer"] = {
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
 							},
-							["DugisOnOffButton"] = {
-								["yOfs"] = -174,
-								["xOfs"] = -20.0004119873047,
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
+							["DugisGuideViewer_TargetFrame"] = {
 							},
 						},
+					},
+					[5] = {
+						["checked"] = false,
+					},
+					[203] = {
+						["checked"] = 0,
 					},
 					[42] = {
 						["checked"] = false,
@@ -318,8 +318,8 @@ DugisGuideViewerProfiles = {
 						},
 					},
 					["showCollectedPets"] = true,
-					[203] = {
-						["checked"] = 0,
+					[34] = {
+						["checked"] = false,
 					},
 				},
 			},
@@ -332,11 +332,11 @@ DugisGuideViewerProfiles = {
 					[43] = {
 						["checked"] = false,
 					},
-					[203] = {
-						["checked"] = 0,
+					[5] = {
+						["checked"] = false,
 					},
 					["showCollectedPets"] = true,
-					[5] = {
+					[34] = {
 						["checked"] = false,
 					},
 					["QuestRecordTable"] = {
@@ -355,13 +355,14 @@ DugisGuideViewerProfiles = {
 							},
 							["DugisGuideViewer_ModelViewer"] = {
 							},
-							["DugisOnOffButton"] = {
-								["yOfs"] = -96,
-								["xOfs"] = 0,
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
+							["DugisGuideViewer_TargetFrame"] = {
 							},
-							["DugisSmallFrameContainer"] = {
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
 							},
 							["ObjectiveTrackerFrameHandlerFrame"] = {
 								["relativeTo"] = "UIParent",
@@ -377,14 +378,13 @@ DugisGuideViewerProfiles = {
 								["yOfs"] = 0,
 								["xOfs"] = -10,
 							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
+							["DugisSmallFrameContainer"] = {
 							},
-							["DugisGuideViewer_TargetFrame"] = {
+							["DugisOnOffButton"] = {
+								["yOfs"] = -96,
+								["xOfs"] = 0,
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
 							},
 						},
 					},
@@ -401,809 +401,6 @@ DugisGuideViewerProfiles = {
 							"守護者", -- [5]
 							"恢復", -- [6]
 						},
-					},
-					[44] = {
-						["checked"] = false,
-					},
-					[34] = {
-						["checked"] = false,
-					},
-				},
-			},
-		},
-		["甘到府 - 暗影之月"] = {
-			["char"] = {
-				["settings"] = {
-					nil, -- [1]
-					nil, -- [2]
-					nil, -- [3]
-					nil, -- [4]
-					{
-						["checked"] = false,
-					}, -- [5]
-					nil, -- [6]
-					nil, -- [7]
-					nil, -- [8]
-					nil, -- [9]
-					nil, -- [10]
-					nil, -- [11]
-					nil, -- [12]
-					nil, -- [13]
-					nil, -- [14]
-					nil, -- [15]
-					{
-						["checked"] = true,
-					}, -- [16]
-					["showNotCollectedPets"] = true,
-					["EssentialsMode"] = 1,
-					[43] = {
-						["checked"] = false,
-					},
-					["QuestRecordTable"] = {
-						["framePositions"] = {
-							["DugisMainBorder"] = {
-								["yOfs"] = 3.282587567809970e-005,
-								["xOfs"] = -6.565175135619940e-005,
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-							},
-							["DugisArrowFrame"] = {
-								["yOfs"] = -112.000045776367,
-								["xOfs"] = -4.99990606307983,
-								["point"] = "TOP",
-								["relativePoint"] = "TOP",
-							},
-							["DugisGuideViewer_ModelViewer"] = {
-							},
-							["DugisOnOffButton"] = {
-								["relativeTo"] = "Minimap",
-								["point"] = "RIGHT",
-								["relativePoint"] = "LEFT",
-								["yOfs"] = 35.0000038146973,
-								["xOfs"] = 13.0000009536743,
-							},
-							["DugisSmallFrameContainer"] = {
-							},
-							["ObjectiveTrackerFrameHandlerFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-								["yOfs"] = -230.000015258789,
-								["xOfs"] = -90.0000076293945,
-							},
-							["DugisWatchBackground"] = {
-								["relativeTo"] = "MinimapCluster",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "BOTTOMRIGHT",
-								["yOfs"] = 0,
-								["xOfs"] = -10,
-							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["DugisGuideViewer_TargetFrame"] = {
-							},
-						},
-					},
-					["SettingsRevision"] = 10,
-					[203] = {
-						["checked"] = 0,
-					},
-					["showCollectedPets"] = true,
-					[21] = {
-						["checked"] = false,
-					},
-					[110] = {
-						["options"] = {
-							"None", -- [1]
-							"Active Talent Specialization", -- [2]
-							"秘法", -- [3]
-							"火焰", -- [4]
-							"冰霜", -- [5]
-						},
-					},
-					[44] = {
-						["checked"] = false,
-					},
-					[42] = {
-						["checked"] = false,
-					},
-				},
-			},
-		},
-		["便宜把戲 - 暗影之月"] = {
-			["char"] = {
-				["settings"] = {
-					nil, -- [1]
-					nil, -- [2]
-					nil, -- [3]
-					nil, -- [4]
-					{
-						["checked"] = false,
-					}, -- [5]
-					nil, -- [6]
-					nil, -- [7]
-					nil, -- [8]
-					nil, -- [9]
-					nil, -- [10]
-					nil, -- [11]
-					nil, -- [12]
-					nil, -- [13]
-					nil, -- [14]
-					nil, -- [15]
-					{
-						["checked"] = true,
-					}, -- [16]
-					["showNotCollectedPets"] = true,
-					["EssentialsMode"] = 1,
-					[43] = {
-						["checked"] = false,
-					},
-					[203] = {
-						["checked"] = 0,
-					},
-					["SettingsRevision"] = 10,
-					["QuestRecordTable"] = {
-						["framePositions"] = {
-							["DugisMainBorder"] = {
-								["yOfs"] = 3.282587567809970e-005,
-								["xOfs"] = -6.565175135619940e-005,
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-							},
-							["DugisArrowFrame"] = {
-								["yOfs"] = -106,
-								["xOfs"] = -2,
-								["point"] = "TOP",
-								["relativePoint"] = "TOP",
-							},
-							["DugisGuideViewer_ModelViewer"] = {
-							},
-							["DugisGuideViewer_TargetFrame"] = {
-							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["ObjectiveTrackerFrameHandlerFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-								["yOfs"] = -230.000015258789,
-								["xOfs"] = -90.0000076293945,
-							},
-							["DugisWatchBackground"] = {
-								["relativeTo"] = "MinimapCluster",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "BOTTOMRIGHT",
-								["yOfs"] = 0,
-								["xOfs"] = -4,
-							},
-							["DugisSmallFrameContainer"] = {
-							},
-							["DugisOnOffButton"] = {
-								["relativeTo"] = "Minimap",
-								["point"] = "RIGHT",
-								["relativePoint"] = "LEFT",
-								["yOfs"] = 35.0000038146973,
-								["xOfs"] = 13.0000009536743,
-							},
-						},
-					},
-					["showCollectedPets"] = true,
-					[21] = {
-						["checked"] = false,
-					},
-					[110] = {
-						["options"] = {
-							"None", -- [1]
-							"Active Talent Specialization", -- [2]
-							"刺殺", -- [3]
-							"暴徒", -- [4]
-							"敏銳", -- [5]
-						},
-					},
-					[44] = {
-						["checked"] = false,
-					},
-					[42] = {
-						["checked"] = false,
-					},
-				},
-			},
-		},
-		["便宜把戲 - 亞雷戈斯"] = {
-			["char"] = {
-				["settings"] = {
-					[33] = {
-						["checked"] = true,
-					},
-					["showNotCollectedPets"] = true,
-					["showCollectedPets"] = true,
-					["EssentialsMode"] = 1,
-					[203] = {
-						["checked"] = 0,
-					},
-					[30] = {
-						["checked"] = false,
-					},
-					[110] = {
-						["options"] = {
-							"None", -- [1]
-							"Active Talent Specialization", -- [2]
-							"刺殺", -- [3]
-							"暴徒", -- [4]
-							"敏銳", -- [5]
-						},
-					},
-					["SettingsRevision"] = 10,
-					[5] = {
-						["checked"] = false,
-					},
-					["QuestRecordTable"] = {
-						["framePositions"] = {
-							["DugisMainBorder"] = {
-								["yOfs"] = -48.9999389648438,
-								["xOfs"] = 256.999755859375,
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-							},
-							["DugisArrowFrame"] = {
-								["yOfs"] = -106,
-								["xOfs"] = -2,
-								["point"] = "TOP",
-								["relativePoint"] = "TOP",
-							},
-							["DugisGuideViewer_ModelViewer"] = {
-							},
-							["DugisOnOffButton"] = {
-								["relativeTo"] = "Minimap",
-								["point"] = "RIGHT",
-								["relativePoint"] = "LEFT",
-								["yOfs"] = 35.0000038146973,
-								["xOfs"] = 13.0000009536743,
-							},
-							["DugisSmallFrameContainer"] = {
-							},
-							["ObjectiveTrackerFrameHandlerFrame"] = {
-								["yOfs"] = -234.000045776367,
-								["xOfs"] = -3.00015377998352,
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-							},
-							["DugisWatchBackground"] = {
-								["relativeTo"] = "ObjectiveTrackerFrameHandlerFrame",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "BOTTOMRIGHT",
-								["yOfs"] = 50,
-								["xOfs"] = 13.0000009536743,
-							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["DugisGuideViewer_TargetFrame"] = {
-							},
-						},
-					},
-					[43] = {
-						["checked"] = false,
-					},
-					[21] = {
-						["checked"] = false,
-					},
-					[42] = {
-						["checked"] = false,
-					},
-					[44] = {
-						["checked"] = false,
-					},
-					[34] = {
-						["checked"] = false,
-					},
-				},
-			},
-		},
-		["搏戰 - 暗影之月"] = {
-			["char"] = {
-				["settings"] = {
-					nil, -- [1]
-					nil, -- [2]
-					nil, -- [3]
-					nil, -- [4]
-					{
-						["checked"] = false,
-					}, -- [5]
-					nil, -- [6]
-					nil, -- [7]
-					nil, -- [8]
-					nil, -- [9]
-					nil, -- [10]
-					nil, -- [11]
-					nil, -- [12]
-					nil, -- [13]
-					nil, -- [14]
-					nil, -- [15]
-					{
-						["checked"] = true,
-					}, -- [16]
-					["showNotCollectedPets"] = true,
-					["EssentialsMode"] = 1,
-					["showCollectedPets"] = true,
-					[43] = {
-						["checked"] = false,
-					},
-					[60] = {
-						["checked"] = false,
-					},
-					["SettingsRevision"] = 10,
-					[203] = {
-						["checked"] = 0,
-					},
-					["QuestRecordTable"] = {
-						["framePositions"] = {
-							["DugisMainBorder"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["DugisArrowFrame"] = {
-								["yOfs"] = -103,
-								["xOfs"] = 2,
-								["point"] = "TOP",
-								["relativePoint"] = "TOP",
-							},
-							["DugisGuideViewer_ModelViewer"] = {
-							},
-							["DugisGuideViewer_TargetFrame"] = {
-							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["ObjectiveTrackerFrameHandlerFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-								["yOfs"] = -230.000015258789,
-								["xOfs"] = -90.0000076293945,
-							},
-							["DugisWatchBackground"] = {
-								["relativeTo"] = "MinimapCluster",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "BOTTOMRIGHT",
-								["yOfs"] = 0,
-								["xOfs"] = -4,
-							},
-							["DugisSmallFrameContainer"] = {
-							},
-							["DugisOnOffButton"] = {
-								["relativeTo"] = "Minimap",
-								["point"] = "RIGHT",
-								["relativePoint"] = "LEFT",
-								["yOfs"] = 35.0000038146973,
-								["xOfs"] = 13.0000009536743,
-							},
-						},
-					},
-					["excludedSets"] = {
-						["武器"] = false,
-						["狂戰"] = false,
-						["坦-加速"] = false,
-						["坦"] = false,
-					},
-					[21] = {
-						["checked"] = false,
-					},
-					[42] = {
-						["checked"] = false,
-					},
-					[44] = {
-						["checked"] = false,
-					},
-					[110] = {
-						["options"] = {
-							"None", -- [1]
-							"Active Talent Specialization", -- [2]
-							"武器", -- [3]
-							"狂怒", -- [4]
-							"防護", -- [5]
-						},
-						["checked"] = "None",
-					},
-				},
-			},
-		},
-		["彈性手感 - 屠魔山谷"] = {
-			["char"] = {
-				["settings"] = {
-					["showNotCollectedPets"] = true,
-					["EssentialsMode"] = 1,
-					[43] = {
-						["checked"] = false,
-					},
-					[5] = {
-						["checked"] = false,
-					},
-					[42] = {
-						["checked"] = false,
-					},
-					[34] = {
-						["checked"] = false,
-					},
-					["QuestRecordTable"] = {
-						["framePositions"] = {
-							["DugisMainBorder"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["DugisArrowFrame"] = {
-								["yOfs"] = -105.000137329102,
-								["xOfs"] = 0,
-								["point"] = "TOP",
-								["relativePoint"] = "TOP",
-							},
-							["DugisGuideViewer_ModelViewer"] = {
-							},
-							["DugisOnOffButton"] = {
-								["yOfs"] = -174,
-								["xOfs"] = -12.0003509521484,
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-							},
-							["DugisSmallFrameContainer"] = {
-							},
-							["ObjectiveTrackerFrameHandlerFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-								["yOfs"] = -230.000015258789,
-								["xOfs"] = -90.0000076293945,
-							},
-							["DugisWatchBackground"] = {
-								["relativeTo"] = "MinimapCluster",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "BOTTOMRIGHT",
-								["yOfs"] = 0,
-								["xOfs"] = -10,
-							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["DugisGuideViewer_TargetFrame"] = {
-							},
-						},
-					},
-					[110] = {
-						["options"] = {
-							"None", -- [1]
-							"Active Talent Specialization", -- [2]
-							"釀酒", -- [3]
-							"織霧", -- [4]
-							"御風", -- [5]
-						},
-					},
-					["SettingsRevision"] = 10,
-					["showCollectedPets"] = true,
-					[44] = {
-						["checked"] = false,
-					},
-					[203] = {
-						["checked"] = 0,
-					},
-				},
-			},
-		},
-		["牧豆 - 暗影之月"] = {
-			["char"] = {
-				["settings"] = {
-					nil, -- [1]
-					nil, -- [2]
-					nil, -- [3]
-					nil, -- [4]
-					{
-						["checked"] = false,
-					}, -- [5]
-					nil, -- [6]
-					nil, -- [7]
-					nil, -- [8]
-					nil, -- [9]
-					nil, -- [10]
-					nil, -- [11]
-					nil, -- [12]
-					nil, -- [13]
-					nil, -- [14]
-					nil, -- [15]
-					{
-						["checked"] = true,
-					}, -- [16]
-					["showNotCollectedPets"] = true,
-					["EssentialsMode"] = 1,
-					[43] = {
-						["checked"] = false,
-					},
-					["QuestRecordTable"] = {
-						["framePositions"] = {
-							["DugisMainBorder"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["DugisArrowFrame"] = {
-								["yOfs"] = -107.000160217285,
-								["xOfs"] = -2.9998254776001,
-								["point"] = "TOP",
-								["relativePoint"] = "TOP",
-							},
-							["DugisGuideViewer_ModelViewer"] = {
-							},
-							["DugisGuideViewer_TargetFrame"] = {
-							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["ObjectiveTrackerFrameHandlerFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-								["yOfs"] = -230.000015258789,
-								["xOfs"] = -90.0000076293945,
-							},
-							["DugisWatchBackground"] = {
-								["relativeTo"] = "MinimapCluster",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "BOTTOMRIGHT",
-								["yOfs"] = 0,
-								["xOfs"] = -10,
-							},
-							["DugisSmallFrameContainer"] = {
-							},
-							["DugisOnOffButton"] = {
-								["relativeTo"] = "Minimap",
-								["point"] = "RIGHT",
-								["relativePoint"] = "LEFT",
-								["yOfs"] = 35.0000038146973,
-								["xOfs"] = 13.0000009536743,
-							},
-						},
-					},
-					["SettingsRevision"] = 10,
-					[203] = {
-						["checked"] = 0,
-					},
-					["showCollectedPets"] = true,
-					[21] = {
-						["checked"] = false,
-					},
-					[110] = {
-						["options"] = {
-							"None", -- [1]
-							"Active Talent Specialization", -- [2]
-							"戒律", -- [3]
-							"神聖", -- [4]
-							"暗影", -- [5]
-						},
-					},
-					[44] = {
-						["checked"] = false,
-					},
-					[42] = {
-						["checked"] = false,
-					},
-				},
-			},
-		},
-		["七蓮 - 屠魔山谷"] = {
-			["char"] = {
-				["settings"] = {
-					["showNotCollectedPets"] = true,
-					["GA_Blacklist"] = {
-						[28069] = true,
-						[15006] = true,
-						[20841] = true,
-						[11935] = true,
-						[25220] = true,
-						[25914] = true,
-						[65981] = true,
-						[2983] = true,
-						[25986] = true,
-						[27752] = true,
-						[11934] = true,
-						[23373] = true,
-						[25537] = true,
-						[127177] = true,
-					},
-					["EssentialsMode"] = 1,
-					[203] = {
-						["checked"] = 0,
-					},
-					[43] = {
-						["checked"] = false,
-					},
-					["SettingsRevision"] = 10,
-					["showCollectedPets"] = true,
-					[5] = {
-						["checked"] = false,
-					},
-					["QuestRecordTable"] = {
-						["framePositions"] = {
-							["DugisMainBorder"] = {
-								["yOfs"] = 3.282587567809970e-005,
-								["xOfs"] = 0.999941825866699,
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-							},
-							["DugisArrowFrame"] = {
-								["yOfs"] = -91.9999694824219,
-								["xOfs"] = -1.9998836517334,
-								["point"] = "TOP",
-								["relativePoint"] = "TOP",
-							},
-							["DugisGuideViewer_ModelViewer"] = {
-							},
-							["DugisOnOffButton"] = {
-								["yOfs"] = -164.000045776367,
-								["xOfs"] = -16.9999980926514,
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-							},
-							["DugisSmallFrameContainer"] = {
-							},
-							["ObjectiveTrackerFrameHandlerFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-								["yOfs"] = -230.000015258789,
-								["xOfs"] = -90.0000076293945,
-							},
-							["DugisWatchBackground"] = {
-								["relativeTo"] = "MinimapCluster",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "BOTTOMRIGHT",
-								["yOfs"] = 0,
-								["xOfs"] = -10,
-							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["DugisGuideViewer_TargetFrame"] = {
-							},
-						},
-					},
-					[102] = {
-						["checked"] = "Default",
-					},
-					[21] = {
-						["checked"] = false,
-					},
-					[42] = {
-						["checked"] = false,
-					},
-					[44] = {
-						["checked"] = false,
-					},
-					[110] = {
-						["checked"] = "None",
-						["options"] = {
-							"None", -- [1]
-							"Active Talent Specialization", -- [2]
-							"神聖", -- [3]
-							"防護", -- [4]
-							"懲戒", -- [5]
-						},
-					},
-				},
-			},
-		},
-		["陵獵 - 屠魔山谷"] = {
-			["char"] = {
-				["settings"] = {
-					["showNotCollectedPets"] = true,
-					["EssentialsMode"] = 1,
-					[43] = {
-						["checked"] = false,
-					},
-					[5] = {
-						["checked"] = false,
-					},
-					[110] = {
-						["options"] = {
-							"None", -- [1]
-							"Active Talent Specialization", -- [2]
-							"野獸控制", -- [3]
-							"射擊", -- [4]
-							"生存", -- [5]
-						},
-					},
-					[34] = {
-						["checked"] = false,
-					},
-					["QuestRecordTable"] = {
-						["framePositions"] = {
-							["DugisMainBorder"] = {
-								["yOfs"] = 3.282587567809970e-005,
-								["xOfs"] = -6.565175135619940e-005,
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-							},
-							["DugisArrowFrame"] = {
-								["yOfs"] = -127.000038146973,
-								["xOfs"] = -7.99992847442627,
-								["point"] = "TOP",
-								["relativePoint"] = "TOP",
-							},
-							["DugisGuideViewer_ModelViewer"] = {
-							},
-							["DugisOnOffButton"] = {
-								["relativeTo"] = "Minimap",
-								["point"] = "RIGHT",
-								["relativePoint"] = "LEFT",
-								["yOfs"] = 35.0000038146973,
-								["xOfs"] = 13.0000009536743,
-							},
-							["DugisSmallFrameContainer"] = {
-							},
-							["ObjectiveTrackerFrameHandlerFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "TOPRIGHT",
-								["yOfs"] = -230.000015258789,
-								["xOfs"] = -90.0000076293945,
-							},
-							["DugisWatchBackground"] = {
-								["relativeTo"] = "MinimapCluster",
-								["point"] = "TOPRIGHT",
-								["relativePoint"] = "BOTTOMRIGHT",
-								["yOfs"] = 0,
-								["xOfs"] = -10,
-							},
-							["DugisRecordFrame"] = {
-								["relativeTo"] = "UIParent",
-								["point"] = "CENTER",
-								["relativePoint"] = "CENTER",
-								["yOfs"] = 0,
-								["xOfs"] = 0,
-							},
-							["DugisGuideViewer_TargetFrame"] = {
-							},
-						},
-					},
-					["showCollectedPets"] = true,
-					["SettingsRevision"] = 10,
-					[42] = {
-						["checked"] = false,
 					},
 					[44] = {
 						["checked"] = false,
@@ -1242,31 +439,10 @@ DugisGuideViewerProfiles = {
 					[43] = {
 						["checked"] = false,
 					},
-					[42] = {
-						["checked"] = false,
-					},
-					[21] = {
-						["checked"] = false,
-					},
 					[203] = {
 						["checked"] = 0,
 					},
-					[110] = {
-						["options"] = {
-							"None", -- [1]
-							"Active Talent Specialization", -- [2]
-							"平衡", -- [3]
-							"野性戰鬥", -- [4]
-							"守護者", -- [5]
-							"恢復", -- [6]
-						},
-						["checked"] = "None",
-					},
 					["SettingsRevision"] = 10,
-					["showCollectedPets"] = true,
-					[44] = {
-						["checked"] = false,
-					},
 					["QuestRecordTable"] = {
 						["framePositions"] = {
 							["DugisMainBorder"] = {
@@ -1279,6 +455,87 @@ DugisGuideViewerProfiles = {
 							["DugisArrowFrame"] = {
 								["yOfs"] = -106.000068664551,
 								["xOfs"] = 7.00005149841309,
+								["point"] = "TOP",
+								["relativePoint"] = "TOP",
+							},
+							["DugisGuideViewer_ModelViewer"] = {
+							},
+							["DugisOnOffButton"] = {
+								["yOfs"] = -86.8000183105469,
+								["xOfs"] = -146.000305175781,
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+							},
+							["DugisSmallFrameContainer"] = {
+							},
+							["ObjectiveTrackerFrameHandlerFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+								["yOfs"] = -230.000015258789,
+								["xOfs"] = -90.0000076293945,
+							},
+							["DugisWatchBackground"] = {
+								["relativeTo"] = "MinimapCluster",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "BOTTOMRIGHT",
+								["yOfs"] = 0,
+								["xOfs"] = -4,
+							},
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["DugisGuideViewer_TargetFrame"] = {
+							},
+						},
+					},
+					["showCollectedPets"] = true,
+					[21] = {
+						["checked"] = false,
+					},
+					[110] = {
+						["options"] = {
+							"None", -- [1]
+							"Active Talent Specialization", -- [2]
+							"平衡", -- [3]
+							"野性戰鬥", -- [4]
+							"守護者", -- [5]
+							"恢復", -- [6]
+						},
+						["checked"] = "None",
+					},
+					[44] = {
+						["checked"] = false,
+					},
+					[42] = {
+						["checked"] = false,
+					},
+				},
+			},
+		},
+		["陵獵 - 屠魔山谷"] = {
+			["char"] = {
+				["settings"] = {
+					["showNotCollectedPets"] = true,
+					["EssentialsMode"] = 1,
+					[43] = {
+						["checked"] = false,
+					},
+					["QuestRecordTable"] = {
+						["framePositions"] = {
+							["DugisMainBorder"] = {
+								["yOfs"] = 3.282587567809970e-005,
+								["xOfs"] = -6.565175135619940e-005,
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+							},
+							["DugisArrowFrame"] = {
+								["yOfs"] = -127.000038146973,
+								["xOfs"] = -7.99992847442627,
 								["point"] = "TOP",
 								["relativePoint"] = "TOP",
 							},
@@ -1305,15 +562,758 @@ DugisGuideViewerProfiles = {
 								["point"] = "TOPRIGHT",
 								["relativePoint"] = "BOTTOMRIGHT",
 								["yOfs"] = 0,
-								["xOfs"] = -4,
+								["xOfs"] = -10,
 							},
 							["DugisSmallFrameContainer"] = {
 							},
 							["DugisOnOffButton"] = {
-								["yOfs"] = -86.8000183105469,
-								["xOfs"] = -146.000305175781,
+								["relativeTo"] = "Minimap",
+								["point"] = "RIGHT",
+								["relativePoint"] = "LEFT",
+								["yOfs"] = 35.0000038146973,
+								["xOfs"] = 13.0000009536743,
+							},
+						},
+					},
+					[110] = {
+						["options"] = {
+							"None", -- [1]
+							"Active Talent Specialization", -- [2]
+							"野獸控制", -- [3]
+							"射擊", -- [4]
+							"生存", -- [5]
+						},
+					},
+					[34] = {
+						["checked"] = false,
+					},
+					[203] = {
+						["checked"] = 0,
+					},
+					["showCollectedPets"] = true,
+					["SettingsRevision"] = 10,
+					[42] = {
+						["checked"] = false,
+					},
+					[44] = {
+						["checked"] = false,
+					},
+					[5] = {
+						["checked"] = false,
+					},
+				},
+			},
+		},
+		["便宜把戲 - 亞雷戈斯"] = {
+			["char"] = {
+				["settings"] = {
+					[33] = {
+						["checked"] = true,
+					},
+					["showNotCollectedPets"] = true,
+					[5] = {
+						["checked"] = false,
+					},
+					["EssentialsMode"] = 1,
+					["QuestRecordTable"] = {
+						["framePositions"] = {
+							["DugisMainBorder"] = {
+								["yOfs"] = -48.9999389648438,
+								["xOfs"] = 256.999755859375,
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+							},
+							["DugisArrowFrame"] = {
+								["yOfs"] = -106,
+								["xOfs"] = -2,
+								["point"] = "TOP",
+								["relativePoint"] = "TOP",
+							},
+							["DugisGuideViewer_ModelViewer"] = {
+							},
+							["DugisGuideViewer_TargetFrame"] = {
+							},
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["ObjectiveTrackerFrameHandlerFrame"] = {
+								["yOfs"] = -234.000045776367,
+								["xOfs"] = -3.00015377998352,
 								["point"] = "TOPRIGHT",
 								["relativePoint"] = "TOPRIGHT",
+							},
+							["DugisWatchBackground"] = {
+								["relativeTo"] = "ObjectiveTrackerFrameHandlerFrame",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "BOTTOMRIGHT",
+								["yOfs"] = 50,
+								["xOfs"] = 13.0000009536743,
+							},
+							["DugisSmallFrameContainer"] = {
+							},
+							["DugisOnOffButton"] = {
+								["relativeTo"] = "Minimap",
+								["point"] = "RIGHT",
+								["relativePoint"] = "LEFT",
+								["yOfs"] = 35.0000038146973,
+								["xOfs"] = 13.0000009536743,
+							},
+						},
+					},
+					[30] = {
+						["checked"] = false,
+					},
+					[42] = {
+						["checked"] = false,
+					},
+					[21] = {
+						["checked"] = false,
+					},
+					[34] = {
+						["checked"] = false,
+					},
+					[203] = {
+						["checked"] = 0,
+					},
+					[43] = {
+						["checked"] = false,
+					},
+					["SettingsRevision"] = 10,
+					[110] = {
+						["options"] = {
+							"None", -- [1]
+							"Active Talent Specialization", -- [2]
+							"刺殺", -- [3]
+							"暴徒", -- [4]
+							"敏銳", -- [5]
+						},
+					},
+					[44] = {
+						["checked"] = false,
+					},
+					["showCollectedPets"] = true,
+				},
+			},
+		},
+		["彈性手感 - 屠魔山谷"] = {
+			["char"] = {
+				["settings"] = {
+					["showNotCollectedPets"] = true,
+					["EssentialsMode"] = 1,
+					[43] = {
+						["checked"] = false,
+					},
+					["QuestRecordTable"] = {
+						["framePositions"] = {
+							["DugisMainBorder"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["DugisArrowFrame"] = {
+								["yOfs"] = -105.000137329102,
+								["xOfs"] = 0,
+								["point"] = "TOP",
+								["relativePoint"] = "TOP",
+							},
+							["DugisGuideViewer_ModelViewer"] = {
+							},
+							["DugisGuideViewer_TargetFrame"] = {
+							},
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["ObjectiveTrackerFrameHandlerFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+								["yOfs"] = -230.000015258789,
+								["xOfs"] = -90.0000076293945,
+							},
+							["DugisWatchBackground"] = {
+								["relativeTo"] = "MinimapCluster",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "BOTTOMRIGHT",
+								["yOfs"] = 0,
+								["xOfs"] = -10,
+							},
+							["DugisSmallFrameContainer"] = {
+							},
+							["DugisOnOffButton"] = {
+								["yOfs"] = -174,
+								["xOfs"] = -12.0003509521484,
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+							},
+						},
+					},
+					[42] = {
+						["checked"] = false,
+					},
+					[34] = {
+						["checked"] = false,
+					},
+					[203] = {
+						["checked"] = 0,
+					},
+					[110] = {
+						["options"] = {
+							"None", -- [1]
+							"Active Talent Specialization", -- [2]
+							"釀酒", -- [3]
+							"織霧", -- [4]
+							"御風", -- [5]
+						},
+					},
+					["SettingsRevision"] = 10,
+					["showCollectedPets"] = true,
+					[44] = {
+						["checked"] = false,
+					},
+					[5] = {
+						["checked"] = false,
+					},
+				},
+			},
+		},
+		["搏戰 - 暗影之月"] = {
+			["char"] = {
+				["settings"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					nil, -- [4]
+					{
+						["checked"] = false,
+					}, -- [5]
+					nil, -- [6]
+					nil, -- [7]
+					nil, -- [8]
+					nil, -- [9]
+					nil, -- [10]
+					nil, -- [11]
+					nil, -- [12]
+					nil, -- [13]
+					nil, -- [14]
+					nil, -- [15]
+					{
+						["checked"] = true,
+					}, -- [16]
+					[21] = {
+						["checked"] = false,
+					},
+					[42] = {
+						["checked"] = false,
+					},
+					[43] = {
+						["checked"] = false,
+					},
+					[44] = {
+						["checked"] = false,
+					},
+					[60] = {
+						["checked"] = false,
+					},
+					[110] = {
+						["checked"] = "None",
+						["options"] = {
+							"None", -- [1]
+							"Active Talent Specialization", -- [2]
+							"武器", -- [3]
+							"狂怒", -- [4]
+							"防護", -- [5]
+						},
+					},
+					["QuestRecordTable"] = {
+						["framePositions"] = {
+							["DugisMainBorder"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["DugisArrowFrame"] = {
+								["point"] = "TOP",
+								["relativePoint"] = "TOP",
+								["yOfs"] = -103,
+								["xOfs"] = 2,
+							},
+							["DugisGuideViewer_ModelViewer"] = {
+							},
+							["DugisOnOffButton"] = {
+								["relativeTo"] = "Minimap",
+								["point"] = "RIGHT",
+								["relativePoint"] = "LEFT",
+								["yOfs"] = 35.0000038146973,
+								["xOfs"] = 13.0000009536743,
+							},
+							["DugisSmallFrameContainer"] = {
+							},
+							["ObjectiveTrackerFrameHandlerFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+								["yOfs"] = -230.000015258789,
+								["xOfs"] = -90.0000076293945,
+							},
+							["DugisWatchBackground"] = {
+								["relativeTo"] = "MinimapCluster",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "BOTTOMRIGHT",
+								["yOfs"] = 0,
+								["xOfs"] = -4,
+							},
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["DugisGuideViewer_TargetFrame"] = {
+							},
+						},
+					},
+					["excludedSets"] = {
+						["武器"] = false,
+						["坦"] = false,
+						["坦-加速"] = false,
+						["狂戰"] = false,
+					},
+					[203] = {
+						["checked"] = 0,
+					},
+					["SettingsRevision"] = 10,
+					["showCollectedPets"] = true,
+					["showNotCollectedPets"] = true,
+					["EssentialsMode"] = 1,
+				},
+			},
+		},
+		["牧豆 - 暗影之月"] = {
+			["char"] = {
+				["settings"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					nil, -- [4]
+					{
+						["checked"] = false,
+					}, -- [5]
+					nil, -- [6]
+					nil, -- [7]
+					nil, -- [8]
+					nil, -- [9]
+					nil, -- [10]
+					nil, -- [11]
+					nil, -- [12]
+					nil, -- [13]
+					nil, -- [14]
+					nil, -- [15]
+					{
+						["checked"] = true,
+					}, -- [16]
+					["showNotCollectedPets"] = true,
+					["EssentialsMode"] = 1,
+					[43] = {
+						["checked"] = false,
+					},
+					[110] = {
+						["options"] = {
+							"None", -- [1]
+							"Active Talent Specialization", -- [2]
+							"戒律", -- [3]
+							"神聖", -- [4]
+							"暗影", -- [5]
+						},
+					},
+					[21] = {
+						["checked"] = false,
+					},
+					[203] = {
+						["checked"] = 0,
+					},
+					[42] = {
+						["checked"] = false,
+					},
+					["SettingsRevision"] = 10,
+					["showCollectedPets"] = true,
+					[44] = {
+						["checked"] = false,
+					},
+					["QuestRecordTable"] = {
+						["framePositions"] = {
+							["DugisMainBorder"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["DugisArrowFrame"] = {
+								["yOfs"] = -107.000160217285,
+								["xOfs"] = -2.9998254776001,
+								["point"] = "TOP",
+								["relativePoint"] = "TOP",
+							},
+							["DugisGuideViewer_ModelViewer"] = {
+							},
+							["DugisOnOffButton"] = {
+								["relativeTo"] = "Minimap",
+								["point"] = "RIGHT",
+								["relativePoint"] = "LEFT",
+								["yOfs"] = 35.0000038146973,
+								["xOfs"] = 13.0000009536743,
+							},
+							["DugisSmallFrameContainer"] = {
+							},
+							["ObjectiveTrackerFrameHandlerFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+								["yOfs"] = -230.000015258789,
+								["xOfs"] = -90.0000076293945,
+							},
+							["DugisWatchBackground"] = {
+								["relativeTo"] = "MinimapCluster",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "BOTTOMRIGHT",
+								["yOfs"] = 0,
+								["xOfs"] = -10,
+							},
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["DugisGuideViewer_TargetFrame"] = {
+							},
+						},
+					},
+				},
+			},
+		},
+		["七蓮 - 屠魔山谷"] = {
+			["char"] = {
+				["settings"] = {
+					["showNotCollectedPets"] = true,
+					["GA_Blacklist"] = {
+						[28069] = true,
+						[15006] = true,
+						[20841] = true,
+						[11935] = true,
+						[25220] = true,
+						[25914] = true,
+						[25537] = true,
+						[2983] = true,
+						[25986] = true,
+						[27752] = true,
+						[11934] = true,
+						[23373] = true,
+						[65981] = true,
+						[127177] = true,
+					},
+					["EssentialsMode"] = 1,
+					[42] = {
+						["checked"] = false,
+					},
+					[43] = {
+						["checked"] = false,
+					},
+					[21] = {
+						["checked"] = false,
+					},
+					[110] = {
+						["checked"] = "None",
+						["options"] = {
+							"None", -- [1]
+							"Active Talent Specialization", -- [2]
+							"神聖", -- [3]
+							"防護", -- [4]
+							"懲戒", -- [5]
+						},
+					},
+					[5] = {
+						["checked"] = false,
+					},
+					["QuestRecordTable"] = {
+						["framePositions"] = {
+							["DugisMainBorder"] = {
+								["yOfs"] = 3.282587567809970e-005,
+								["xOfs"] = 0.999941825866699,
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+							},
+							["DugisArrowFrame"] = {
+								["yOfs"] = -91.9999694824219,
+								["xOfs"] = -1.9998836517334,
+								["point"] = "TOP",
+								["relativePoint"] = "TOP",
+							},
+							["DugisGuideViewer_ModelViewer"] = {
+							},
+							["DugisGuideViewer_TargetFrame"] = {
+							},
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["ObjectiveTrackerFrameHandlerFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+								["yOfs"] = -230.000015258789,
+								["xOfs"] = -90.0000076293945,
+							},
+							["DugisWatchBackground"] = {
+								["relativeTo"] = "MinimapCluster",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "BOTTOMRIGHT",
+								["yOfs"] = 0,
+								["xOfs"] = -10,
+							},
+							["DugisSmallFrameContainer"] = {
+							},
+							["DugisOnOffButton"] = {
+								["yOfs"] = -164.000045776367,
+								["xOfs"] = -16.9999980926514,
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+							},
+						},
+					},
+					[102] = {
+						["checked"] = "Default",
+					},
+					["SettingsRevision"] = 10,
+					["showCollectedPets"] = true,
+					[44] = {
+						["checked"] = false,
+					},
+					[203] = {
+						["checked"] = 0,
+					},
+				},
+			},
+		},
+		["便宜把戲 - 暗影之月"] = {
+			["char"] = {
+				["settings"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					nil, -- [4]
+					{
+						["checked"] = false,
+					}, -- [5]
+					nil, -- [6]
+					nil, -- [7]
+					nil, -- [8]
+					nil, -- [9]
+					nil, -- [10]
+					nil, -- [11]
+					nil, -- [12]
+					nil, -- [13]
+					nil, -- [14]
+					nil, -- [15]
+					{
+						["checked"] = true,
+					}, -- [16]
+					["showNotCollectedPets"] = true,
+					["EssentialsMode"] = 1,
+					[43] = {
+						["checked"] = false,
+					},
+					[110] = {
+						["options"] = {
+							"None", -- [1]
+							"Active Talent Specialization", -- [2]
+							"刺殺", -- [3]
+							"暴徒", -- [4]
+							"敏銳", -- [5]
+						},
+					},
+					[21] = {
+						["checked"] = false,
+					},
+					["QuestRecordTable"] = {
+						["framePositions"] = {
+							["DugisMainBorder"] = {
+								["yOfs"] = 3.282587567809970e-005,
+								["xOfs"] = -6.565175135619940e-005,
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+							},
+							["DugisArrowFrame"] = {
+								["yOfs"] = -106,
+								["xOfs"] = -2,
+								["point"] = "TOP",
+								["relativePoint"] = "TOP",
+							},
+							["DugisGuideViewer_ModelViewer"] = {
+							},
+							["DugisOnOffButton"] = {
+								["relativeTo"] = "Minimap",
+								["point"] = "RIGHT",
+								["relativePoint"] = "LEFT",
+								["yOfs"] = 35.0000038146973,
+								["xOfs"] = 13.0000009536743,
+							},
+							["DugisSmallFrameContainer"] = {
+							},
+							["ObjectiveTrackerFrameHandlerFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+								["yOfs"] = -230.000015258789,
+								["xOfs"] = -90.0000076293945,
+							},
+							["DugisWatchBackground"] = {
+								["relativeTo"] = "MinimapCluster",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "BOTTOMRIGHT",
+								["yOfs"] = 0,
+								["xOfs"] = -4,
+							},
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["DugisGuideViewer_TargetFrame"] = {
+							},
+						},
+					},
+					[42] = {
+						["checked"] = false,
+					},
+					["SettingsRevision"] = 10,
+					["showCollectedPets"] = true,
+					[44] = {
+						["checked"] = false,
+					},
+					[203] = {
+						["checked"] = 0,
+					},
+				},
+			},
+		},
+		["甘到府 - 暗影之月"] = {
+			["char"] = {
+				["settings"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					nil, -- [4]
+					{
+						["checked"] = false,
+					}, -- [5]
+					nil, -- [6]
+					nil, -- [7]
+					nil, -- [8]
+					nil, -- [9]
+					nil, -- [10]
+					nil, -- [11]
+					nil, -- [12]
+					nil, -- [13]
+					nil, -- [14]
+					nil, -- [15]
+					{
+						["checked"] = true,
+					}, -- [16]
+					["showNotCollectedPets"] = true,
+					["EssentialsMode"] = 1,
+					[43] = {
+						["checked"] = false,
+					},
+					[110] = {
+						["options"] = {
+							"None", -- [1]
+							"Active Talent Specialization", -- [2]
+							"秘法", -- [3]
+							"火焰", -- [4]
+							"冰霜", -- [5]
+						},
+					},
+					[21] = {
+						["checked"] = false,
+					},
+					[203] = {
+						["checked"] = 0,
+					},
+					[42] = {
+						["checked"] = false,
+					},
+					["SettingsRevision"] = 10,
+					["showCollectedPets"] = true,
+					[44] = {
+						["checked"] = false,
+					},
+					["QuestRecordTable"] = {
+						["framePositions"] = {
+							["DugisMainBorder"] = {
+								["yOfs"] = 3.282587567809970e-005,
+								["xOfs"] = -6.565175135619940e-005,
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+							},
+							["DugisArrowFrame"] = {
+								["yOfs"] = -112.000045776367,
+								["xOfs"] = -4.99990606307983,
+								["point"] = "TOP",
+								["relativePoint"] = "TOP",
+							},
+							["DugisGuideViewer_ModelViewer"] = {
+							},
+							["DugisGuideViewer_TargetFrame"] = {
+							},
+							["DugisRecordFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "CENTER",
+								["relativePoint"] = "CENTER",
+								["yOfs"] = 0,
+								["xOfs"] = 0,
+							},
+							["ObjectiveTrackerFrameHandlerFrame"] = {
+								["relativeTo"] = "UIParent",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "TOPRIGHT",
+								["yOfs"] = -230.000015258789,
+								["xOfs"] = -90.0000076293945,
+							},
+							["DugisWatchBackground"] = {
+								["relativeTo"] = "MinimapCluster",
+								["point"] = "TOPRIGHT",
+								["relativePoint"] = "BOTTOMRIGHT",
+								["yOfs"] = 0,
+								["xOfs"] = -10,
+							},
+							["DugisSmallFrameContainer"] = {
+							},
+							["DugisOnOffButton"] = {
+								["relativeTo"] = "Minimap",
+								["point"] = "RIGHT",
+								["relativePoint"] = "LEFT",
+								["yOfs"] = 35.0000038146973,
+								["xOfs"] = 13.0000009536743,
 							},
 						},
 					},
@@ -1392,12 +1392,16 @@ CollectedWorldMapTrackingPoints = {
 			"2:2259836505:79862::M", -- [13]
 			"11:1773568743:80151::F", -- [14]
 		},
-		["RuinsofGilneas:0"] = {
-			"12:2474127941:45484::M", -- [1]
-			"12:2474127941:45484::M", -- [2]
+		["NagrandDraenor:0"] = {
+			"12:3546182342:82343::F", -- [1]
+			"12:3547099783:82343::F", -- [2]
 		},
-		["ThunderTotem:0"] = {
-			"12:1817147276:99905::F", -- [1]
+		["Suramar:0"] = {
+			"7:1569421326:97140:沙亞蘭:F", -- [1]
+			"12:1572172637:98548::M", -- [2]
+			"7:1583183694:97140:沙亞蘭:F", -- [3]
+			"12:1572959137:98548::M", -- [4]
+			"12:1572762508:98548::M", -- [5]
 		},
 		["Tanaris:0"] = {
 			"7:2260026670:7733:加基森:M", -- [1]
@@ -1475,28 +1479,19 @@ CollectedWorldMapTrackingPoints = {
 			"12:1730113636:82613::M", -- [8]
 			"12:1732538499:82613::M", -- [9]
 		},
-		["TheLostIsles:0"] = {
-			"7:1203552779:36496:船骸海岸:M", -- [1]
-			"4:1199816307:35758:Hunter:M", -- [2]
-			"2:1223607229:36186::M", -- [3]
-			"12:1539353798:36467::F", -- [4]
+		["Zangarmarsh:0"] = {
+			"12:3660221486:18011::M", -- [1]
+			"12:3659435066:18011::M", -- [2]
+			"7:3372654832:18907:塞納里奧避難所:M", -- [3]
+			"7:1320387194:18245:薩布拉金:M", -- [4]
 		},
-		["Hinterlands:0"] = {
-			"7:3357396986:14731:惡齒村:M", -- [1]
-			"11:3383412922:14739::F", -- [2]
-			"11:3383412922:14739::F", -- [3]
-			"11:3383412922:14739::F", -- [4]
-			"11:2905385577:42622::F", -- [5]
-			"11:2908203645:42622::F", -- [6]
-			"11:2907417165:42622::F", -- [7]
-			"11:2907417165:42622::F", -- [8]
-			"7:1369347135:43739:西利瓦薩研究站:M", -- [9]
-			"7:3354775555:14731:惡齒村:M", -- [10]
-			"11:2907875943:42622::F", -- [11]
-			"11:2906630762:42622::F", -- [12]
-			"11:2907417218:42622::F", -- [13]
-			"12:1382979160:43750::M", -- [14]
-			"12:1382061676:43750::M", -- [15]
+		["Dragonblight:0"] = {
+			"7:1638496069:26985:阿格瑪之錘:M", -- [1]
+			"12:1572173429:27019::F", -- [2]
+			"12:1573746303:27019::F", -- [3]
+			"7:1638233580:26985:阿格瑪之錘:M", -- [4]
+			"12:1574598289:27019::F", -- [5]
+			"7:2566425341:27950:龍眠神殿:M", -- [6]
 		},
 		["StonetalonMountains:0"] = {
 			"12:2087558406:9549::M", -- [1]
@@ -1519,17 +1514,15 @@ CollectedWorldMapTrackingPoints = {
 			"12:1628663830:43625::F", -- [6]
 			"7:3177552752:12196:碎木崗哨:F", -- [7]
 		},
-		["Dragonblight:0"] = {
-			"7:1638496069:26985:阿格瑪之錘:M", -- [1]
-			"12:1572173429:27019::F", -- [2]
-			"12:1573746303:27019::F", -- [3]
-			"7:1638233580:26985:阿格瑪之錘:M", -- [4]
-			"12:1574598289:27019::F", -- [5]
-			"7:2566425341:27950:龍眠神殿:M", -- [6]
+		["FrostfireRidge:0"] = {
+			"7:2244568569:78672:暗矛之刃:F", -- [1]
+			"12:1345200330:78770::M", -- [2]
 		},
-		["TerokkarForest:0"] = {
-			"12:1617658714:20890::F", -- [1]
-			"12:1615692606:20890::F", -- [2]
+		["SwampOfSorrows:0"] = {
+			"7:3080397788:47334:沼槳:M", -- [1]
+			"7:2014941491:6930:斯通納德:M", -- [2]
+			"11:2043578599:983::M", -- [3]
+			"11:2043578599:983::M", -- [4]
 		},
 		["Undercity:0"] = {
 			"7:2903532019:6741:幽暗城:M", -- [1]
@@ -1552,14 +1545,9 @@ CollectedWorldMapTrackingPoints = {
 			"12:1930467323:110534::M", -- [11]
 			"12:1928435692:110534::M", -- [12]
 		},
-		["AshranHordeFactionHub:0"] = {
-			"7:1931833347:86307:戰爭之矛:F", -- [1]
-			"7:1931833347:86307:戰爭之矛:F", -- [2]
-			"10:2114473917:86028:8613:M", -- [3]
-			"2:2236850155:88143::F", -- [4]
-			"2:2222759100:88451::F", -- [5]
-			"2:2216861147:86631::M", -- [6]
-			"12:2098434084:93908::F", -- [7]
+		["TanaanJungleIntro:0"] = {
+			"12:1888963580:78568::M", -- [1]
+			"12:1888373737:78568::M", -- [2]
 		},
 		["TheLostIsles_terrain2:0"] = {
 			"12:1567779888:39063::M", -- [1]
@@ -1740,8 +1728,12 @@ CollectedWorldMapTrackingPoints = {
 			"12:3207367106:47286::M", -- [2]
 			"12:3199502546:47286::M", -- [3]
 		},
-		["ProvingGrounds:1"] = {
-			"12:2252920561:73327::M", -- [1]
+		["Highmountain:0"] = {
+			"12:1649894464:97869::M", -- [1]
+			"12:1649894464:97869::M", -- [2]
+			"12:2299700340:97876::F", -- [3]
+			"12:1647535203:97869::M", -- [4]
+			"12:1648452714:97869::M", -- [5]
 		},
 		["Orgrimmar:1"] = {
 			"10:2106955682:44919:Riding:F", -- [1]
@@ -1761,8 +1753,9 @@ CollectedWorldMapTrackingPoints = {
 			"10:3000527059:70301:Riding:M", -- [15]
 			"10:2106562399:44919:Riding:F", -- [16]
 		},
-		["Ghostlands:0"] = {
-			"7:2097959610:16542:安寧地:M", -- [1]
+		["Durotar:0"] = {
+			"10:2376450368:7953:Riding:F", -- [1]
+			"10:2373304615:7953:Riding:F", -- [2]
 		},
 		["Hellfire:0"] = {
 			"12:2616316116:19561::M", -- [1]
@@ -1832,20 +1825,20 @@ CollectedWorldMapTrackingPoints = {
 			"7:3286351715:40832:高速駁船酒吧:F", -- [1]
 			"12:3354180704:40556::M", -- [2]
 		},
-		["Highmountain:0"] = {
-			"12:1649894464:97869::M", -- [1]
-			"12:1649894464:97869::M", -- [2]
-			"12:2299700340:97876::F", -- [3]
-			"12:1647535203:97869::M", -- [4]
-			"12:1648452714:97869::M", -- [5]
+		["Ghostlands:0"] = {
+			"7:2097959610:16542:安寧地:M", -- [1]
 		},
-		["Durotar:0"] = {
-			"10:2376450368:7953:Riding:F", -- [1]
-			"10:2373304615:7953:Riding:F", -- [2]
+		["ProvingGrounds:1"] = {
+			"12:2252920561:73327::M", -- [1]
 		},
-		["TanaanJungleIntro:0"] = {
-			"12:1888963580:78568::M", -- [1]
-			"12:1888373737:78568::M", -- [2]
+		["AshranHordeFactionHub:0"] = {
+			"7:1931833347:86307:戰爭之矛:F", -- [1]
+			"7:1931833347:86307:戰爭之矛:F", -- [2]
+			"10:2114473917:86028:8613:M", -- [3]
+			"2:2236850155:88143::F", -- [4]
+			"2:2222759100:88451::F", -- [5]
+			"2:2216861147:86631::M", -- [6]
+			"12:2098434084:93908::F", -- [7]
 		},
 		["Azsuna:0"] = {
 			"7:2031118819:109372:崩裂之殿:F", -- [1]
@@ -1867,21 +1860,32 @@ CollectedWorldMapTrackingPoints = {
 			"7:2077467483:47857:安多哈爾:M", -- [6]
 			"12:1903895218:45148::M", -- [7]
 		},
-		["SwampOfSorrows:0"] = {
-			"7:3080397788:47334:沼槳:M", -- [1]
-			"7:2014941491:6930:斯通納德:M", -- [2]
-			"11:2043578599:983::M", -- [3]
-			"11:2043578599:983::M", -- [4]
+		["TerokkarForest:0"] = {
+			"12:1617658714:20890::F", -- [1]
+			"12:1615692606:20890::F", -- [2]
 		},
-		["FrostfireRidge:0"] = {
-			"7:2244568569:78672:暗矛之刃:F", -- [1]
-			"12:1345200330:78770::M", -- [2]
+		["Hinterlands:0"] = {
+			"7:3357396986:14731:惡齒村:M", -- [1]
+			"11:3383412922:14739::F", -- [2]
+			"11:3383412922:14739::F", -- [3]
+			"11:3383412922:14739::F", -- [4]
+			"11:2905385577:42622::F", -- [5]
+			"11:2908203645:42622::F", -- [6]
+			"11:2907417165:42622::F", -- [7]
+			"11:2907417165:42622::F", -- [8]
+			"7:1369347135:43739:西利瓦薩研究站:M", -- [9]
+			"7:3354775555:14731:惡齒村:M", -- [10]
+			"11:2907875943:42622::F", -- [11]
+			"11:2906630762:42622::F", -- [12]
+			"11:2907417218:42622::F", -- [13]
+			"12:1382979160:43750::M", -- [14]
+			"12:1382061676:43750::M", -- [15]
 		},
-		["Zangarmarsh:0"] = {
-			"12:3660221486:18011::M", -- [1]
-			"12:3659435066:18011::M", -- [2]
-			"7:3372654832:18907:塞納里奧避難所:M", -- [3]
-			"7:1320387194:18245:薩布拉金:M", -- [4]
+		["TheLostIsles:0"] = {
+			"7:1203552779:36496:船骸海岸:M", -- [1]
+			"4:1199816307:35758:Hunter:M", -- [2]
+			"2:1223607229:36186::M", -- [3]
+			"12:1539353798:36467::F", -- [4]
 		},
 		["Uldum:0"] = {
 			"7:2350535776:48886:蘭姆卡韓:M", -- [1]
@@ -1899,16 +1903,12 @@ CollectedWorldMapTrackingPoints = {
 			"12:1877718781:16261::F", -- [4]
 			"12:1876735711:16261::F", -- [5]
 		},
-		["Suramar:0"] = {
-			"7:1569421326:97140:沙亞蘭:F", -- [1]
-			"12:1572172637:98548::M", -- [2]
-			"7:1583183694:97140:沙亞蘭:F", -- [3]
-			"12:1572959137:98548::M", -- [4]
-			"12:1572762508:98548::M", -- [5]
+		["ThunderTotem:0"] = {
+			"12:1817147276:99905::F", -- [1]
 		},
-		["NagrandDraenor:0"] = {
-			"12:3546182342:82343::F", -- [1]
-			"12:3547099783:82343::F", -- [2]
+		["RuinsofGilneas:0"] = {
+			"12:2474127941:45484::M", -- [1]
+			"12:2474127941:45484::M", -- [2]
 		},
 	},
 	["Alliance"] = {
@@ -2095,6 +2095,7 @@ CollectedWorldMapTrackingPoints = {
 			"12:1309841884:112318::F", -- [115]
 			"12:1303812690:112318::F", -- [116]
 			"12:1311939232:112318::F", -- [117]
+			"12:1304336734:112318::F", -- [118]
 		},
 		["DunMorogh:0"] = {
 			"10:2332000823:2326:3273:M", -- [1]
@@ -2252,6 +2253,7 @@ CollectedWorldMapTrackingPoints = {
 			"12:1647666252:97869::M", -- [28]
 			"12:1717601812:94100::M", -- [29]
 			"12:1648256099:97869::M", -- [30]
+			"12:1647862878:97869::M", -- [31]
 		},
 		["Nagrand:0"] = {
 			"7:2324611785:18914:泰拉:F", -- [1]
@@ -2640,16 +2642,18 @@ CollectedWorldMapTrackingPoints = {
 			"2:1857736181:96822::M", -- [142]
 			"2:1853738794:96822::M", -- [143]
 			"2:1853738794:96822::M", -- [144]
+			"2:1792854970:96823::M", -- [145]
+			"2:1797376802:96823::M", -- [146]
 		},
 		["Gilneas_terrain2:0"] = {
 			"7:2582309605:38792:颶谷村:F", -- [1]
 			"7:2577853091:38792:颶谷村:F", -- [2]
 		},
-		["Ironforge:0"] = {
-			"1:1108066318:9859::F", -- [1]
-			"1:1043447251:8720::F", -- [2]
-			"1:1054981711:8720::F", -- [3]
-			"1:1035057249:8671::M", -- [4]
+		["Netherstorm:0"] = {
+			"12:1393468610:28344::M", -- [1]
+			"7:1371907271:19571:鏽蝕火箭旅店:F", -- [2]
+			"12:1392616684:28344::M", -- [3]
+			"7:1374201033:19571:鏽蝕火箭旅店:F", -- [4]
 		},
 		["ValleyoftheFourWinds:0"] = {
 			"12:3643750203:61215::M", -- [1]
@@ -2684,10 +2688,8 @@ CollectedWorldMapTrackingPoints = {
 			"12:2935254832:63721::M", -- [24]
 			"12:2934927165:63721::M", -- [25]
 		},
-		["Westfall:0"] = {
-			"7:2267711819:8931:哨兵嶺:F", -- [1]
-			"12:2446031033:491::M", -- [2]
-			"12:1810343435:43948::M", -- [3]
+		["Helheim:0"] = {
+			"11:2804576266:93225::M", -- [1]
 		},
 		["StormwindCity:0"] = {
 			"10:3026959386:43769:Riding:F", -- [1]
@@ -2802,6 +2804,8 @@ CollectedWorldMapTrackingPoints = {
 			"1:2643113112:15659::F", -- [110]
 			"1:2641540140:15659::F", -- [111]
 			"1:2641736880:15659::F", -- [112]
+			"1:2640884771:15659::F", -- [113]
+			"1:2641278028:15659::F", -- [114]
 		},
 		["Deepholm:0"] = {
 			"11:1198567559:44970::M", -- [1]
@@ -2938,21 +2942,25 @@ CollectedWorldMapTrackingPoints = {
 			"12:1922792501:103693::M", -- [105]
 			"12:1921219576:103693::M", -- [106]
 			"12:1901100241:103693::M", -- [107]
+			"12:1904704685:103693::M", -- [108]
+			"12:1929280417:103693::M", -- [109]
+			"12:1931377676:103693::M", -- [110]
+			"12:1902148753:103693::M", -- [111]
+			"12:1904835555:103693::M", -- [112]
+			"12:1906474062:103693::M", -- [113]
+			"12:1904704476:103693::M", -- [114]
+			"12:1923972142:103693::M", -- [115]
+			"12:1902410912:103693::M", -- [116]
+			"12:1897364802:103693::M", -- [117]
 		},
-		["BoreanTundra:0"] = {
-			"10:2529996457:35133:Riding:F", -- [1]
-			"10:2529930946:35133:Riding:F", -- [2]
-			"7:2506534479:25245:驍士之眠:M", -- [3]
-			"12:2416653036:26600::F", -- [4]
-			"10:2530258650:35133:Riding:F", -- [5]
-			"12:1846944561:25206::M", -- [6]
-			"12:1417959382:25314::M", -- [7]
-			"10:2532159176:35133:Riding:F", -- [8]
-			"12:2482743619:27011::M", -- [9]
-			"12:2453025506:26599::M", -- [10]
-			"12:2453025506:26599::M", -- [11]
-			"12:2448568982:26599::M", -- [12]
-			"10:2530717360:35133:Riding:F", -- [13]
+		["Hinterlands:0"] = {
+			"7:607351412:7744:蠻錘城堡:M", -- [1]
+			"7:2847043958:43699:風暴之羽崗哨:M", -- [2]
+			"12:2861789485:12040::M", -- [3]
+			"12:2859495755:12040::M", -- [4]
+			"12:2859364652:12040::M", -- [5]
+			"12:2859364652:12040::M", -- [6]
+			"12:2859364652:12040::M", -- [7]
 		},
 		["Silithus:0"] = {
 			"7:2386124298:15174:塞納里奧城堡:F", -- [1]
@@ -2960,348 +2968,6 @@ CollectedWorldMapTrackingPoints = {
 			"12:2357878105:15176::M", -- [3]
 			"12:2357091694:15176::M", -- [4]
 			"12:2359057843:15176::M", -- [5]
-		},
-		["BrokenShore:0"] = {
-			"12:1901109117:120898::F", -- [1]
-			"12:2152609523:111324::F", -- [2]
-			"12:1904058194:120898::F", -- [3]
-			"12:3033364800:120117::M", -- [4]
-			"12:1904779112:120898::F", -- [5]
-			"12:3034085615:120117::M", -- [6]
-			"12:3036903698:120117::M", -- [7]
-			"12:1910022022:120898::F", -- [8]
-			"12:3034282222:120117::M", -- [9]
-			"12:3034020116:120117::M", -- [10]
-			"12:1910415218:120898::F", -- [11]
-			"12:3032709385:120117::M", -- [12]
-			"12:2154051461:111324::F", -- [13]
-			"12:2152806200:111324::F", -- [14]
-			"12:3033954562:120117::M", -- [15]
-			"12:3033954562:120117::M", -- [16]
-			"12:1910284139:120898::F", -- [17]
-			"12:3034151192:120117::M", -- [18]
-			"12:2154444661:111324::F", -- [19]
-			"12:1908973449:120898::F", -- [20]
-			"12:1911922575:120898::F", -- [21]
-			"12:2155231147:111324::F", -- [22]
-			"12:1910808499:120898::F", -- [23]
-			"12:1906286492:120898::F", -- [24]
-			"12:1901371169:120898::F", -- [25]
-			"12:1906614179:120898::F", -- [26]
-			"12:1905041301:120898::F", -- [27]
-			"12:1905434485:120898::F", -- [28]
-			"12:1908776817:120898::F", -- [29]
-			"12:1907007385:120898::F", -- [30]
-			"12:3036379417:120117::M", -- [31]
-			"12:1910480784:120898::F", -- [32]
-			"12:1903599508:120898::F", -- [33]
-			"12:1910349716:120898::F", -- [34]
-			"12:1907400571:120898::F", -- [35]
-			"12:1908645668:120898::F", -- [36]
-			"12:3035265301:120117::M", -- [37]
-			"12:1908711313:120898::F", -- [38]
-			"12:1903337382:120898::F", -- [39]
-			"12:1906679700:120898::F", -- [40]
-			"12:1911070573:120898::F", -- [41]
-			"12:3032578361:120117::M", -- [42]
-			"12:1904779139:120898::F", -- [43]
-			"12:1909432122:120898::F", -- [44]
-			"12:1907924891:120898::F", -- [45]
-			"12:3033889028:120117::M", -- [46]
-			"12:1905237860:120898::F", -- [47]
-			"12:3034347834:120117::M", -- [48]
-			"12:3036969224:120117::M", -- [49]
-			"12:3035068689:120117::M", -- [50]
-			"12:1910939491:120898::F", -- [51]
-			"12:3033561376:120117::M", -- [52]
-			"12:1904713637:120898::F", -- [53]
-			"12:2154116961:111324::F", -- [54]
-			"12:3032643855:120117::M", -- [55]
-			"12:1907269544:120898::F", -- [56]
-			"12:1904189302:120898::F", -- [57]
-			"12:1904189302:120898::F", -- [58]
-			"12:2153265024:111324::F", -- [59]
-			"12:3033823526:120117::M", -- [60]
-			"12:3033823526:120117::M", -- [61]
-			"12:3033561234:120117::M", -- [62]
-			"12:3034085625:120117::M", -- [63]
-			"12:3037362407:120117::M", -- [64]
-			"12:3032250682:120117::M", -- [65]
-			"12:3032250682:120117::M", -- [66]
-			"12:1911529263:120898::F", -- [67]
-			"12:1911529263:120898::F", -- [68]
-			"12:2154116986:111324::F", -- [69]
-			"12:1905827705:120898::F", -- [70]
-			"12:3034740975:120117::M", -- [71]
-			"12:3034740975:120117::M", -- [72]
-			"12:1795921560:118261::M", -- [73]
-			"12:1795790498:118261::M", -- [74]
-			"12:3033102642:120117::M", -- [75]
-			"12:3033430313:120117::M", -- [76]
-			"12:3033102637:120117::M", -- [77]
-			"12:1906876288:120898::F", -- [78]
-			"12:2151102302:111324::F", -- [79]
-			"12:2154575759:111324::F", -- [80]
-			"12:2154575759:111324::F", -- [81]
-			"12:3031464142:120117::M", -- [82]
-			"12:3033233582:120117::M", -- [83]
-			"12:3033692476:120117::M", -- [84]
-			"12:3033692476:120117::M", -- [85]
-			"12:1907007397:120898::F", -- [86]
-			"12:1907007397:120898::F", -- [87]
-			"12:1907007397:120898::F", -- [88]
-			"12:3034151136:120117::M", -- [89]
-			"12:2153199495:111324::F", -- [90]
-			"12:2153199495:111324::F", -- [91]
-			"12:2153199495:111324::F", -- [92]
-			"12:1909170083:120898::F", -- [93]
-			"12:1909038945:120898::F", -- [94]
-			"12:1909038945:120898::F", -- [95]
-			"12:3031660831:120117::M", -- [96]
-			"12:2152544020:111324::F", -- [97]
-			"12:2151298852:111324::F", -- [98]
-			"12:1904189329:120898::F", -- [99]
-			"12:3031726366:120117::M", -- [100]
-			"12:1905565592:120898::F", -- [101]
-			"12:3032512764:120117::M", -- [102]
-			"12:3032512764:120117::M", -- [103]
-			"12:1905172325:120898::F", -- [104]
-			"12:1907400503:120898::F", -- [105]
-			"12:1907400503:120898::F", -- [106]
-			"12:1907400503:120898::F", -- [107]
-			"12:1907400503:120898::F", -- [108]
-			"12:1907400503:120898::F", -- [109]
-			"12:1905827714:120898::F", -- [110]
-			"12:3032512803:120117::M", -- [111]
-			"12:3033823511:120117::M", -- [112]
-			"12:3032643838:120117::M", -- [113]
-			"12:3035265285:120117::M", -- [114]
-			"12:3031202001:120117::M", -- [115]
-			"12:3032709383:120117::M", -- [116]
-			"12:1910546349:120898::F", -- [117]
-			"12:1910808409:120898::F", -- [118]
-			"12:3034151183:120117::M", -- [119]
-			"12:3034151183:120117::M", -- [120]
-			"12:3034151183:120117::M", -- [121]
-			"12:3033299196:120117::M", -- [122]
-			"12:3033168146:120117::M", -- [123]
-			"12:3033168146:120117::M", -- [124]
-			"12:2151298937:111324::F", -- [125]
-			"12:1906352014:120898::F", -- [126]
-			"12:2150577976:111324::F", -- [127]
-			"12:2150577976:111324::F", -- [128]
-			"12:1904844718:120898::F", -- [129]
-			"12:1906745252:120898::F", -- [130]
-			"12:1903664998:120898::F", -- [131]
-			"12:2146449285:111324::F", -- [132]
-			"12:1911857020:120898::F", -- [133]
-			"12:3032643849:120117::M", -- [134]
-			"12:3033626914:120117::M", -- [135]
-			"12:2150709090:111324::F", -- [136]
-			"12:3032643824:120117::M", -- [137]
-			"12:1907531687:120898::F", -- [138]
-			"12:1907531687:120898::F", -- [139]
-			"12:3035265297:120117::M", -- [140]
-			"12:3033299191:120117::M", -- [141]
-			"12:3031398623:120117::M", -- [142]
-			"12:3032381672:120117::M", -- [143]
-			"12:3032643869:120117::M", -- [144]
-			"12:2151495467:111324::F", -- [145]
-			"12:2151495467:111324::F", -- [146]
-			"12:3032512778:120117::M", -- [147]
-			"12:1905827729:120898::F", -- [148]
-			"12:3033889031:120117::M", -- [149]
-			"12:1907924788:120898::F", -- [150]
-			"12:1903533928:120898::F", -- [151]
-			"12:1903927138:120898::F", -- [152]
-			"12:3035134190:120117::M", -- [153]
-			"12:2154968843:111324::F", -- [154]
-			"12:2150709026:111324::F", -- [155]
-			"12:2150709026:111324::F", -- [156]
-			"12:1909235583:120898::F", -- [157]
-			"12:3033102587:120117::M", -- [158]
-			"12:3033102587:120117::M", -- [159]
-			"12:3035396316:120117::M", -- [160]
-			"12:1906876183:120898::F", -- [161]
-			"12:2156017583:111324::F", -- [162]
-			"12:3032578269:120117::M", -- [163]
-			"12:3032578269:120117::M", -- [164]
-			"12:3033102643:120117::M", -- [165]
-			"12:3033626892:120117::M", -- [166]
-			"12:3032512765:120117::M", -- [167]
-			"12:2152347400:111324::F", -- [168]
-		},
-		["TheStormPeaks:0"] = {
-			"12:1759501658:29907::M", -- [1]
-			"12:1759370577:29907::M", -- [2]
-			"7:1765596159:29904:K3:M", -- [3]
-			"11:1224851153:29922::M", -- [4]
-		},
-		["Valsharah:0"] = {
-			"7:2985197195:95118:星歌避難所:M", -- [1]
-			"12:1824953806:93945::M", -- [2]
-			"12:1825347029:93945::M", -- [3]
-			"11:2435486817:110531::M", -- [4]
-			"12:1823905210:93945::M", -- [5]
-			"12:1822528975:93945::M", -- [6]
-			"12:1824036282:93945::M", -- [7]
-			"12:1824101837:93945::M", -- [8]
-			"12:1824167359:93945::M", -- [9]
-			"12:2468792109:112634::M", -- [10]
-			"12:2333587584:93464::F", -- [11]
-			"12:1823446462:93945::M", -- [12]
-			"12:1822725541:93945::M", -- [13]
-			"12:2335291561:93464::F", -- [14]
-			"12:1822660020:93945::M", -- [15]
-			"12:1826657752:93945::M", -- [16]
-			"12:1823970770:93945::M", -- [17]
-			"11:2434765944:110531::M", -- [18]
-			"12:1823512013:93945::M", -- [19]
-			"12:2099892801:92000::M", -- [20]
-			"11:2434569349:110531::M", -- [21]
-			"12:2220659069:112629::M", -- [22]
-			"12:2222690688:112629::M", -- [23]
-			"12:1826526685:93945::M", -- [24]
-			"12:1825019341:93945::M", -- [25]
-			"12:1824167355:93945::M", -- [26]
-			"12:1825543634:93945::M", -- [27]
-			"11:2434503798:110531::M", -- [28]
-			"12:1823643048:93945::M", -- [29]
-			"11:2434110601:110531::M", -- [30]
-			"12:2332669996:93464::F", -- [31]
-			"12:2334636188:93464::F", -- [32]
-			"12:2100417031:92000::M", -- [33]
-			"12:2100417031:92000::M", -- [34]
-			"12:2221838728:112629::M", -- [35]
-			"11:2435421331:110531::M", -- [36]
-			"12:2333980781:93464::F", -- [37]
-			"12:2334046326:93464::F", -- [38]
-			"12:1823970745:93945::M", -- [39]
-		},
-		["Gilneas:0"] = {
-			"2:1608753655:50252::F", -- [1]
-		},
-		["Wetlands:0"] = {
-			"12:2478487233:43998::M", -- [1]
-			"12:2477307536:43998::M", -- [2]
-			"12:2479666875:43998::M", -- [3]
-			"12:2477373087:43998::M", -- [4]
-			"12:2482943785:41128::M", -- [5]
-			"7:458267559:1464:深水旅店:M", -- [6]
-			"12:477795375:1459::F", -- [7]
-		},
-		["Azsuna:17"] = {
-			"7:2290907395:109377:納薩拉斯學院:M", -- [1]
-		},
-		["Desolace:0"] = {
-			"12:2517138208:43880::M", -- [1]
-		},
-		["Darkshore:0"] = {
-			"7:2191339409:43420:洛丹諾:F", -- [1]
-			"12:2185965578:43439::F", -- [2]
-			"12:2179281235:4187::M", -- [3]
-			"12:2181968225:4187::M", -- [4]
-			"12:2181968225:4187::M", -- [5]
-			"12:2186293275:43439::F", -- [6]
-			"12:2180002117:4187::M", -- [7]
-			"12:2186227743:43439::F", -- [8]
-			"12:2186883106:43439::F", -- [9]
-			"12:2170172694:43436::F", -- [10]
-			"12:2170565858:43436::F", -- [11]
-			"12:2190159915:43439::F", -- [12]
-			"12:2180395339:4187::M", -- [13]
-			"12:2185965598:43439::F", -- [14]
-			"12:2180526417:4187::M", -- [15]
-			"12:2180919626:4187::M", -- [16]
-			"12:2185441312:43439::F", -- [17]
-			"12:2537042528:43419::M", -- [18]
-			"12:1826911189:33231::F", -- [19]
-			"12:2179281243:4187::M", -- [20]
-			"12:2537828975:43419::M", -- [21]
-			"12:2178494813:4187::M", -- [22]
-			"12:2178494813:4187::M", -- [23]
-		},
-		["Dustwallow:0"] = {
-			"12:1970901769:44383::F", -- [1]
-		},
-		["ValeofEternalBlossoms:0"] = {
-			"10:3614874946:60166:Riding:M", -- [1]
-			"12:3649608122:64480::F", -- [2]
-		},
-		["ThousandNeedles:0"] = {
-			"12:3352738697:40554::M", -- [1]
-			"7:3286810484:40832:高速駁船酒吧:F", -- [2]
-		},
-		["SholazarBasin:0"] = {
-			"7:1152948165:28038:奈辛瓦里營地:F", -- [1]
-			"12:1171953857:28040::M", -- [2]
-			"12:1171953865:28040::M", -- [3]
-		},
-		["StonetalonMountains:0"] = {
-			"12:3066350504:41274::M", -- [1]
-			"7:2534641804:40898:法洛梅爾旅店:F", -- [2]
-			"11:1708151833:41490::M", -- [3]
-			"11:1709396982:41490::M", -- [4]
-			"11:1706251301:41490::M", -- [5]
-		},
-		["TanaanJungleIntro:0"] = {
-			"12:1886342090:78568::M", -- [1]
-			"12:3160498740:78568::M", -- [2]
-			"12:1897352193:78568::M", -- [3]
-			"12:1884965925:78568::M", -- [4]
-		},
-		["Azsuna:0"] = {
-			"12:1876127302:89640::F", -- [1]
-			"12:1875537503:89640::F", -- [2]
-			"12:2422576982:89257::M", -- [3]
-			"12:2428999446:89257::M", -- [4]
-			"12:2428999446:89257::M", -- [5]
-			"12:2076097355:111627::F", -- [6]
-			"12:2428409623:89257::M", -- [7]
-			"12:1758861197:90638::M", -- [8]
-			"12:1758795642:90638::M", -- [9]
-			"12:2034132586:109368::M", -- [10]
-			"12:2077342538:111627::F", -- [11]
-			"12:2076752695:111627::F", -- [12]
-			"12:2077014838:111627::F", -- [13]
-			"12:1759909773:90638::M", -- [14]
-			"12:2076293987:111627::F", -- [15]
-			"12:2077604673:111627::F", -- [16]
-			"12:2076031811:111627::F", -- [17]
-			"12:1377335390:110974::M", -- [18]
-			"12:1760892882:90638::M", -- [19]
-			"12:2077080454:111627::F", -- [20]
-			"12:2155773667:109383::M", -- [21]
-			"12:2429589336:89257::M", -- [22]
-			"12:2429589336:89257::M", -- [23]
-			"12:2429589336:89257::M", -- [24]
-			"12:2077866838:111627::F", -- [25]
-			"12:2424346407:89257::M", -- [26]
-			"12:1875340889:89640::F", -- [27]
-			"12:1758730121:90638::M", -- [28]
-			"12:2075835202:111627::F", -- [29]
-			"12:2075507512:111627::F", -- [30]
-			"12:2428802950:89257::M", -- [31]
-			"12:2427033428:89257::M", -- [32]
-			"12:2077014857:111627::F", -- [33]
-			"12:2077080452:111627::F", -- [34]
-			"12:2076818268:111627::F", -- [35]
-			"12:2034132550:109368::M", -- [36]
-			"12:1375107192:110974::M", -- [37]
-			"12:2075376454:111627::F", -- [38]
-			"12:2076556142:111627::F", -- [39]
-			"12:1875144301:89640::F", -- [40]
-		},
-		["WesternPlaguelands:0"] = {
-			"12:1699589928:47721::M", -- [1]
-			"12:1848760314:12942::M", -- [2]
-			"12:1847515057:12942::M", -- [3]
-			"12:1849808792:12942::M", -- [4]
-			"12:1848956844:12942::M", -- [5]
-		},
-		["LochModan:0"] = {
-			"12:1014283900:6030::M", -- [1]
-			"7:1523284973:6734:烈酒旅店:M", -- [2]
 		},
 		["ValhallasWarriorOrderHome:1"] = {
 			"12:2425701542:112392::M", -- [1]
@@ -4398,6 +4064,349 @@ CollectedWorldMapTrackingPoints = {
 			"12:2394309152:112392::M", -- [1092]
 			"12:2396930528:112392::M", -- [1093]
 			"12:2423079837:112392::M", -- [1094]
+			"12:2389065800:112392::M", -- [1095]
+		},
+		["TheStormPeaks:0"] = {
+			"12:1759501658:29907::M", -- [1]
+			"12:1759370577:29907::M", -- [2]
+			"7:1765596159:29904:K3:M", -- [3]
+			"11:1224851153:29922::M", -- [4]
+		},
+		["Valsharah:0"] = {
+			"7:2985197195:95118:星歌避難所:M", -- [1]
+			"12:1824953806:93945::M", -- [2]
+			"12:1825347029:93945::M", -- [3]
+			"11:2435486817:110531::M", -- [4]
+			"12:1823905210:93945::M", -- [5]
+			"12:1822528975:93945::M", -- [6]
+			"12:1824036282:93945::M", -- [7]
+			"12:1824101837:93945::M", -- [8]
+			"12:1824167359:93945::M", -- [9]
+			"12:2468792109:112634::M", -- [10]
+			"12:2333587584:93464::F", -- [11]
+			"12:1823446462:93945::M", -- [12]
+			"12:1822725541:93945::M", -- [13]
+			"12:2335291561:93464::F", -- [14]
+			"12:1822660020:93945::M", -- [15]
+			"12:1826657752:93945::M", -- [16]
+			"12:1823970770:93945::M", -- [17]
+			"11:2434765944:110531::M", -- [18]
+			"12:1823512013:93945::M", -- [19]
+			"12:2099892801:92000::M", -- [20]
+			"11:2434569349:110531::M", -- [21]
+			"12:2220659069:112629::M", -- [22]
+			"12:2222690688:112629::M", -- [23]
+			"12:1826526685:93945::M", -- [24]
+			"12:1825019341:93945::M", -- [25]
+			"12:1824167355:93945::M", -- [26]
+			"12:1825543634:93945::M", -- [27]
+			"11:2434503798:110531::M", -- [28]
+			"12:1823643048:93945::M", -- [29]
+			"11:2434110601:110531::M", -- [30]
+			"12:2332669996:93464::F", -- [31]
+			"12:2334636188:93464::F", -- [32]
+			"12:2100417031:92000::M", -- [33]
+			"12:2100417031:92000::M", -- [34]
+			"12:2221838728:112629::M", -- [35]
+			"11:2435421331:110531::M", -- [36]
+			"12:2333980781:93464::F", -- [37]
+			"12:2334046326:93464::F", -- [38]
+			"12:1823970745:93945::M", -- [39]
+		},
+		["Gilneas:0"] = {
+			"2:1608753655:50252::F", -- [1]
+		},
+		["LochModan:0"] = {
+			"12:1014283900:6030::M", -- [1]
+			"7:1523284973:6734:烈酒旅店:M", -- [2]
+		},
+		["Azsuna:17"] = {
+			"7:2290907395:109377:納薩拉斯學院:M", -- [1]
+		},
+		["Desolace:0"] = {
+			"12:2517138208:43880::M", -- [1]
+		},
+		["Azsuna:0"] = {
+			"12:1876127302:89640::F", -- [1]
+			"12:1875537503:89640::F", -- [2]
+			"12:2422576982:89257::M", -- [3]
+			"12:2428999446:89257::M", -- [4]
+			"12:2428999446:89257::M", -- [5]
+			"12:2076097355:111627::F", -- [6]
+			"12:2428409623:89257::M", -- [7]
+			"12:1758861197:90638::M", -- [8]
+			"12:1758795642:90638::M", -- [9]
+			"12:2034132586:109368::M", -- [10]
+			"12:2077342538:111627::F", -- [11]
+			"12:2076752695:111627::F", -- [12]
+			"12:2077014838:111627::F", -- [13]
+			"12:1759909773:90638::M", -- [14]
+			"12:2076293987:111627::F", -- [15]
+			"12:2077604673:111627::F", -- [16]
+			"12:2076031811:111627::F", -- [17]
+			"12:1377335390:110974::M", -- [18]
+			"12:1760892882:90638::M", -- [19]
+			"12:2077080454:111627::F", -- [20]
+			"12:2155773667:109383::M", -- [21]
+			"12:2429589336:89257::M", -- [22]
+			"12:2429589336:89257::M", -- [23]
+			"12:2429589336:89257::M", -- [24]
+			"12:2077866838:111627::F", -- [25]
+			"12:2424346407:89257::M", -- [26]
+			"12:1875340889:89640::F", -- [27]
+			"12:1758730121:90638::M", -- [28]
+			"12:2075835202:111627::F", -- [29]
+			"12:2075507512:111627::F", -- [30]
+			"12:2428802950:89257::M", -- [31]
+			"12:2427033428:89257::M", -- [32]
+			"12:2077014857:111627::F", -- [33]
+			"12:2077080452:111627::F", -- [34]
+			"12:2076818268:111627::F", -- [35]
+			"12:2034132550:109368::M", -- [36]
+			"12:1375107192:110974::M", -- [37]
+			"12:2075376454:111627::F", -- [38]
+			"12:2076556142:111627::F", -- [39]
+			"12:1875144301:89640::F", -- [40]
+		},
+		["TanaanJungleIntro:0"] = {
+			"12:1886342090:78568::M", -- [1]
+			"12:3160498740:78568::M", -- [2]
+			"12:1897352193:78568::M", -- [3]
+			"12:1884965925:78568::M", -- [4]
+		},
+		["StonetalonMountains:0"] = {
+			"12:3066350504:41274::M", -- [1]
+			"7:2534641804:40898:法洛梅爾旅店:F", -- [2]
+			"11:1708151833:41490::M", -- [3]
+			"11:1709396982:41490::M", -- [4]
+			"11:1706251301:41490::M", -- [5]
+		},
+		["ThousandNeedles:0"] = {
+			"12:3352738697:40554::M", -- [1]
+			"7:3286810484:40832:高速駁船酒吧:F", -- [2]
+		},
+		["SholazarBasin:0"] = {
+			"7:1152948165:28038:奈辛瓦里營地:F", -- [1]
+			"12:1171953857:28040::M", -- [2]
+			"12:1171953865:28040::M", -- [3]
+		},
+		["ValeofEternalBlossoms:0"] = {
+			"10:3614874946:60166:Riding:M", -- [1]
+			"12:3649608122:64480::F", -- [2]
+		},
+		["Dustwallow:0"] = {
+			"12:1970901769:44383::F", -- [1]
+		},
+		["Darkshore:0"] = {
+			"7:2191339409:43420:洛丹諾:F", -- [1]
+			"12:2185965578:43439::F", -- [2]
+			"12:2179281235:4187::M", -- [3]
+			"12:2181968225:4187::M", -- [4]
+			"12:2181968225:4187::M", -- [5]
+			"12:2186293275:43439::F", -- [6]
+			"12:2180002117:4187::M", -- [7]
+			"12:2186227743:43439::F", -- [8]
+			"12:2186883106:43439::F", -- [9]
+			"12:2170172694:43436::F", -- [10]
+			"12:2170565858:43436::F", -- [11]
+			"12:2190159915:43439::F", -- [12]
+			"12:2180395339:4187::M", -- [13]
+			"12:2185965598:43439::F", -- [14]
+			"12:2180526417:4187::M", -- [15]
+			"12:2180919626:4187::M", -- [16]
+			"12:2185441312:43439::F", -- [17]
+			"12:2537042528:43419::M", -- [18]
+			"12:1826911189:33231::F", -- [19]
+			"12:2179281243:4187::M", -- [20]
+			"12:2537828975:43419::M", -- [21]
+			"12:2178494813:4187::M", -- [22]
+			"12:2178494813:4187::M", -- [23]
+		},
+		["WesternPlaguelands:0"] = {
+			"12:1699589928:47721::M", -- [1]
+			"12:1848760314:12942::M", -- [2]
+			"12:1847515057:12942::M", -- [3]
+			"12:1849808792:12942::M", -- [4]
+			"12:1848956844:12942::M", -- [5]
+		},
+		["Wetlands:0"] = {
+			"12:2478487233:43998::M", -- [1]
+			"12:2477307536:43998::M", -- [2]
+			"12:2479666875:43998::M", -- [3]
+			"12:2477373087:43998::M", -- [4]
+			"12:2482943785:41128::M", -- [5]
+			"7:458267559:1464:深水旅店:M", -- [6]
+			"12:477795375:1459::F", -- [7]
+		},
+		["BrokenShore:0"] = {
+			"12:1901109117:120898::F", -- [1]
+			"12:2152609523:111324::F", -- [2]
+			"12:1904058194:120898::F", -- [3]
+			"12:3033364800:120117::M", -- [4]
+			"12:1904779112:120898::F", -- [5]
+			"12:3034085615:120117::M", -- [6]
+			"12:3036903698:120117::M", -- [7]
+			"12:1910022022:120898::F", -- [8]
+			"12:3034282222:120117::M", -- [9]
+			"12:3034020116:120117::M", -- [10]
+			"12:1910415218:120898::F", -- [11]
+			"12:3032709385:120117::M", -- [12]
+			"12:2154051461:111324::F", -- [13]
+			"12:2152806200:111324::F", -- [14]
+			"12:3033954562:120117::M", -- [15]
+			"12:3033954562:120117::M", -- [16]
+			"12:1910284139:120898::F", -- [17]
+			"12:3034151192:120117::M", -- [18]
+			"12:2154444661:111324::F", -- [19]
+			"12:1908973449:120898::F", -- [20]
+			"12:1911922575:120898::F", -- [21]
+			"12:2155231147:111324::F", -- [22]
+			"12:1910808499:120898::F", -- [23]
+			"12:1906286492:120898::F", -- [24]
+			"12:1901371169:120898::F", -- [25]
+			"12:1906614179:120898::F", -- [26]
+			"12:1905041301:120898::F", -- [27]
+			"12:1905434485:120898::F", -- [28]
+			"12:1908776817:120898::F", -- [29]
+			"12:1907007385:120898::F", -- [30]
+			"12:3036379417:120117::M", -- [31]
+			"12:1910480784:120898::F", -- [32]
+			"12:1903599508:120898::F", -- [33]
+			"12:1910349716:120898::F", -- [34]
+			"12:1907400571:120898::F", -- [35]
+			"12:1908645668:120898::F", -- [36]
+			"12:3035265301:120117::M", -- [37]
+			"12:1908711313:120898::F", -- [38]
+			"12:1903337382:120898::F", -- [39]
+			"12:1906679700:120898::F", -- [40]
+			"12:1911070573:120898::F", -- [41]
+			"12:3032578361:120117::M", -- [42]
+			"12:1904779139:120898::F", -- [43]
+			"12:1909432122:120898::F", -- [44]
+			"12:1907924891:120898::F", -- [45]
+			"12:3033889028:120117::M", -- [46]
+			"12:1905237860:120898::F", -- [47]
+			"12:3034347834:120117::M", -- [48]
+			"12:3036969224:120117::M", -- [49]
+			"12:3035068689:120117::M", -- [50]
+			"12:1910939491:120898::F", -- [51]
+			"12:3033561376:120117::M", -- [52]
+			"12:1904713637:120898::F", -- [53]
+			"12:2154116961:111324::F", -- [54]
+			"12:3032643855:120117::M", -- [55]
+			"12:1907269544:120898::F", -- [56]
+			"12:1904189302:120898::F", -- [57]
+			"12:1904189302:120898::F", -- [58]
+			"12:2153265024:111324::F", -- [59]
+			"12:3033823526:120117::M", -- [60]
+			"12:3033823526:120117::M", -- [61]
+			"12:3033561234:120117::M", -- [62]
+			"12:3034085625:120117::M", -- [63]
+			"12:3037362407:120117::M", -- [64]
+			"12:3032250682:120117::M", -- [65]
+			"12:3032250682:120117::M", -- [66]
+			"12:1911529263:120898::F", -- [67]
+			"12:1911529263:120898::F", -- [68]
+			"12:2154116986:111324::F", -- [69]
+			"12:1905827705:120898::F", -- [70]
+			"12:3034740975:120117::M", -- [71]
+			"12:3034740975:120117::M", -- [72]
+			"12:1795921560:118261::M", -- [73]
+			"12:1795790498:118261::M", -- [74]
+			"12:3033102642:120117::M", -- [75]
+			"12:3033430313:120117::M", -- [76]
+			"12:3033102637:120117::M", -- [77]
+			"12:1906876288:120898::F", -- [78]
+			"12:2151102302:111324::F", -- [79]
+			"12:2154575759:111324::F", -- [80]
+			"12:2154575759:111324::F", -- [81]
+			"12:3031464142:120117::M", -- [82]
+			"12:3033233582:120117::M", -- [83]
+			"12:3033692476:120117::M", -- [84]
+			"12:3033692476:120117::M", -- [85]
+			"12:1907007397:120898::F", -- [86]
+			"12:1907007397:120898::F", -- [87]
+			"12:1907007397:120898::F", -- [88]
+			"12:3034151136:120117::M", -- [89]
+			"12:2153199495:111324::F", -- [90]
+			"12:2153199495:111324::F", -- [91]
+			"12:2153199495:111324::F", -- [92]
+			"12:1909170083:120898::F", -- [93]
+			"12:1909038945:120898::F", -- [94]
+			"12:1909038945:120898::F", -- [95]
+			"12:3031660831:120117::M", -- [96]
+			"12:2152544020:111324::F", -- [97]
+			"12:2151298852:111324::F", -- [98]
+			"12:1904189329:120898::F", -- [99]
+			"12:3031726366:120117::M", -- [100]
+			"12:1905565592:120898::F", -- [101]
+			"12:3032512764:120117::M", -- [102]
+			"12:3032512764:120117::M", -- [103]
+			"12:1905172325:120898::F", -- [104]
+			"12:1907400503:120898::F", -- [105]
+			"12:1907400503:120898::F", -- [106]
+			"12:1907400503:120898::F", -- [107]
+			"12:1907400503:120898::F", -- [108]
+			"12:1907400503:120898::F", -- [109]
+			"12:1905827714:120898::F", -- [110]
+			"12:3032512803:120117::M", -- [111]
+			"12:3033823511:120117::M", -- [112]
+			"12:3032643838:120117::M", -- [113]
+			"12:3035265285:120117::M", -- [114]
+			"12:3031202001:120117::M", -- [115]
+			"12:3032709383:120117::M", -- [116]
+			"12:1910546349:120898::F", -- [117]
+			"12:1910808409:120898::F", -- [118]
+			"12:3034151183:120117::M", -- [119]
+			"12:3034151183:120117::M", -- [120]
+			"12:3034151183:120117::M", -- [121]
+			"12:3033299196:120117::M", -- [122]
+			"12:3033168146:120117::M", -- [123]
+			"12:3033168146:120117::M", -- [124]
+			"12:2151298937:111324::F", -- [125]
+			"12:1906352014:120898::F", -- [126]
+			"12:2150577976:111324::F", -- [127]
+			"12:2150577976:111324::F", -- [128]
+			"12:1904844718:120898::F", -- [129]
+			"12:1906745252:120898::F", -- [130]
+			"12:1903664998:120898::F", -- [131]
+			"12:2146449285:111324::F", -- [132]
+			"12:1911857020:120898::F", -- [133]
+			"12:3032643849:120117::M", -- [134]
+			"12:3033626914:120117::M", -- [135]
+			"12:2150709090:111324::F", -- [136]
+			"12:3032643824:120117::M", -- [137]
+			"12:1907531687:120898::F", -- [138]
+			"12:1907531687:120898::F", -- [139]
+			"12:3035265297:120117::M", -- [140]
+			"12:3033299191:120117::M", -- [141]
+			"12:3031398623:120117::M", -- [142]
+			"12:3032381672:120117::M", -- [143]
+			"12:3032643869:120117::M", -- [144]
+			"12:2151495467:111324::F", -- [145]
+			"12:2151495467:111324::F", -- [146]
+			"12:3032512778:120117::M", -- [147]
+			"12:1905827729:120898::F", -- [148]
+			"12:3033889031:120117::M", -- [149]
+			"12:1907924788:120898::F", -- [150]
+			"12:1903533928:120898::F", -- [151]
+			"12:1903927138:120898::F", -- [152]
+			"12:3035134190:120117::M", -- [153]
+			"12:2154968843:111324::F", -- [154]
+			"12:2150709026:111324::F", -- [155]
+			"12:2150709026:111324::F", -- [156]
+			"12:1909235583:120898::F", -- [157]
+			"12:3033102587:120117::M", -- [158]
+			"12:3033102587:120117::M", -- [159]
+			"12:3035396316:120117::M", -- [160]
+			"12:1906876183:120898::F", -- [161]
+			"12:2156017583:111324::F", -- [162]
+			"12:3032578269:120117::M", -- [163]
+			"12:3032578269:120117::M", -- [164]
+			"12:3033102643:120117::M", -- [165]
+			"12:3033626892:120117::M", -- [166]
+			"12:3032512765:120117::M", -- [167]
+			"12:2152347400:111324::F", -- [168]
 		},
 		["Highmountain:31"] = {
 			"12:2026802123:99205::M", -- [1]
@@ -4405,20 +4414,28 @@ CollectedWorldMapTrackingPoints = {
 			"11:1101897493:99206::M", -- [3]
 			"12:2021493555:99205::M", -- [4]
 		},
-		["Hinterlands:0"] = {
-			"7:607351412:7744:蠻錘城堡:M", -- [1]
-			"7:2847043958:43699:風暴之羽崗哨:M", -- [2]
-			"12:2861789485:12040::M", -- [3]
-			"12:2859495755:12040::M", -- [4]
-			"12:2859364652:12040::M", -- [5]
-			"12:2859364652:12040::M", -- [6]
-			"12:2859364652:12040::M", -- [7]
+		["BoreanTundra:0"] = {
+			"10:2529996457:35133:Riding:F", -- [1]
+			"10:2529930946:35133:Riding:F", -- [2]
+			"7:2506534479:25245:驍士之眠:M", -- [3]
+			"12:2416653036:26600::F", -- [4]
+			"10:2530258650:35133:Riding:F", -- [5]
+			"12:1846944561:25206::M", -- [6]
+			"12:1417959382:25314::M", -- [7]
+			"10:2532159176:35133:Riding:F", -- [8]
+			"12:2482743619:27011::M", -- [9]
+			"12:2453025506:26599::M", -- [10]
+			"12:2453025506:26599::M", -- [11]
+			"12:2448568982:26599::M", -- [12]
+			"10:2530717360:35133:Riding:F", -- [13]
 		},
 		["ShattrathCity:0"] = {
 			"12:2226793852:19047::M", -- [1]
 		},
-		["Helheim:0"] = {
-			"11:2804576266:93225::M", -- [1]
+		["Westfall:0"] = {
+			"7:2267711819:8931:哨兵嶺:F", -- [1]
+			"12:2446031033:491::M", -- [2]
+			"12:1810343435:43948::M", -- [3]
 		},
 		["ThunderTotem:0"] = {
 			"12:1819572118:99905::F", -- [1]
@@ -4430,11 +4447,11 @@ CollectedWorldMapTrackingPoints = {
 			"12:1778878490:97858::M", -- [7]
 			"12:1808168805:99905::F", -- [8]
 		},
-		["Netherstorm:0"] = {
-			"12:1393468610:28344::M", -- [1]
-			"7:1371907271:19571:鏽蝕火箭旅店:F", -- [2]
-			"12:1392616684:28344::M", -- [3]
-			"7:1374201033:19571:鏽蝕火箭旅店:F", -- [4]
+		["Ironforge:0"] = {
+			"1:1108066318:9859::F", -- [1]
+			"1:1043447251:8720::F", -- [2]
+			"1:1054981711:8720::F", -- [3]
+			"1:1035057249:8671::M", -- [4]
 		},
 	},
 	["Neutral"] = {

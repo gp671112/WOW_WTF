@@ -772,9 +772,9 @@ DugisGuideUser = {
 	["toskip"] = {
 	},
 	["CharacterGUID"] = "Player-963-047B487D",
-	["ObjectiveTrackerFrameHandlerFrame_xOfs"] = -4.00016117095947,
+	["ObjectiveTrackerFrameHandlerFrame_yOfs"] = -211.000061035156,
 	["EnableQWStatus"] = false,
-	["PreviewPointy"] = 54.7988891601563,
+	["PreviewPointy"] = 47.328531742096,
 	["turnedinquests"] = {
 	},
 	["userCustomWeights_v2"] = {
@@ -1543,18 +1543,18 @@ DugisGuideUser = {
 			}, -- [3]
 		},
 	},
-	["QuestState"] = {
-	},
-	["ObjectiveTrackerFrameHandlerFrame_point"] = "TOPRIGHT",
-	["ObjectiveTrackerFrameHandlerFrame_relativePoint"] = "TOPRIGHT",
-	["PreviewPointx"] = 63.5687947273254,
-	["ObjectiveTrackerFrameHandlerFrame_yOfs"] = -211.000061035156,
-	["FinalizeWaypoint"] = true,
 	["excludedTrackingPoints"] = {
 	},
+	["ObjectiveTrackerFrameHandlerFrame_point"] = "TOPRIGHT",
 	["removedQuests"] = {
 	},
+	["PreviewPointx"] = 33.4442853927612,
 	["NoQuestLogUpdateTrigger"] = true,
+	["FinalizeWaypoint"] = true,
+	["ObjectiveTrackerFrameHandlerFrame_xOfs"] = -4.00016117095947,
+	["ObjectiveTrackerFrameHandlerFrame_relativePoint"] = "TOPRIGHT",
+	["QuestState"] = {
+	},
 	["CurrentMapVersions"] = {
 		["Hyjal"] = "Hyjal_terrain1",
 		["BlastedLands"] = "BlastedLands_terrain1",
@@ -1611,11 +1611,11 @@ DugisFlightmasterDataTable = {
 			["f"] = 0,
 			["coord"] = 2406196287,
 		},
-		[7823] = {
-			["name"] = "加基森，塔納利斯",
-			["m"] = 161,
+		[16227] = {
+			["name"] = "棘齒城，北貧瘠之地",
+			["m"] = 11,
 			["f"] = 0,
-			["coord"] = 2206747479,
+			["coord"] = 2971382974,
 		},
 		[3838] = {
 			"3841:33253:4267:34378:6706:35481:40966:41383", -- [1]
@@ -1667,17 +1667,17 @@ DugisFlightmasterDataTable = {
 			["coord"] = 2059906089,
 			["f"] = 0,
 		},
-		[43991] = {
-			["name"] = "藍色守望，藍謎島",
-			["m"] = 464,
-			["coord"] = 2131721733,
-			["f"] = 0,
-		},
 		[4267] = {
 			["name"] = "阿斯特蘭納，梣谷",
 			["direct"] = "3841:33253",
 			["coord"] = 1479899854,
 			["m"] = 43,
+			["f"] = 0,
+		},
+		[43991] = {
+			["name"] = "藍色守望，藍謎島",
+			["m"] = 464,
+			["coord"] = 2131721733,
 			["f"] = 0,
 		},
 		[11138] = {
@@ -1770,11 +1770,11 @@ DugisFlightmasterDataTable = {
 			["m"] = 241,
 			["f"] = 0,
 		},
-		[16227] = {
-			["name"] = "棘齒城，北貧瘠之地",
-			["m"] = 11,
+		[7823] = {
+			["name"] = "加基森，塔納利斯",
+			["m"] = 161,
 			["f"] = 0,
-			["coord"] = 2971382974,
+			["coord"] = 2206747479,
 		},
 	}, -- [1]
 	{
@@ -2075,10 +2075,9 @@ DugisFlightmasterDataTable = {
 			["coord"] = 3370277268,
 			["f"] = 0,
 		},
-		[20515] = {
-			["name"] = "扭曲太空，虛空風暴",
-			["m"] = 479,
-			["coord"] = 2800462568,
+		[18940] = {
+			["m"] = 481,
+			["coord"] = 2743757380,
 			["f"] = 0,
 		},
 		[18809] = {
@@ -2099,9 +2098,10 @@ DugisFlightmasterDataTable = {
 			["coord"] = 2347147235,
 			["f"] = 0,
 		},
-		[18940] = {
-			["m"] = 481,
-			["coord"] = 2743757380,
+		[20515] = {
+			["name"] = "扭曲太空，虛空風暴",
+			["m"] = 479,
+			["coord"] = 2800462568,
 			["f"] = 0,
 		},
 	}, -- [3]
@@ -2162,11 +2162,11 @@ DugisFlightmasterDataTable = {
 			["coord"] = 3371205577,
 			["f"] = 0,
 		},
-		[26879] = {
-			["name"] = "驍勇要塞，北風凍原",
-			["m"] = 486,
-			["coord"] = 2531241699,
+		[28574] = {
+			["m"] = 493,
 			["f"] = 0,
+			["direct"] = "26602:28037:28674",
+			["coord"] = 2150407428,
 		},
 		[26851] = {
 			["name"] = "龍眠神殿，龍骨荒野",
@@ -2181,25 +2181,25 @@ DugisFlightmasterDataTable = {
 			["coord"] = 2427204436,
 			["f"] = 0,
 		},
-		[28574] = {
-			["m"] = 493,
+		[26879] = {
+			["name"] = "驍勇要塞，北風凍原",
+			["m"] = 486,
+			["coord"] = 2531241699,
 			["f"] = 0,
-			["direct"] = "26602:28037:28674",
-			["coord"] = 2150407428,
 		},
 	}, -- [4]
 	nil, -- [5]
 	{
-		[64310] = {
-			["name"] = "蟠龍之望，翠玉林",
-			["m"] = 806,
-			["coord"] = 1851633473,
-			["f"] = 0,
-		},
 		[59186] = {
 			["name"] = "晨綻，翠玉林",
 			["m"] = 806,
 			["coord"] = 2019915307,
+			["f"] = 0,
+		},
+		[64310] = {
+			["name"] = "蟠龍之望，翠玉林",
+			["m"] = 806,
+			["coord"] = 1851633473,
 			["f"] = 0,
 		},
 		[59727] = {
@@ -2222,10 +2222,10 @@ DugisFlightmasterDataTable = {
 			["coord"] = 2184266964,
 			["f"] = 0,
 		},
-		[56737] = {
-			["name"] = "珠鰭村，翠玉林",
-			["m"] = 806,
-			["coord"] = 2488849181,
+		[60230] = {
+			["m"] = 807,
+			["coord"] = 3629594111,
+			["direct"] = "59186",
 			["f"] = 0,
 		},
 		[66023] = {
@@ -2234,10 +2234,10 @@ DugisFlightmasterDataTable = {
 			["coord"] = 1977276871,
 			["f"] = 0,
 		},
-		[60230] = {
-			["m"] = 807,
-			["coord"] = 3629594111,
-			["direct"] = "59186",
+		[56737] = {
+			["name"] = "珠鰭村，翠玉林",
+			["m"] = 806,
+			["coord"] = 2488849181,
 			["f"] = 0,
 		},
 	}, -- [6]
@@ -2409,8 +2409,8 @@ DugisFlightmasterDataTable = {
 			"112866:111624:114666:100550:94973:97868:98066", -- [2]
 			["name"] = "看守者壁壘，艾蘇納",
 			["m"] = 1015,
-			["coord"] = 2070002380,
 			["f"] = 0,
+			["coord"] = 2070002380,
 		},
 		[110971] = {
 			"90639:93447:100459:100468:100550:94973:97868", -- [1]
@@ -2461,10 +2461,9 @@ DugisFlightmasterDataTable = {
 			["coord"] = 3860798298,
 		},
 		[120272] = {
-			["name"] = "審判角，破碎海岸",
 			["m"] = 1021,
-			["coord"] = 1940890644,
 			["f"] = 0,
+			["coord"] = 1940890644,
 		},
 		[98108] = {
 			["name"] = "黯狼守望，斯鐸海姆",
@@ -2515,11 +2514,13 @@ DugisFlightmasterDataTable = {
 			["f"] = 0,
 		},
 		[100459] = {
+			"100468:100550:94973:97868", -- [1]
+			"100468:100550:94973:97868:98066", -- [2]
 			["name"] = "月庭，維爾薩拉",
-			["direct"] = "93447:100468",
-			["coord"] = 2436142042,
-			["m"] = 1018,
+			["direct"] = "93447:93940:100468:114666",
 			["f"] = 0,
+			["m"] = 1018,
+			["coord"] = 2436142042,
 		},
 		[90639] = {
 			"93447:100459:100468:100550:94973:97868", -- [1]
@@ -2615,8 +2616,8 @@ DugisFlightmasterDataTable = {
 		[98972] = {
 			["name"] = "備足，高嶺",
 			["m"] = 1024,
-			["coord"] = 2490583353,
 			["f"] = 0,
+			["coord"] = 2490583353,
 		},
 		[93940] = {
 			"100459:100468:100550:94973:97868", -- [1]
@@ -2644,9 +2645,10 @@ DugisFlightmasterDataTable = {
 		[111675] = {
 			"114666:100550:94973:97868", -- [1]
 			"114666:100550:94973:97868:98066", -- [2]
-			["m"] = 1033,
-			["f"] = 0,
+			["name"] = "麥瑞迪爾，蘇拉瑪爾",
 			["direct"] = "90556:90639:96565:96813:111323:111624:114718:114666",
+			["f"] = 0,
+			["m"] = 1033,
 			["coord"] = 1474854536,
 		},
 		[111624] = {

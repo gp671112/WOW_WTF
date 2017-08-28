@@ -5,6 +5,7 @@ bcmDB = {
 	},
 	["playerLBrack"] = "[",
 	["stampfmt"] = "[%I:%M:%S] ",
+	["stampcol"] = "777777",
 	["replacements"] = {
 		"[綜]", -- [1]
 		"[交]", -- [2]
@@ -24,10 +25,9 @@ bcmDB = {
 		"[團警]", -- [16]
 		"[%1]", -- [17]
 	},
-	["stampcol"] = "777777",
-	["playerRBrack"] = "]",
 	["sticky"] = {
 	},
+	["playerRBrack"] = "]",
 	["editBoxOnBottom"] = true,
 	["playerSeparator"] = ":",
 }

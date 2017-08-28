@@ -13,19 +13,19 @@ dbILD = {
 		["便宜把戲 - 暗影之月"] = {
 			["firstun"] = false,
 		},
-		["披薩餅 - 暗影之月"] = {
+		["幽谷 - 日落沼澤"] = {
 			["firstun"] = false,
 		},
-		["煌天 - 屠魔山谷"] = {
+		["甘到府 - 暗影之月"] = {
 			["firstun"] = false,
 		},
 		["便宜把戲 - 亞雷戈斯"] = {
 			["firstun"] = false,
 		},
-		["搏戰 - 暗影之月"] = {
+		["彈性手感 - 屠魔山谷"] = {
 			["firstun"] = false,
 		},
-		["彈性手感 - 屠魔山谷"] = {
+		["搏戰 - 暗影之月"] = {
 			["firstun"] = false,
 		},
 		["牧豆 - 暗影之月"] = {
@@ -34,31 +34,31 @@ dbILD = {
 		["七蓮 - 屠魔山谷"] = {
 			["firstun"] = false,
 		},
-		["甘到府 - 暗影之月"] = {
+		["煌天 - 屠魔山谷"] = {
 			["firstun"] = false,
 		},
-		["幽谷 - 日落沼澤"] = {
+		["披薩餅 - 暗影之月"] = {
 			["firstun"] = false,
 		},
+	},
+	["global"] = {
+		["hascommon"] = true,
+		["firstrun"] = false,
 	},
 	["profileKeys"] = {
 		["陵獵 - 屠魔山谷"] = "Default",
 		["機動 - 暗影之月"] = "Default",
 		["弊惡 - 屠魔山谷"] = "Default",
 		["便宜把戲 - 暗影之月"] = "Default",
-		["披薩餅 - 暗影之月"] = "Default",
-		["煌天 - 屠魔山谷"] = "Default",
+		["幽谷 - 日落沼澤"] = "Default",
+		["甘到府 - 暗影之月"] = "Default",
 		["便宜把戲 - 亞雷戈斯"] = "Default",
-		["搏戰 - 暗影之月"] = "Default",
 		["彈性手感 - 屠魔山谷"] = "Default",
+		["搏戰 - 暗影之月"] = "Default",
 		["牧豆 - 暗影之月"] = "Default",
 		["七蓮 - 屠魔山谷"] = "七蓮 - 屠魔山谷",
-		["甘到府 - 暗影之月"] = "Default",
-		["幽谷 - 日落沼澤"] = "Default",
-	},
-	["global"] = {
-		["hascommon"] = true,
-		["firstrun"] = false,
+		["煌天 - 屠魔山谷"] = "Default",
+		["披薩餅 - 暗影之月"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -77,15 +77,15 @@ dbILD = {
 				},
 				["SHOWSOCKETS"] = true,
 				["BAGSFONTSIZE"] = 13,
-				["FONTSIZE"] = 13,
+				["SHOWENCHANT"] = true,
 				["BAGSCORNER"] = "tr",
 				["FONTOUTLINE"] = "OUTLINE,THICKOUTLINE",
 				["BAGS"] = true,
 				["COLORSCHEME"] = "qual",
-				["SHOWENCHANT"] = true,
+				["FONTSIZE"] = 13,
 				["SHOWUSELESSILEVEL"] = false,
-				["SHOWBUCKLE"] = false,
 				["BAGSFONTOUTLINE"] = "OUTLINE,THICKOUTLINE",
+				["SHOWBUCKLE"] = false,
 			},
 		},
 		["七蓮 - 屠魔山谷"] = {
@@ -105,13 +105,13 @@ dbILD = {
 				["SHOWENCHANT"] = true,
 				["BAGSCORNER"] = "tr",
 				["FONTOUTLINE"] = "OUTLINE",
-				["BAGSFONTOUTLINE"] = "THICKOUTLINE",
+				["BAGSFONTSIZE"] = 11,
 				["BAGS"] = true,
 				["COLORSCHEME"] = "qual",
+				["FONTSIZE"] = 14,
 				["SHOWUSELESSILEVEL"] = false,
 				["SHOWBUCKLE"] = false,
-				["FONTSIZE"] = 14,
-				["BAGSFONTSIZE"] = 11,
+				["BAGSFONTOUTLINE"] = "THICKOUTLINE",
 			},
 		},
 	},

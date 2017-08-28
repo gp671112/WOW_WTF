@@ -32,13 +32,13 @@ TipTac_Config = {
 	["classification_rare"] = "%s|r (Rare) ",
 	["left"] = 1805.99926757813,
 	["reactColoredBackdrop"] = false,
-	["optionsBottom"] = 304.999969482422,
+	["preFadeTime"] = 0.1,
 	["classification_trivial"] = "~%s ",
 	["classification_worldboss"] = "%s|r (Boss) ",
-	["hideWorldTips"] = true,
+	["healthBarText"] = "value",
 	["tipBackdropBG"] = "Interface\\Buttons\\WHITE8X8",
-	["backdropInsets"] = 2.5,
-	["classification_rareelite"] = "+%s|r (Rare) ",
+	["colorNameByClass"] = false,
+	["fadeTime"] = 0.1,
 	["manaBar"] = false,
 	["gradientColor"] = {
 		0.8, -- [1]
@@ -46,7 +46,7 @@ TipTac_Config = {
 		0.8, -- [3]
 		0.2, -- [4]
 	},
-	["colSameGuild"] = "|cffff32ff",
+	["classification_rareelite"] = "+%s|r (Rare) ",
 	["anchorWorldUnitType"] = "normal",
 	["healthBarColor"] = {
 		0.3, -- [1]
@@ -55,13 +55,13 @@ TipTac_Config = {
 		1, -- [4]
 	},
 	["targetYouText"] = "<<YOU>>",
-	["barFontFace"] = "Fonts\\ARIALN.TTF",
+	["gradientTip"] = true,
 	["top"] = 24,
 	["classColoredBorder"] = false,
-	["gradientTip"] = true,
-	["fadeTime"] = 0.1,
-	["colorNameByClass"] = false,
+	["barFontFace"] = "Fonts\\ARIALN.TTF",
+	["colSameGuild"] = "|cffff32ff",
+	["backdropInsets"] = 2.5,
 	["barFontSize"] = 10,
-	["healthBarText"] = "value",
-	["preFadeTime"] = 0.1,
+	["hideWorldTips"] = true,
+	["optionsBottom"] = 304.999969482422,
 }

@@ -5,23 +5,23 @@ CompactRaidDB = {
 	["healthColor"] = "0.0,1.0,0.0",
 	["showParty"] = 1,
 	["modules"] = {
-		["RaidDebuff"] = {
-			["selTier"] = 7,
-			["customDebuffs"] = {
-			},
-			["userLevels"] = {
-			},
-			["xoffset"] = 0,
-			["scale"] = 100,
-			["selBoss"] = 1725,
-			["selInstance"] = 786,
-			["yoffset"] = 0,
-		},
 		["Artwork"] = {
 			["font"] = "Fonts\\blei00d.TTF",
 			["background"] = "Interface\\DialogFrame\\UI-DialogBox-Background",
 			["border"] = "Interface\\Tooltips\\UI-Tooltip-Border",
 			["statusbar"] = "Interface\\BUTTONS\\WHITE8X8.BLP",
+		},
+		["RaidDebuff"] = {
+			["selTier"] = 7,
+			["customDebuffs"] = {
+			},
+			["yoffset"] = 0,
+			["scale"] = 100,
+			["xoffset"] = 0,
+			["selBoss"] = 1725,
+			["selInstance"] = 786,
+			["userLevels"] = {
+			},
 		},
 	},
 	["powerColor"] = "0.0,0.0,1.0",
@@ -43,14 +43,20 @@ CompactRaidDB = {
 	["spacing"] = 1,
 	["showRaidIcon"] = 1,
 	["containerBorderSize"] = 5,
-	["width"] = 70,
+	["healthtextmode"] = 0,
 	["raidFilter"] = "CLASS",
-	["version"] = 4.23,
+	["containerAlpha"] = 75,
+	["width"] = 70,
+	["keepgroupstogether"] = 1,
+	["showDirectionArrow"] = 1,
+	["nameHeight"] = 12,
+	["nameColor"] = "1.0,1.0,1.0",
+	["nameXOffset"] = 0,
+	["powerBarHeight"] = 3,
 	["profiles"] = {
 		["陵獵 - 屠魔山谷"] = {
 			["modules"] = {
-				["Artwork"] = {
-					["disabled"] = 1,
+				["RaidDebuff"] = {
 				},
 				["ClickSets"] = {
 					["disabled"] = 1,
@@ -58,7 +64,8 @@ CompactRaidDB = {
 				["CornerIndicators"] = {
 					["disabled"] = 1,
 				},
-				["RaidDebuff"] = {
+				["Artwork"] = {
+					["disabled"] = 1,
 				},
 			},
 			["version"] = 4.23,
@@ -66,16 +73,16 @@ CompactRaidDB = {
 		},
 		["機動 - 暗影之月"] = {
 			["modules"] = {
-				["Artwork"] = {
+				["RaidDebuff"] = {
+				},
+				["CornerIndicators"] = {
 					["disabled"] = 1,
 				},
 				["ClickSets"] = {
 					["disabled"] = 1,
 				},
-				["CornerIndicators"] = {
+				["Artwork"] = {
 					["disabled"] = 1,
-				},
-				["RaidDebuff"] = {
 				},
 			},
 			["version"] = 4.23,
@@ -83,8 +90,7 @@ CompactRaidDB = {
 		},
 		["弊惡 - 屠魔山谷"] = {
 			["modules"] = {
-				["Artwork"] = {
-					["disabled"] = 1,
+				["RaidDebuff"] = {
 				},
 				["ClickSets"] = {
 					["disabled"] = 1,
@@ -92,7 +98,8 @@ CompactRaidDB = {
 				["CornerIndicators"] = {
 					["disabled"] = 1,
 				},
-				["RaidDebuff"] = {
+				["Artwork"] = {
+					["disabled"] = 1,
 				},
 			},
 			["version"] = 4.23,
@@ -100,8 +107,7 @@ CompactRaidDB = {
 		},
 		["便宜把戲 - 暗影之月"] = {
 			["modules"] = {
-				["Artwork"] = {
-					["disabled"] = 1,
+				["RaidDebuff"] = {
 				},
 				["CornerIndicators"] = {
 					["disabled"] = 1,
@@ -109,13 +115,14 @@ CompactRaidDB = {
 				["ClickSets"] = {
 					["disabled"] = 1,
 				},
-				["RaidDebuff"] = {
+				["Artwork"] = {
+					["disabled"] = 1,
 				},
 			},
 			["version"] = 4.23,
 			["showPartyPets"] = 1,
 		},
-		["甘到府 - 暗影之月"] = {
+		["幽谷 - 日落沼澤"] = {
 			["modules"] = {
 				["RaidDebuff"] = {
 				},
@@ -132,33 +139,45 @@ CompactRaidDB = {
 			["version"] = 4.23,
 			["showPartyPets"] = 1,
 		},
-		["煌天 - 屠魔山谷"] = {
+		["披薩餅 - 暗影之月"] = {
 			["modules"] = {
-				["Artwork"] = {
-					["disabled"] = 1,
-				},
 				["CornerIndicators"] = {
-					["disabled"] = 1,
 					["talent2"] = {
-						["TOPRIGHT"] = "[selfcast]#1#[aura]#野性痊癒#[style]#2#",
-						["TOPLEFT"] = "[selfcast]#1#[aura]#回春術#[style]#2#",
-						["BOTTOMLEFT"] = "[selfcast]#1#[aura]#生命之花#[style]#2#",
+						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
+					},
+					["talent3"] = {
+						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
+					},
+					["talent1"] = {
+						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
 					},
 				},
 				["ClickSets"] = {
-					["disabled"] = 1,
 					["talent2"] = {
-						["1"] = "action:target",
-						["ctrl-2"] = "buildin:生命之花",
-						["ctrl-1"] = "buildin:回春術",
+						["alt-1"] = "buildin:治療鍊",
+						["ctrl-2"] = "buildin:激流",
 						["2"] = "action:togglemenu",
-						["shift-2"] = "buildin:自然療癒",
-						["alt-ctrl-2"] = "buildin:野性痊癒",
-						["alt-2"] = "buildin:迅癒",
-						["shift-1"] = "buildin:癒合",
+						["shift-2"] = "buildin:淨化靈魂",
+						["1"] = "action:target",
+					},
+					["talent3"] = {
+						["1"] = "action:target",
+						["2"] = "buildin:激流",
+						["shift-2"] = "buildin:淨化靈魂",
+						["6"] = "buildin:激流",
+					},
+					["talent1"] = {
+						["alt-1"] = "buildin:洶湧治療",
+						["ctrl-2"] = "buildin:激流",
+						["2"] = "action:togglemenu",
+						["shift-2"] = "buildin:淨化靈魂",
+						["1"] = "action:target",
 					},
 				},
 				["RaidDebuff"] = {
+				},
+				["Artwork"] = {
+					["disabled"] = 1,
 				},
 			},
 			["version"] = 4.23,
@@ -166,12 +185,29 @@ CompactRaidDB = {
 		},
 		["便宜把戲 - 亞雷戈斯"] = {
 			["modules"] = {
-				["RaidDebuff"] = {
+				["Artwork"] = {
+					["disabled"] = 1,
 				},
 				["ClickSets"] = {
 					["disabled"] = 1,
 				},
 				["CornerIndicators"] = {
+					["disabled"] = 1,
+				},
+				["RaidDebuff"] = {
+				},
+			},
+			["version"] = 4.23,
+			["showPartyPets"] = 1,
+		},
+		["彈性手感 - 屠魔山谷"] = {
+			["modules"] = {
+				["RaidDebuff"] = {
+				},
+				["CornerIndicators"] = {
+					["disabled"] = 1,
+				},
+				["ClickSets"] = {
 					["disabled"] = 1,
 				},
 				["Artwork"] = {
@@ -183,9 +219,6 @@ CompactRaidDB = {
 		},
 		["搏戰 - 暗影之月"] = {
 			["modules"] = {
-				["CornerIndicators"] = {
-					["disabled"] = 1,
-				},
 				["ClickSets"] = {
 					["disabled"] = 1,
 				},
@@ -194,22 +227,8 @@ CompactRaidDB = {
 				},
 				["RaidDebuff"] = {
 				},
-			},
-			["version"] = 4.23,
-			["showPartyPets"] = 1,
-		},
-		["彈性手感 - 屠魔山谷"] = {
-			["modules"] = {
-				["Artwork"] = {
-					["disabled"] = 1,
-				},
 				["CornerIndicators"] = {
 					["disabled"] = 1,
-				},
-				["ClickSets"] = {
-					["disabled"] = 1,
-				},
-				["RaidDebuff"] = {
 				},
 			},
 			["version"] = 4.23,
@@ -217,8 +236,7 @@ CompactRaidDB = {
 		},
 		["牧豆 - 暗影之月"] = {
 			["modules"] = {
-				["Artwork"] = {
-					["disabled"] = 1,
+				["RaidDebuff"] = {
 				},
 				["ClickSets"] = {
 					["disabled"] = 1,
@@ -226,7 +244,8 @@ CompactRaidDB = {
 				["CornerIndicators"] = {
 					["disabled"] = 1,
 				},
-				["RaidDebuff"] = {
+				["Artwork"] = {
+					["disabled"] = 1,
 				},
 			},
 			["version"] = 4.23,
@@ -234,10 +253,10 @@ CompactRaidDB = {
 		},
 		["七蓮 - 屠魔山谷"] = {
 			["modules"] = {
-				["Artwork"] = {
-					["disabled"] = 1,
+				["RaidDebuff"] = {
 				},
 				["ClickSets"] = {
+					["disabled"] = 1,
 					["talent3"] = {
 						["alt-1"] = "buildin:聖光信標",
 						["ctrl-2"] = "buildin:神聖震擊",
@@ -246,7 +265,6 @@ CompactRaidDB = {
 						["shift-2"] = "buildin:淨化術",
 						["1"] = "action:target",
 					},
-					["disabled"] = 1,
 					["talent1"] = {
 						["alt-1"] = "buildin:聖光信標",
 						["ctrl-2"] = "buildin:神聖震擊",
@@ -257,13 +275,13 @@ CompactRaidDB = {
 					},
 				},
 				["CornerIndicators"] = {
+					["disabled"] = 1,
 					["talent3"] = {
 						["TOPLEFT"] = "[selfcast]#1#[aura]#聖光信標#[style]#2#",
 						["TOPRIGHT"] = "[ignoreVehicle]#1#[aura]#強效王者祝福#[showlacks]#1#",
 						["BOTTOMRIGHT"] = "[ignoreVehicle]#1#[aura]#強效智慧祝福#[showlacks]#1#",
 						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#強效力量祝福#[showlacks]#1#",
 					},
-					["disabled"] = 1,
 					["talent1"] = {
 						["TOPLEFT"] = "[selfcast]#1#[aura]#聖光信標#[style]#2#",
 						["TOPRIGHT"] = "[ignoreVehicle]#1#[aura]#強效王者祝福#[showlacks]#1#",
@@ -271,58 +289,47 @@ CompactRaidDB = {
 						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#強效力量祝福#[showlacks]#1#",
 					},
 				},
-				["RaidDebuff"] = {
+				["Artwork"] = {
+					["disabled"] = 1,
 				},
 			},
-			["showPartyPets"] = 1,
 			["version"] = 4.23,
+			["showPartyPets"] = 1,
 			["showFriendlyNpc"] = 1,
 		},
-		["披薩餅 - 暗影之月"] = {
+		["煌天 - 屠魔山谷"] = {
 			["modules"] = {
-				["ClickSets"] = {
+				["RaidDebuff"] = {
+				},
+				["CornerIndicators"] = {
+					["disabled"] = 1,
 					["talent2"] = {
-						["alt-1"] = "buildin:治療鍊",
-						["ctrl-2"] = "buildin:激流",
-						["2"] = "action:togglemenu",
-						["shift-2"] = "buildin:淨化靈魂",
-						["1"] = "action:target",
+						["TOPRIGHT"] = "[selfcast]#1#[aura]#野性痊癒#[style]#2#",
+						["BOTTOMLEFT"] = "[selfcast]#1#[aura]#生命之花#[style]#2#",
+						["TOPLEFT"] = "[selfcast]#1#[aura]#回春術#[style]#2#",
 					},
-					["talent3"] = {
+				},
+				["ClickSets"] = {
+					["disabled"] = 1,
+					["talent2"] = {
 						["1"] = "action:target",
-						["6"] = "buildin:激流",
-						["shift-2"] = "buildin:淨化靈魂",
-						["2"] = "buildin:激流",
-					},
-					["talent1"] = {
-						["alt-1"] = "buildin:洶湧治療",
-						["ctrl-2"] = "buildin:激流",
+						["ctrl-2"] = "buildin:生命之花",
+						["shift-1"] = "buildin:癒合",
 						["2"] = "action:togglemenu",
-						["shift-2"] = "buildin:淨化靈魂",
-						["1"] = "action:target",
+						["shift-2"] = "buildin:自然療癒",
+						["alt-ctrl-2"] = "buildin:野性痊癒",
+						["alt-2"] = "buildin:迅癒",
+						["ctrl-1"] = "buildin:回春術",
 					},
 				},
 				["Artwork"] = {
 					["disabled"] = 1,
 				},
-				["RaidDebuff"] = {
-				},
-				["CornerIndicators"] = {
-					["talent2"] = {
-						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
-					},
-					["talent3"] = {
-						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
-					},
-					["talent1"] = {
-						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
-					},
-				},
 			},
 			["version"] = 4.23,
 			["showPartyPets"] = 1,
 		},
-		["幽谷 - 日落沼澤"] = {
+		["甘到府 - 暗影之月"] = {
 			["modules"] = {
 				["Artwork"] = {
 					["disabled"] = 1,
@@ -340,12 +347,5 @@ CompactRaidDB = {
 			["showPartyPets"] = 1,
 		},
 	},
-	["powerBarHeight"] = 3,
-	["showDirectionArrow"] = 1,
-	["nameHeight"] = 12,
-	["nameColor"] = "1.0,1.0,1.0",
-	["nameXOffset"] = 0,
-	["keepgroupstogether"] = 1,
-	["healthtextmode"] = 0,
-	["containerAlpha"] = 75,
+	["version"] = 4.23,
 }

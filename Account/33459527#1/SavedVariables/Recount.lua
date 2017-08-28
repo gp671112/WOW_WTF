@@ -8,23 +8,27 @@ RecountDB = {
 		["搏戰 - 暗影之月"] = "搏戰 - 暗影之月",
 		["牧豆 - 暗影之月"] = "牧豆 - 暗影之月",
 		["七蓮 - 屠魔山谷"] = "七蓮 - 屠魔山谷",
-		["煌天 - 屠魔山谷"] = "煌天 - 屠魔山谷",
 		["幽谷 - 日落沼澤"] = "幽谷 - 日落沼澤",
+		["煌天 - 屠魔山谷"] = "煌天 - 屠魔山谷",
 	},
 	["profiles"] = {
 		["披薩餅 - 暗影之月"] = {
 			["MainWindow"] = {
+				["RowHeight"] = 18,
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
 				["Position"] = {
 					["y"] = 9.000244140625,
 					["h"] = 182.999984741211,
 					["w"] = 400,
 					["x"] = -746.000045776367,
 				},
-				["RowHeight"] = 18,
-				["BarText"] = {
-					["NumFormat"] = 3,
-				},
 			},
+			["DetailWindowX"] = 515.999938964844,
+			["LastInstanceName"] = "薩格拉斯之墓",
+			["FrameStrata"] = "1-BACKGROUND",
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -36,12 +40,8 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -369.000091552734,
-			["DetailWindowX"] = 515.999938964844,
-			["LastInstanceName"] = "太陽之井",
-			["CurDataSet"] = "LastFightData",
-			["MainWindowHeight"] = 183.000045776367,
 			["MainWindowWidth"] = 400,
-			["FrameStrata"] = "1-BACKGROUND",
+			["MainWindowHeight"] = 183.000045776367,
 		},
 		["機動 - 暗影之月"] = {
 			["MainWindow"] = {
@@ -54,7 +54,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 343.000518798828,
-			["LastInstanceName"] = "暗夜堡",
+			["LastInstanceName"] = "薩格拉斯之墓",
 			["FrameStrata"] = "1-BACKGROUND",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
@@ -113,23 +113,19 @@ RecountDB = {
 		},
 		["搏戰 - 暗影之月"] = {
 			["MainWindow"] = {
-				["RowHeight"] = 18,
-				["BarText"] = {
-					["NumFormat"] = 3,
-				},
 				["Position"] = {
 					["y"] = 19.000244140625,
 					["x"] = -744.000228881836,
 					["w"] = 399.999969482422,
 					["h"] = 185.999954223633,
 				},
+				["RowHeight"] = 18,
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
 			},
-			["DetailWindowX"] = 547.000244140625,
-			["MainWindowHeight"] = 185.999984741211,
-			["FrameStrata"] = "2-LOW",
-			["ConfirmDeleteRaid"] = false,
-			["Font"] = "提示訊息",
 			["ConfirmDeleteInstance"] = false,
+			["FrameStrata"] = "2-LOW",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -141,10 +137,14 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -530.000427246094,
-			["CurDataSet"] = "LastFightData",
 			["ConfirmDeleteGroup"] = false,
-			["MainWindowWidth"] = 400,
+			["DetailWindowX"] = 547.000244140625,
 			["LastInstanceName"] = "薩格拉斯之墓",
+			["ConfirmDeleteRaid"] = false,
+			["CurDataSet"] = "LastFightData",
+			["Font"] = "提示訊息",
+			["MainWindowWidth"] = 400,
+			["MainWindowHeight"] = 185.999984741211,
 		},
 		["牧豆 - 暗影之月"] = {
 			["MainWindowVis"] = false,
@@ -184,7 +184,7 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["煌天 - 屠魔山谷"] = {
+		["幽谷 - 日落沼澤"] = {
 			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
@@ -203,7 +203,7 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["幽谷 - 日落沼澤"] = {
+		["煌天 - 屠魔山谷"] = {
 			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {

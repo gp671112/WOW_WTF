@@ -188,3 +188,11 @@ RelicInspector: enabled
 SkadaPlus: enabled
 DBM-VPXF: enabled
 DBM-VPYike: enabled
+bigwigs_trialofvalor: enabled
+bigwigs_brokenisles: enabled
+bigwigs_options: enabled
+bigwigs_core: enabled
+bigwigs_tombofsargeras: enabled
+bigwigs_plugins: enabled
+bigwigs_nighthold: enabled
+bigwigs_nightmare: enabled
