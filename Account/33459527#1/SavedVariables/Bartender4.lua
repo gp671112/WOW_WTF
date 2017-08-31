@@ -73,6 +73,13 @@ Bartender4DB = {
 				["機動 - 暗影之月"] = {
 					["actionbars"] = {
 						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+							["padding"] = 6,
 							["states"] = {
 								["stance"] = {
 									["DRUID"] = {
@@ -80,59 +87,52 @@ Bartender4DB = {
 									},
 								},
 							},
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
 						}, -- [1]
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 104.282348632813,
 								["x"] = 453.424774169922,
 								["point"] = "BOTTOMLEFT",
 							},
+							["padding"] = 6,
 						}, -- [2]
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 147.537231445313,
 								["x"] = 453.424468994141,
 								["point"] = "BOTTOMLEFT",
 							},
+							["padding"] = 6,
 						}, -- [3]
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 103.537239074707,
 								["x"] = -0.07574462890625,
 								["point"] = "BOTTOM",
 							},
+							["padding"] = 6,
 						}, -- [4]
 						{
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 147.537231445313,
 								["x"] = -0.07550048828125,
 								["point"] = "BOTTOM",
 							},
+							["padding"] = 6,
 						}, -- [5]
 						{
 							["enabled"] = false,
-							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 234.288909912109,
 								["x"] = 106.099975585938,
 								["point"] = "BOTTOM",
 							},
+							["padding"] = 6,
 						}, -- [6]
 						{
 						}, -- [7]
@@ -686,59 +686,59 @@ Bartender4DB = {
 				["搏戰 - 暗影之月"] = {
 					["actionbars"] = {
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 41.75,
 								["x"] = -510,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [1]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 99.9243469238281,
 								["x"] = 450.594116210938,
 								["point"] = "BOTTOMLEFT",
 							},
-							["padding"] = 6,
 						}, -- [2]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 143.924346923828,
 								["x"] = 450.594116210938,
 								["point"] = "BOTTOMLEFT",
 							},
-							["padding"] = 6,
 						}, -- [3]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 99.7370529174805,
 								["x"] = 6.07827758789063,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [4]
 						{
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 143.737060546875,
 								["x"] = 6.07827758789063,
 								["point"] = "BOTTOM",
 							},
-							["padding"] = 6,
 						}, -- [5]
 						{
 							["enabled"] = false,
+							["padding"] = 6,
 							["version"] = 3,
 							["position"] = {
 								["y"] = -2.41107177734375,
 								["x"] = 368.500366210938,
 								["point"] = "CENTER",
 							},
-							["padding"] = 6,
 						}, -- [6]
 						{
 							["version"] = 3,
@@ -1096,12 +1096,12 @@ Bartender4DB = {
 					},
 				},
 				["機動 - 暗影之月"] = {
-					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000015258789,
 						["x"] = -31.5000610351563,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 				},
 				["弊惡 - 屠魔山谷"] = {
 					["version"] = 3,
@@ -1161,12 +1161,12 @@ Bartender4DB = {
 					},
 				},
 				["搏戰 - 暗影之月"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 222.844436645508,
 						["x"] = -31.4999389648438,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 				["牧豆 - 暗影之月"] = {
 					["version"] = 3,
@@ -1215,14 +1215,14 @@ Bartender4DB = {
 					},
 				},
 				["機動 - 暗影之月"] = {
-					["padding"] = -2,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
 					},
+					["version"] = 3,
+					["padding"] = -2,
 				},
 				["弊惡 - 屠魔山谷"] = {
 					["padding"] = -2,
@@ -1295,14 +1295,14 @@ Bartender4DB = {
 					},
 				},
 				["搏戰 - 暗影之月"] = {
+					["padding"] = -2,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 41.75,
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
 					},
-					["version"] = 3,
-					["padding"] = -2,
 				},
 				["牧豆 - 暗影之月"] = {
 					["padding"] = -2,
@@ -1357,12 +1357,12 @@ Bartender4DB = {
 					},
 				},
 				["機動 - 暗影之月"] = {
-					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000015258789,
 						["x"] = -31.5000610351563,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 				},
 				["便宜把戲 - 暗影之月"] = {
 					["version"] = 3,
@@ -1382,12 +1382,12 @@ Bartender4DB = {
 				},
 				["搏戰 - 暗影之月"] = {
 					["enabled"] = false,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 223.000015258789,
 						["x"] = -31.5000610351563,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 				},
 				["DRUID"] = {
 					["version"] = 3,
@@ -1435,12 +1435,12 @@ Bartender4DB = {
 					},
 				},
 				["機動 - 暗影之月"] = {
-					["version"] = 3,
 					["position"] = {
 						["y"] = 61.035831451416,
 						["x"] = 436.911193847656,
 						["point"] = "BOTTOMLEFT",
 					},
+					["version"] = 3,
 				},
 				["甘到府 - 暗影之月"] = {
 					["enabled"] = true,
@@ -1469,13 +1469,13 @@ Bartender4DB = {
 					},
 				},
 				["搏戰 - 暗影之月"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 60.071920630252,
 						["x"] = 446.190055567713,
 						["point"] = "BOTTOMLEFT",
 						["scale"] = 0.990000009536743,
 					},
-					["version"] = 3,
 				},
 				["牧豆 - 暗影之月"] = {
 					["enabled"] = true,
@@ -1526,31 +1526,23 @@ Bartender4DB = {
 						["point"] = "BOTTOMLEFT",
 					},
 				},
-				["幽谷 - 日落沼澤"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 56.8638763427734,
-						["x"] = 441.000030517578,
-						["point"] = "BOTTOMLEFT",
-					},
-				},
 				["搏戰 - 暗影之月"] = {
 					["enabled"] = true,
+					["version"] = 3,
 					["position"] = {
 						["y"] = 56.8638763427734,
 						["x"] = 441.000030517578,
 						["point"] = "BOTTOMLEFT",
 					},
-					["version"] = 3,
 				},
-				["DRUID"] = {
+				["機動 - 暗影之月"] = {
 					["enabled"] = true,
-					["version"] = 3,
 					["position"] = {
-						["y"] = 73,
-						["x"] = -516,
-						["point"] = "BOTTOM",
+						["y"] = 61.0953941345215,
+						["x"] = 441.000030517578,
+						["point"] = "BOTTOMLEFT",
 					},
+					["version"] = 3,
 				},
 				["七蓮 - 屠魔山谷"] = {
 					["version"] = 3,
@@ -1568,11 +1560,19 @@ Bartender4DB = {
 						["point"] = "LEFT",
 					},
 				},
-				["機動 - 暗影之月"] = {
+				["DRUID"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 61.0953941345215,
+						["y"] = 73,
+						["x"] = -516,
+						["point"] = "BOTTOM",
+					},
+				},
+				["幽谷 - 日落沼澤"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 56.8638763427734,
 						["x"] = 441.000030517578,
 						["point"] = "BOTTOMLEFT",
 					},
@@ -1593,12 +1593,12 @@ Bartender4DB = {
 				["機動 - 暗影之月"] = {
 					["enabled"] = true,
 					["leftCap"] = "NONE",
-					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 					["rightCap"] = "NONE",
 				},
 				["弊惡 - 屠魔山谷"] = {
@@ -1671,12 +1671,12 @@ Bartender4DB = {
 				["搏戰 - 暗影之月"] = {
 					["enabled"] = true,
 					["leftCap"] = "NONE",
+					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
 						["point"] = "BOTTOM",
 					},
-					["version"] = 3,
 					["rightCap"] = "NONE",
 				},
 				["牧豆 - 暗影之月"] = {
@@ -1733,12 +1733,12 @@ Bartender4DB = {
 					},
 				},
 				["機動 - 暗影之月"] = {
-					["version"] = 3,
 					["position"] = {
 						["y"] = 232.037269592285,
 						["x"] = 453.42448425293,
 						["point"] = "BOTTOMLEFT",
 					},
+					["version"] = 3,
 				},
 				["弊惡 - 屠魔山谷"] = {
 					["version"] = 3,
@@ -1798,12 +1798,12 @@ Bartender4DB = {
 					},
 				},
 				["搏戰 - 暗影之月"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 228.424369812012,
 						["x"] = 454.284439086914,
 						["point"] = "BOTTOMLEFT",
 					},
-					["version"] = 3,
 				},
 				["牧豆 - 暗影之月"] = {
 					["version"] = 3,

@@ -4,12 +4,17 @@ dbOHC = {
 		["披薩餅 - 暗影之月"] = {
 			["firstun"] = false,
 		},
-		["搏戰 - 暗影之月"] = {
-			["firstun"] = false,
-		},
 		["機動 - 暗影之月"] = {
 			["firstun"] = false,
 		},
+		["搏戰 - 暗影之月"] = {
+			["firstun"] = false,
+		},
+	},
+	["profileKeys"] = {
+		["披薩餅 - 暗影之月"] = "Default",
+		["機動 - 暗影之月"] = "Default",
+		["搏戰 - 暗影之月"] = "Default",
 	},
 	["global"] = {
 		["warn01_seen"] = 0,
@@ -20,15 +25,10 @@ dbOHC = {
 		},
 		["warn02_seen"] = 0,
 	},
-	["profileKeys"] = {
-		["披薩餅 - 暗影之月"] = "Default",
-		["搏戰 - 暗影之月"] = "Default",
-		["機動 - 暗影之月"] = "Default",
-	},
 	["profiles"] = {
 		["Default"] = {
 			["toggles"] = {
-				["SPARE"] = false,
+				["NOTROOPS"] = false,
 				["SORTMISSION"] = "Garrison_SortMissions_Chance",
 				["MAXCHAMP"] = 3,
 				["MOVEPANEL"] = true,
@@ -38,27 +38,27 @@ dbOHC = {
 				["IGNOREINACTIVE"] = true,
 				["BONUS"] = true,
 				["NOWARN"] = false,
-				["TROOPALERT"] = true,
-				["MAKEITQUICK"] = true,
-				["NOTROOPS"] = false,
-				["IGNORELOW"] = false,
-				["IGNOREBUSY"] = false,
 				["MAKEITVERYQUICK"] = false,
+				["MAKEITQUICK"] = true,
+				["SPARE"] = false,
+				["TROOPALERT"] = true,
+				["IGNOREBUSY"] = false,
+				["IGNORELOW"] = false,
 			},
-			["showmenu"] = true,
 			["blacklist"] = {
 				[901] = false,
 				[1641] = false,
+				[1589] = false,
 				[1049] = true,
-				[1634] = false,
-				[1384] = false,
+				[1642] = false,
 				[1627] = false,
 				[900] = false,
 				[1635] = false,
+				[1384] = false,
 				[1699] = false,
-				[1642] = false,
-				[1589] = false,
+				[1634] = false,
 			},
+			["showmenu"] = true,
 		},
 	},
 }

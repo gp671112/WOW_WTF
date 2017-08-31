@@ -3,37 +3,37 @@ ArchyDB = {
 	["char"] = {
 		["披薩餅 - 暗影之月"] = {
 			["digsites"] = {
-				["blacklist"] = {
-				},
 				["stats"] = {
+				},
+				["blacklist"] = {
 				},
 			},
 		},
 		["機動 - 暗影之月"] = {
 			["digsites"] = {
-				["blacklist"] = {
-				},
 				["stats"] = {
+				},
+				["blacklist"] = {
 				},
 			},
 		},
 		["弊惡 - 屠魔山谷"] = {
 			["digsites"] = {
-				["stats"] = {
-				},
 				["blacklist"] = {
+				},
+				["stats"] = {
 				},
 			},
 		},
 		["煌天 - 屠魔山谷"] = {
 			["digsites"] = {
-				["stats"] = {
-				},
 				["blacklist"] = {
+				},
+				["stats"] = {
 				},
 			},
 		},
-		["幽谷 - 日落沼澤"] = {
+		["甘到府 - 暗影之月"] = {
 			["digsites"] = {
 				["blacklist"] = {
 				},
@@ -43,13 +43,13 @@ ArchyDB = {
 		},
 		["便宜把戲 - 亞雷戈斯"] = {
 			["digsites"] = {
-				["stats"] = {
-				},
 				["blacklist"] = {
+				},
+				["stats"] = {
 				},
 			},
 		},
-		["彈性手感 - 屠魔山谷"] = {
+		["便宜把戲 - 暗影之月"] = {
 			["digsites"] = {
 				["blacklist"] = {
 				},
@@ -59,169 +59,171 @@ ArchyDB = {
 		},
 		["搏戰 - 暗影之月"] = {
 			["digsites"] = {
+				["blacklist"] = {
+				},
 				["stats"] = {
 					[353965] = {
 						["fragments"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 					},
 					[353981] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[54834] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[55468] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[354045] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[346517] = {
 						["fragments"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 					},
 					[353967] = {
 						["fragments"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 					},
 					[353983] = {
 						["fragments"] = 63,
-						["surveys"] = 25,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 9,
-						["counter"] = 0,
+						["surveys"] = 25,
 					},
 					[346502] = {
 						["fragments"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 					},
 					[354031] = {
 						["fragments"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 					},
 					[354047] = {
 						["fragments"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 					},
 					[353985] = {
 						["fragments"] = 126,
-						["surveys"] = 47,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 18,
-						["counter"] = 0,
+						["surveys"] = 47,
 					},
 					[354033] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[363058] = {
 						["fragments"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 					},
 					[264227] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[56388] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[307981] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[54124] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[56335] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[363029] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
 					[353989] = {
 						["fragments"] = 126,
-						["surveys"] = 53,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 18,
-						["counter"] = 0,
+						["surveys"] = 53,
 					},
 					[346445] = {
 						["fragments"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 					},
 					[56351] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
-					[353972] = {
+					[354093] = {
 						["fragments"] = 0,
 						["counter"] = 0,
 						["keystones"] = 0,
@@ -230,131 +232,26 @@ ArchyDB = {
 					},
 					[307985] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
-						["counter"] = 0,
+						["surveys"] = 0,
 					},
-					[346478] = {
-						["fragments"] = 95,
-						["surveys"] = 36,
-						["keystones"] = 0,
-						["looted"] = 11,
-						["counter"] = 0,
-					},
-					[56358] = {
+					[346531] = {
 						["fragments"] = 0,
-						["surveys"] = 0,
+						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[354037] = {
+						["fragments"] = 0,
 						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
 					},
 					[346475] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[363036] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[307971] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[354087] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[346527] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[353977] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[354245] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[346512] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[346481] = {
-						["fragments"] = 76,
-						["surveys"] = 24,
-						["keystones"] = 0,
-						["looted"] = 9,
-						["counter"] = 8,
-					},
-					[354041] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[353987] = {
-						["fragments"] = 66,
-						["surveys"] = 27,
-						["keystones"] = 0,
-						["looted"] = 9,
-						["counter"] = 0,
-					},
-					[55478] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[353970] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[353979] = {
-						["fragments"] = 62,
-						["surveys"] = 22,
-						["keystones"] = 0,
-						["looted"] = 9,
-						["counter"] = 0,
-					},
-					[354247] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[346514] = {
 						["fragments"] = 0,
 						["counter"] = 0,
 						["keystones"] = 0,
@@ -363,245 +260,52 @@ ArchyDB = {
 					},
 					[354027] = {
 						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[354043] = {
-						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["counter"] = 0,
 					},
-					[354037] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[346531] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[354093] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-				},
-				["blacklist"] = {
-				},
-			},
-		},
-		["牧豆 - 暗影之月"] = {
-			["digsites"] = {
-				["blacklist"] = {
-				},
-				["stats"] = {
-				},
-			},
-		},
-		["七蓮 - 屠魔山谷"] = {
-			["digsites"] = {
-				["blacklist"] = {
-				},
-				["stats"] = {
-					[307928] = {
+					[354087] = {
 						["fragments"] = 0,
 						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["surveys"] = 0,
 					},
-					[264223] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[56356] = {
-						["fragments"] = 39,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 26,
-					},
-					[56358] = {
-						["fragments"] = 45,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 17,
-					},
-					[307962] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[363056] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[353985] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[354033] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[56386] = {
-						["fragments"] = 38,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 26,
-					},
-					[363027] = {
+					[346527] = {
 						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["counter"] = 0,
 					},
-					[54126] = {
-						["fragments"] = 40,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 26,
-					},
-					[346522] = {
+					[307971] = {
 						["fragments"] = 0,
 						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["surveys"] = 0,
 					},
-					[363060] = {
+					[353977] = {
 						["fragments"] = 0,
 						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["surveys"] = 0,
 					},
-					[353957] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[56345] = {
-						["fragments"] = 39,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 19,
-					},
-					[308015] = {
+					[354245] = {
 						["fragments"] = 0,
 						["counter"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["surveys"] = 0,
 					},
-					[55410] = {
-						["fragments"] = 51,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 26,
-					},
-					[354022] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[346478] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[55416] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[55418] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[55422] = {
-						["fragments"] = 44,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 23,
-					},
-					[55424] = {
-						["fragments"] = 38,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 27,
-					},
-					[55426] = {
-						["fragments"] = 37,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 23,
-					},
-					[353961] = {
+					[346512] = {
 						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["counter"] = 0,
-					},
-					[353993] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[55434] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
 					},
 					[354041] = {
 						["fragments"] = 0,
@@ -610,63 +314,301 @@ ArchyDB = {
 						["looted"] = 0,
 						["surveys"] = 0,
 					},
+					[346481] = {
+						["fragments"] = 76,
+						["counter"] = 8,
+						["keystones"] = 0,
+						["looted"] = 9,
+						["surveys"] = 24,
+					},
+					[353970] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55478] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[353987] = {
+						["fragments"] = 66,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 9,
+						["surveys"] = 27,
+					},
+					[353979] = {
+						["fragments"] = 62,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 9,
+						["surveys"] = 22,
+					},
+					[354247] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[346514] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[363036] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[354043] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[56358] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[346478] = {
+						["fragments"] = 95,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 11,
+						["surveys"] = 36,
+					},
+					[353972] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+				},
+			},
+		},
+		["牧豆 - 暗影之月"] = {
+			["digsites"] = {
+				["stats"] = {
+				},
+				["blacklist"] = {
+				},
+			},
+		},
+		["七蓮 - 屠魔山谷"] = {
+			["digsites"] = {
+				["stats"] = {
+					[307928] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[264223] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56356] = {
+						["fragments"] = 39,
+						["surveys"] = 26,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[56358] = {
+						["fragments"] = 45,
+						["surveys"] = 17,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[307962] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[363056] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[353985] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[354033] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56386] = {
+						["fragments"] = 38,
+						["surveys"] = 26,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[363027] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[54126] = {
+						["fragments"] = 40,
+						["surveys"] = 26,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[346522] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[363060] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[353957] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[56345] = {
+						["fragments"] = 39,
+						["surveys"] = 19,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[308015] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55410] = {
+						["fragments"] = 51,
+						["surveys"] = 26,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[354022] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[346478] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55416] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55418] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55422] = {
+						["fragments"] = 44,
+						["surveys"] = 23,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[55424] = {
+						["fragments"] = 38,
+						["surveys"] = 27,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[55426] = {
+						["fragments"] = 37,
+						["surveys"] = 23,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[353961] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[353993] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[55434] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[354041] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
 					[363019] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[354018] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[354020] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[56333] = {
-						["fragments"] = 46,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 21,
-					},
-					[55450] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[56388] = {
-						["fragments"] = 42,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 6,
-						["surveys"] = 39,
-					},
-					[55454] = {
-						["fragments"] = 0,
-						["counter"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["surveys"] = 0,
-					},
-					[363017] = {
-						["fragments"] = 0,
-						["surveys"] = 0,
-						["keystones"] = 0,
-						["looted"] = 0,
-						["counter"] = 0,
-					},
-					[55414] = {
 						["fragments"] = 0,
 						["counter"] = 0,
 						["keystones"] = 0,
@@ -675,15 +617,73 @@ ArchyDB = {
 					},
 					[346447] = {
 						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55414] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[363017] = {
+						["fragments"] = 0,
+						["counter"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["surveys"] = 0,
+					},
+					[55450] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56388] = {
+						["fragments"] = 42,
+						["surveys"] = 39,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[55454] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[56333] = {
+						["fragments"] = 46,
+						["surveys"] = 21,
+						["keystones"] = 0,
+						["looted"] = 6,
+						["counter"] = 0,
+					},
+					[354020] = {
+						["fragments"] = 0,
+						["surveys"] = 0,
+						["keystones"] = 0,
+						["looted"] = 0,
+						["counter"] = 0,
+					},
+					[354018] = {
+						["fragments"] = 0,
 						["surveys"] = 0,
 						["keystones"] = 0,
 						["looted"] = 0,
 						["counter"] = 0,
 					},
 				},
+				["blacklist"] = {
+				},
 			},
 		},
-		["便宜把戲 - 暗影之月"] = {
+		["彈性手感 - 屠魔山谷"] = {
 			["digsites"] = {
 				["stats"] = {
 				},
@@ -691,7 +691,7 @@ ArchyDB = {
 				},
 			},
 		},
-		["甘到府 - 暗影之月"] = {
+		["幽谷 - 日落沼澤"] = {
 			["digsites"] = {
 				["stats"] = {
 				},
@@ -699,6 +699,20 @@ ArchyDB = {
 				},
 			},
 		},
+	},
+	["profileKeys"] = {
+		["披薩餅 - 暗影之月"] = "Default",
+		["機動 - 暗影之月"] = "Default",
+		["弊惡 - 屠魔山谷"] = "Default",
+		["煌天 - 屠魔山谷"] = "Default",
+		["甘到府 - 暗影之月"] = "Default",
+		["便宜把戲 - 亞雷戈斯"] = "Default",
+		["便宜把戲 - 暗影之月"] = "Default",
+		["搏戰 - 暗影之月"] = "Default",
+		["牧豆 - 暗影之月"] = "Default",
+		["七蓮 - 屠魔山谷"] = "Default",
+		["彈性手感 - 屠魔山谷"] = "Default",
+		["幽谷 - 日落沼澤"] = "Default",
 	},
 	["global"] = {
 		["surveyNodes"] = {
@@ -1150,75 +1164,81 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [9]
 			},
-			[56358] = {
+			[346481] = {
 				{
-					["m"] = 607,
-					["x"] = 0.454563247654933,
-					["y"] = 0.435089379831534,
+					["m"] = 1024,
+					["x"] = 0.514774292168822,
+					["y"] = 0.594631237566313,
 					["f"] = 0,
 				}, -- [1]
 				{
-					["m"] = 607,
-					["x"] = 0.4529173693086,
-					["y"] = 0.425983140352417,
+					["m"] = 1024,
+					["x"] = 0.51976660419889,
+					["y"] = 0.587649825928382,
 					["f"] = 0,
 				}, -- [2]
 				{
-					["m"] = 607,
-					["x"] = 0.457261392680228,
-					["y"] = 0.432215865254581,
+					["m"] = 1024,
+					["x"] = 0.517546222080612,
+					["y"] = 0.585061028680371,
 					["f"] = 0,
 				}, -- [3]
 				{
-					["m"] = 607,
-					["x"] = 0.452849915682968,
-					["y"] = 0.44773693466364,
+					["m"] = 1024,
+					["x"] = 0.515297561657408,
+					["y"] = 0.598917751160477,
 					["f"] = 0,
 				}, -- [4]
 			},
-			[346478] = {
+			[353979] = {
 				{
 					["m"] = 1024,
-					["x"] = 0.465883312734021,
-					["y"] = 0.473082207393899,
+					["x"] = 0.408096613881879,
+					["y"] = 0.486429666777188,
 					["f"] = 0,
 				}, -- [1]
 				{
 					["m"] = 1024,
-					["x"] = 0.463889191582995,
-					["y"] = 0.461941623839523,
+					["x"] = 0.410741239629734,
+					["y"] = 0.485538482261273,
 					["f"] = 0,
 				}, -- [2]
 				{
 					["m"] = 1024,
-					["x"] = 0.456761332349428,
-					["y"] = 0.452222832393899,
+					["x"] = 0.41586089035158,
+					["y"] = 0.475671108255968,
 					["f"] = 0,
 				}, -- [3]
 				{
 					["m"] = 1024,
-					["x"] = 0.472402998508535,
-					["y"] = 0.450864659316976,
+					["x"] = 0.407743048750693,
+					["y"] = 0.477241379310345,
 					["f"] = 0,
 				}, -- [4]
 				{
 					["m"] = 1024,
-					["x"] = 0.458585714615209,
-					["y"] = 0.465527810013263,
+					["x"] = 0.423922175342616,
+					["y"] = 0.47859944877321,
 					["f"] = 0,
 				}, -- [5]
 				{
 					["m"] = 1024,
-					["x"] = 0.468669364534351,
-					["y"] = 0.458270577751989,
+					["x"] = 0.420994628434122,
+					["y"] = 0.480891184515915,
 					["f"] = 0,
 				}, -- [6]
 				{
 					["m"] = 1024,
-					["x"] = 0.467933990494899,
-					["y"] = 0.462663088527852,
+					["x"] = 0.423837305899994,
+					["y"] = 0.486068986240053,
 					["f"] = 0,
 				}, -- [7]
+				{
+					["m"] = 1024,
+					["x"] = 0.420513793666847,
+					["y"] = 0.486620627486737,
+					["f"] = 0,
+				}, -- [8]
 			},
 			[55410] = {
 				{
@@ -1251,6 +1271,44 @@ ArchyDB = {
 					["y"] = 0.855453615453924,
 					["f"] = 0,
 				}, -- [5]
+			},
+			[55426] = {
+				{
+					["m"] = 101,
+					["x"] = 0.536837768393606,
+					["y"] = 0.606048674957676,
+					["f"] = 0,
+				}, -- [1]
+				{
+					["m"] = 101,
+					["x"] = 0.527317858138168,
+					["y"] = 0.574126481271122,
+					["f"] = 0,
+				}, -- [2]
+				{
+					["m"] = 101,
+					["x"] = 0.526316931281636,
+					["y"] = 0.598309942828338,
+					["f"] = 0,
+				}, -- [3]
+				{
+					["m"] = 101,
+					["x"] = 0.543176971818305,
+					["y"] = 0.596842289460261,
+					["f"] = 0,
+				}, -- [4]
+				{
+					["m"] = 101,
+					["x"] = 0.541909141994117,
+					["y"] = 0.616255755416079,
+					["f"] = 0,
+				}, -- [5]
+				{
+					["m"] = 101,
+					["x"] = 0.529920257104398,
+					["y"] = 0.563986138241147,
+					["f"] = 0,
+				}, -- [6]
 			},
 			[353985] = {
 				{
@@ -1320,135 +1378,77 @@ ArchyDB = {
 					["f"] = 0,
 				}, -- [11]
 			},
-			[55426] = {
-				{
-					["m"] = 101,
-					["x"] = 0.536837768393606,
-					["y"] = 0.606048674957676,
-					["f"] = 0,
-				}, -- [1]
-				{
-					["m"] = 101,
-					["x"] = 0.527317858138168,
-					["y"] = 0.574126481271122,
-					["f"] = 0,
-				}, -- [2]
-				{
-					["m"] = 101,
-					["x"] = 0.526316931281636,
-					["y"] = 0.598309942828338,
-					["f"] = 0,
-				}, -- [3]
-				{
-					["m"] = 101,
-					["x"] = 0.543176971818305,
-					["y"] = 0.596842289460261,
-					["f"] = 0,
-				}, -- [4]
-				{
-					["m"] = 101,
-					["x"] = 0.541909141994117,
-					["y"] = 0.616255755416079,
-					["f"] = 0,
-				}, -- [5]
-				{
-					["m"] = 101,
-					["x"] = 0.529920257104398,
-					["y"] = 0.563986138241147,
-					["f"] = 0,
-				}, -- [6]
-			},
-			[353979] = {
+			[346478] = {
 				{
 					["m"] = 1024,
-					["x"] = 0.408096613881879,
-					["y"] = 0.486429666777188,
+					["x"] = 0.465883312734021,
+					["y"] = 0.473082207393899,
 					["f"] = 0,
 				}, -- [1]
 				{
 					["m"] = 1024,
-					["x"] = 0.410741239629734,
-					["y"] = 0.485538482261273,
+					["x"] = 0.463889191582995,
+					["y"] = 0.461941623839523,
 					["f"] = 0,
 				}, -- [2]
 				{
 					["m"] = 1024,
-					["x"] = 0.41586089035158,
-					["y"] = 0.475671108255968,
+					["x"] = 0.456761332349428,
+					["y"] = 0.452222832393899,
 					["f"] = 0,
 				}, -- [3]
 				{
 					["m"] = 1024,
-					["x"] = 0.407743048750693,
-					["y"] = 0.477241379310345,
+					["x"] = 0.472402998508535,
+					["y"] = 0.450864659316976,
 					["f"] = 0,
 				}, -- [4]
 				{
 					["m"] = 1024,
-					["x"] = 0.423922175342616,
-					["y"] = 0.47859944877321,
+					["x"] = 0.458585714615209,
+					["y"] = 0.465527810013263,
 					["f"] = 0,
 				}, -- [5]
 				{
 					["m"] = 1024,
-					["x"] = 0.420994628434122,
-					["y"] = 0.480891184515915,
+					["x"] = 0.468669364534351,
+					["y"] = 0.458270577751989,
 					["f"] = 0,
 				}, -- [6]
 				{
 					["m"] = 1024,
-					["x"] = 0.423837305899994,
-					["y"] = 0.486068986240053,
+					["x"] = 0.467933990494899,
+					["y"] = 0.462663088527852,
 					["f"] = 0,
 				}, -- [7]
-				{
-					["m"] = 1024,
-					["x"] = 0.420513793666847,
-					["y"] = 0.486620627486737,
-					["f"] = 0,
-				}, -- [8]
 			},
-			[346481] = {
+			[56358] = {
 				{
-					["m"] = 1024,
-					["x"] = 0.514774292168822,
-					["y"] = 0.594631237566313,
+					["m"] = 607,
+					["x"] = 0.454563247654933,
+					["y"] = 0.435089379831534,
 					["f"] = 0,
 				}, -- [1]
 				{
-					["m"] = 1024,
-					["x"] = 0.51976660419889,
-					["y"] = 0.587649825928382,
+					["m"] = 607,
+					["x"] = 0.4529173693086,
+					["y"] = 0.425983140352417,
 					["f"] = 0,
 				}, -- [2]
 				{
-					["m"] = 1024,
-					["x"] = 0.517546222080612,
-					["y"] = 0.585061028680371,
+					["m"] = 607,
+					["x"] = 0.457261392680228,
+					["y"] = 0.432215865254581,
 					["f"] = 0,
 				}, -- [3]
 				{
-					["m"] = 1024,
-					["x"] = 0.515297561657408,
-					["y"] = 0.598917751160477,
+					["m"] = 607,
+					["x"] = 0.452849915682968,
+					["y"] = 0.44773693466364,
 					["f"] = 0,
 				}, -- [4]
 			},
 		},
-	},
-	["profileKeys"] = {
-		["披薩餅 - 暗影之月"] = "Default",
-		["機動 - 暗影之月"] = "Default",
-		["弊惡 - 屠魔山谷"] = "Default",
-		["煌天 - 屠魔山谷"] = "Default",
-		["幽谷 - 日落沼澤"] = "Default",
-		["便宜把戲 - 亞雷戈斯"] = "Default",
-		["彈性手感 - 屠魔山谷"] = "Default",
-		["搏戰 - 暗影之月"] = "Default",
-		["牧豆 - 暗影之月"] = "Default",
-		["七蓮 - 屠魔山谷"] = "Default",
-		["便宜把戲 - 暗影之月"] = "Default",
-		["甘到府 - 暗影之月"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

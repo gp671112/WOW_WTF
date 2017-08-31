@@ -155,7 +155,7 @@ ItemLinkLevel: enabled
 TargetNameplateIndicator: enabled
 DBM-TombofSargeras: enabled
 TankMD: enabled
-PetJournalEnhanced: disabled
+PetJournalEnhanced: enabled
 dbm-challenges: enabled
 orderhallcommander: enabled
 legioninvasiontimer_options: enabled
@@ -170,8 +170,8 @@ TotalAP: enabled
 legioninvasiontimer: enabled
 worldquestslist: enabled
 worldquestassistant: enabled
-GatherMate2: disabled
-Carbonite.Gathermate2_Data: disabled
+GatherMate2: enabled
+Carbonite.Gathermate2_Data: enabled
 gathermate2_data: enabled
 dbm-vptaotao: enabled
 totalRP3: disabled
@@ -179,10 +179,10 @@ Pawn: enabled
 Broker_Equipment: enabled
 PremadeGroupsFilter: enabled
 TinyInspect: enabled
-totalRP3_Data: disabled
-totalRP3_Extended: disabled
-totalRP3_Extended_ImpExport: disabled
-totalRP3_Extended_Tools: disabled
+totalRP3_Data: enabled
+totalRP3_Extended: enabled
+totalRP3_Extended_ImpExport: enabled
+totalRP3_Extended_Tools: enabled
 SimPermut: enabled
 RelicInspector: enabled
 SkadaPlus: enabled

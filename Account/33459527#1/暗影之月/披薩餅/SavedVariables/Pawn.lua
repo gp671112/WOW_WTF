@@ -4,7 +4,6 @@ PawnOptions = {
 	["LastPlayerFullName"] = "披薩餅-暗影之月",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128911] = {
 			["Relics"] = {
@@ -58,6 +57,7 @@ PawnOptions = {
 			["Name"] = "萊公之拳",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "SHAMAN",

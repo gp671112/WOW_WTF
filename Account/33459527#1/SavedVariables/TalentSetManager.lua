@@ -241,9 +241,9 @@ TalentSetManager_CharacterSaves = {
 					1, -- [5]
 					1, -- [6]
 					3, -- [7]
-					["texture"] = 575534,
-					["name"] = "守護",
 					["tt"] = "talents",
+					["name"] = "守護",
+					["texture"] = 575534,
 				}, -- [1]
 				{
 					3, -- [1]
@@ -253,9 +253,9 @@ TalentSetManager_CharacterSaves = {
 					1, -- [5]
 					3, -- [6]
 					2, -- [7]
-					["texture"] = 461121,
-					["name"] = "群體",
 					["tt"] = "talents",
+					["name"] = "群體",
+					["texture"] = 461121,
 				}, -- [2]
 			}, -- [1]
 			{
@@ -267,9 +267,9 @@ TalentSetManager_CharacterSaves = {
 					1, -- [5]
 					1, -- [6]
 					3, -- [7]
-					["texture"] = 645217,
-					["name"] = "單體",
 					["tt"] = "talents",
+					["name"] = "單體",
+					["texture"] = 645217,
 				}, -- [1]
 			}, -- [2]
 			{
@@ -281,9 +281,9 @@ TalentSetManager_CharacterSaves = {
 					3, -- [5]
 					3, -- [6]
 					1, -- [7]
-					["tt"] = "talents",
-					["name"] = "單體",
 					["texture"] = 1097740,
+					["name"] = "單體",
+					["tt"] = "talents",
 				}, -- [1]
 				{
 					1, -- [1]
@@ -293,16 +293,16 @@ TalentSetManager_CharacterSaves = {
 					3, -- [5]
 					1, -- [6]
 					2, -- [7]
-					["tt"] = "talents",
-					["name"] = "群體",
 					["texture"] = 132425,
+					["name"] = "群體",
+					["tt"] = "talents",
 				}, -- [2]
 			}, -- [3]
 		},
 		["version"] = 0,
 		["interface"] = {
-			["auto_equip4"] = 0,
 			["auto_equip2"] = 0,
+			["auto_equip4"] = 0,
 			["auto_equip1"] = 0,
 			["auto_equip3"] = 0,
 		},

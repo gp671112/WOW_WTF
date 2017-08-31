@@ -19,21 +19,21 @@ AtlasDB = {
 		["陵獵 - 屠魔山谷"] = {
 		},
 		["機動 - 暗影之月"] = {
-			["dropdowns"] = {
-				["|TInterface\\ICONS\\Achievement_Zone_Outland_01:0:0|t 燃燒的遠征副本 2/2"] = 1,
-				["|TInterface\\ICONS\\Achievement_Zone_Outland_01:0:0|t 燃燒的遠征副本 1/2"] = 29,
-			},
 			["options"] = {
-				["frames"] = {
-					["scale"] = 0.999999940395355,
-					["controlClick"] = false,
-					["boss_description_scale"] = 0.899999976158142,
-				},
 				["dropdowns"] = {
 					["module"] = 10,
 					["menuType"] = 2,
 					["zone"] = 19,
 				},
+				["frames"] = {
+					["scale"] = 0.999999940395355,
+					["controlClick"] = false,
+					["boss_description_scale"] = 0.899999976158142,
+				},
+			},
+			["dropdowns"] = {
+				["|TInterface\\ICONS\\Achievement_Zone_Outland_01:0:0|t 燃燒的遠征副本 2/2"] = 1,
+				["|TInterface\\ICONS\\Achievement_Zone_Outland_01:0:0|t 燃燒的遠征副本 1/2"] = 29,
 			},
 			["options_copied"] = true,
 		},
@@ -74,17 +74,6 @@ AtlasDB = {
 			["options_copied"] = true,
 		},
 		["搏戰 - 暗影之月"] = {
-			["options"] = {
-				["dropdowns"] = {
-					["zone"] = 6,
-					["menuType"] = 4,
-				},
-				["frames"] = {
-					["scale"] = 0.999999940395355,
-					["controlClick"] = false,
-					["boss_description_scale"] = 0.899999976158142,
-				},
-			},
 			["dropdowns"] = {
 				["副本等級介於 100-110"] = 4,
 				["潘達利亞之謎副本"] = 3,
@@ -95,6 +84,17 @@ AtlasDB = {
 				["軍臨天下團隊副本"] = 19,
 			},
 			["options_copied"] = true,
+			["options"] = {
+				["frames"] = {
+					["scale"] = 0.999999940395355,
+					["controlClick"] = false,
+					["boss_description_scale"] = 0.899999976158142,
+				},
+				["dropdowns"] = {
+					["menuType"] = 4,
+					["zone"] = 6,
+				},
+			},
 		},
 		["牧豆 - 暗影之月"] = {
 			["dropdowns"] = {
@@ -119,8 +119,8 @@ AtlasDB = {
 			["options"] = {
 				["dropdowns"] = {
 					["module"] = 7,
-					["zone"] = 24,
 					["menuType"] = 2,
+					["zone"] = 24,
 				},
 			},
 			["minimap"] = {

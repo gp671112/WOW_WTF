@@ -18,10 +18,10 @@ CompactRaidDB = {
 			["yoffset"] = 0,
 		},
 		["Artwork"] = {
-			["background"] = "Interface\\DialogFrame\\UI-DialogBox-Background",
 			["statusbar"] = "Interface\\BUTTONS\\WHITE8X8.BLP",
-			["border"] = "Interface\\Tooltips\\UI-Tooltip-Border",
 			["font"] = "Fonts\\blei00d.TTF",
+			["border"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+			["background"] = "Interface\\DialogFrame\\UI-DialogBox-Background",
 		},
 	},
 	["powerColor"] = "0.0,0.0,1.0",
@@ -66,16 +66,16 @@ CompactRaidDB = {
 		},
 		["機動 - 暗影之月"] = {
 			["modules"] = {
-				["Artwork"] = {
-					["disabled"] = 1,
-				},
 				["CornerIndicators"] = {
 					["disabled"] = 1,
 				},
-				["ClickSets"] = {
+				["Artwork"] = {
 					["disabled"] = 1,
 				},
 				["RaidDebuff"] = {
+				},
+				["ClickSets"] = {
+					["disabled"] = 1,
 				},
 			},
 			["version"] = 4.23,
@@ -183,16 +183,16 @@ CompactRaidDB = {
 		},
 		["搏戰 - 暗影之月"] = {
 			["modules"] = {
-				["CornerIndicators"] = {
-					["disabled"] = 1,
+				["RaidDebuff"] = {
 				},
 				["ClickSets"] = {
 					["disabled"] = 1,
 				},
-				["Artwork"] = {
+				["CornerIndicators"] = {
 					["disabled"] = 1,
 				},
-				["RaidDebuff"] = {
+				["Artwork"] = {
+					["disabled"] = 1,
 				},
 			},
 			["version"] = 4.23,
@@ -258,17 +258,17 @@ CompactRaidDB = {
 				},
 				["CornerIndicators"] = {
 					["talent3"] = {
-						["TOPRIGHT"] = "[ignoreVehicle]#1#[aura]#強效王者祝福#[showlacks]#1#",
 						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#強效力量祝福#[showlacks]#1#",
-						["BOTTOMRIGHT"] = "[ignoreVehicle]#1#[aura]#強效智慧祝福#[showlacks]#1#",
 						["TOPLEFT"] = "[selfcast]#1#[aura]#聖光信標#[style]#2#",
+						["BOTTOMRIGHT"] = "[ignoreVehicle]#1#[aura]#強效智慧祝福#[showlacks]#1#",
+						["TOPRIGHT"] = "[ignoreVehicle]#1#[aura]#強效王者祝福#[showlacks]#1#",
 					},
 					["disabled"] = 1,
 					["talent1"] = {
-						["TOPRIGHT"] = "[ignoreVehicle]#1#[aura]#強效王者祝福#[showlacks]#1#",
 						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#強效力量祝福#[showlacks]#1#",
-						["BOTTOMRIGHT"] = "[ignoreVehicle]#1#[aura]#強效智慧祝福#[showlacks]#1#",
 						["TOPLEFT"] = "[selfcast]#1#[aura]#聖光信標#[style]#2#",
+						["BOTTOMRIGHT"] = "[ignoreVehicle]#1#[aura]#強效智慧祝福#[showlacks]#1#",
+						["TOPRIGHT"] = "[ignoreVehicle]#1#[aura]#強效王者祝福#[showlacks]#1#",
 					},
 				},
 				["RaidDebuff"] = {
@@ -280,6 +280,19 @@ CompactRaidDB = {
 		},
 		["披薩餅 - 暗影之月"] = {
 			["modules"] = {
+				["RaidDebuff"] = {
+				},
+				["CornerIndicators"] = {
+					["talent2"] = {
+						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
+					},
+					["talent3"] = {
+						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
+					},
+					["talent1"] = {
+						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
+					},
+				},
 				["ClickSets"] = {
 					["talent2"] = {
 						["alt-1"] = "buildin:治療鍊",
@@ -304,19 +317,6 @@ CompactRaidDB = {
 				},
 				["Artwork"] = {
 					["disabled"] = 1,
-				},
-				["RaidDebuff"] = {
-				},
-				["CornerIndicators"] = {
-					["talent2"] = {
-						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
-					},
-					["talent3"] = {
-						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
-					},
-					["talent1"] = {
-						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
-					},
 				},
 			},
 			["version"] = 4.23,

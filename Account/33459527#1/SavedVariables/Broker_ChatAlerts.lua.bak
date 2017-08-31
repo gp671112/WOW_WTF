@@ -9,8 +9,8 @@ BrokerChatAlerts_DB = {
 		["搏戰 - 暗影之月"] = "Default",
 		["牧豆 - 暗影之月"] = "Default",
 		["七蓮 - 屠魔山谷"] = "Default",
-		["煌天 - 屠魔山谷"] = "Default",
 		["幽谷 - 日落沼澤"] = "Default",
+		["煌天 - 屠魔山谷"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -31,8 +31,8 @@ BrokerChatAlerts_DB = {
 				},
 			},
 			["Minimap"] = false,
-			["keywordString"] = "傳奇",
 			["notificationSound"] = 20,
+			["keywordString"] = "傳奇",
 		},
 	},
 }

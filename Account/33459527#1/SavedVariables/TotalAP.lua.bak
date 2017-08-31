@@ -16,10 +16,10 @@ TotalArtifactPowerSettings = {
 TotalArtifactPowerCache = {
 	["披薩餅 - 暗影之月"] = {
 		{
-			["thisLevelUnspentAP"] = 852730165,
-			["isIgnored"] = false,
-			["numTraitsPurchased"] = 53,
+			["thisLevelUnspentAP"] = 13331165,
 			["artifactTier"] = 2,
+			["numTraitsPurchased"] = 54,
+			["isIgnored"] = false,
 		}, -- [1]
 		{
 			["thisLevelUnspentAP"] = 3160100,
@@ -38,17 +38,11 @@ TotalArtifactPowerCache = {
 			["numItems"] = 0,
 		},
 	},
-	["七蓮 - 屠魔山谷"] = {
-		[3] = {
-			["thisLevelUnspentAP"] = 51595,
-			["isIgnored"] = false,
-			["numTraitsPurchased"] = 28,
-			["artifactTier"] = 1,
-		},
+	["便宜把戲 - 暗影之月"] = {
 	},
 	["搏戰 - 暗影之月"] = {
 		{
-			["thisLevelUnspentAP"] = 721139620,
+			["thisLevelUnspentAP"] = 1128549670,
 			["artifactTier"] = 2,
 			["numTraitsPurchased"] = 56,
 			["isIgnored"] = false,
@@ -70,21 +64,27 @@ TotalArtifactPowerCache = {
 			["numItems"] = 0,
 		},
 	},
-	["便宜把戲 - 暗影之月"] = {
-	},
 	["煌天 - 屠魔山谷"] = {
+	},
+	["七蓮 - 屠魔山谷"] = {
+		[3] = {
+			["thisLevelUnspentAP"] = 51595,
+			["isIgnored"] = false,
+			["numTraitsPurchased"] = 28,
+			["artifactTier"] = 1,
+		},
 	},
 	["機動 - 暗影之月"] = {
 		{
-			["thisLevelUnspentAP"] = 311151285,
+			["thisLevelUnspentAP"] = 960335,
 			["isIgnored"] = false,
-			["numTraitsPurchased"] = 52,
+			["numTraitsPurchased"] = 53,
 			["artifactTier"] = 2,
 		}, -- [1]
 		{
-			["thisLevelUnspentAP"] = 2922320,
+			["thisLevelUnspentAP"] = 133733020,
 			["isIgnored"] = false,
-			["numTraitsPurchased"] = 52,
+			["numTraitsPurchased"] = 53,
 			["artifactTier"] = 2,
 		}, -- [2]
 		{

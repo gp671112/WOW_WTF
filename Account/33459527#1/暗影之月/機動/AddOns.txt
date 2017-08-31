@@ -186,3 +186,4 @@ bigwigs_tombofsargeras: enabled
 bigwigs_plugins: enabled
 bigwigs_nighthold: enabled
 bigwigs_nightmare: enabled
+bigwigs: enabled

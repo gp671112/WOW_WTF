@@ -6,10 +6,10 @@ CompactRaidDB = {
 	["showParty"] = 1,
 	["modules"] = {
 		["Artwork"] = {
-			["font"] = "Fonts\\blei00d.TTF",
 			["background"] = "Interface\\DialogFrame\\UI-DialogBox-Background",
-			["border"] = "Interface\\Tooltips\\UI-Tooltip-Border",
 			["statusbar"] = "Interface\\BUTTONS\\WHITE8X8.BLP",
+			["border"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+			["font"] = "Fonts\\blei00d.TTF",
 		},
 		["RaidDebuff"] = {
 			["selTier"] = 7,
@@ -73,16 +73,16 @@ CompactRaidDB = {
 		},
 		["機動 - 暗影之月"] = {
 			["modules"] = {
-				["RaidDebuff"] = {
-				},
 				["CornerIndicators"] = {
+					["disabled"] = 1,
+				},
+				["Artwork"] = {
 					["disabled"] = 1,
 				},
 				["ClickSets"] = {
 					["disabled"] = 1,
 				},
-				["Artwork"] = {
-					["disabled"] = 1,
+				["RaidDebuff"] = {
 				},
 			},
 			["version"] = 4.23,
@@ -141,6 +141,9 @@ CompactRaidDB = {
 		},
 		["披薩餅 - 暗影之月"] = {
 			["modules"] = {
+				["Artwork"] = {
+					["disabled"] = 1,
+				},
 				["CornerIndicators"] = {
 					["talent2"] = {
 						["TOPRIGHT"] = "[selfcast]#1#[aura]#激流#[style]#2#",
@@ -175,9 +178,6 @@ CompactRaidDB = {
 					},
 				},
 				["RaidDebuff"] = {
-				},
-				["Artwork"] = {
-					["disabled"] = 1,
 				},
 			},
 			["version"] = 4.23,
@@ -219,16 +219,16 @@ CompactRaidDB = {
 		},
 		["搏戰 - 暗影之月"] = {
 			["modules"] = {
-				["ClickSets"] = {
-					["disabled"] = 1,
-				},
 				["Artwork"] = {
 					["disabled"] = 1,
 				},
-				["RaidDebuff"] = {
+				["ClickSets"] = {
+					["disabled"] = 1,
 				},
 				["CornerIndicators"] = {
 					["disabled"] = 1,
+				},
+				["RaidDebuff"] = {
 				},
 			},
 			["version"] = 4.23,
@@ -277,16 +277,16 @@ CompactRaidDB = {
 				["CornerIndicators"] = {
 					["disabled"] = 1,
 					["talent3"] = {
-						["TOPLEFT"] = "[selfcast]#1#[aura]#聖光信標#[style]#2#",
 						["TOPRIGHT"] = "[ignoreVehicle]#1#[aura]#強效王者祝福#[showlacks]#1#",
-						["BOTTOMRIGHT"] = "[ignoreVehicle]#1#[aura]#強效智慧祝福#[showlacks]#1#",
 						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#強效力量祝福#[showlacks]#1#",
+						["BOTTOMRIGHT"] = "[ignoreVehicle]#1#[aura]#強效智慧祝福#[showlacks]#1#",
+						["TOPLEFT"] = "[selfcast]#1#[aura]#聖光信標#[style]#2#",
 					},
 					["talent1"] = {
-						["TOPLEFT"] = "[selfcast]#1#[aura]#聖光信標#[style]#2#",
 						["TOPRIGHT"] = "[ignoreVehicle]#1#[aura]#強效王者祝福#[showlacks]#1#",
-						["BOTTOMRIGHT"] = "[ignoreVehicle]#1#[aura]#強效智慧祝福#[showlacks]#1#",
 						["BOTTOMLEFT"] = "[ignoreVehicle]#1#[aura]#強效力量祝福#[showlacks]#1#",
+						["BOTTOMRIGHT"] = "[ignoreVehicle]#1#[aura]#強效智慧祝福#[showlacks]#1#",
+						["TOPLEFT"] = "[selfcast]#1#[aura]#聖光信標#[style]#2#",
 					},
 				},
 				["Artwork"] = {

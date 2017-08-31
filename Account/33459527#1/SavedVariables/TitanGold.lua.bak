@@ -23,12 +23,12 @@ GoldSave = {
 	["機動_暗影之月::Alliance"] = {
 		["show"] = true,
 		["name"] = "機動",
-		["gold"] = 1046596839,
+		["gold"] = 1095519520,
 	},
 	["搏戰_暗影之月::Alliance"] = {
 		["show"] = true,
 		["name"] = "搏戰",
-		["gold"] = 4980249541,
+		["gold"] = 5065303999,
 	},
 	["便宜把戲_亞雷戈斯::Alliance"] = {
 		["show"] = true,
@@ -38,7 +38,7 @@ GoldSave = {
 	["披薩餅_暗影之月::Alliance"] = {
 		["show"] = true,
 		["name"] = "披薩餅",
-		["gold"] = 915405392,
+		["gold"] = 894817289,
 	},
 	["七蓮_屠魔山谷::Horde"] = {
 		["show"] = true,

@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0209,
+	["LastVersion"] = 2.0213,
 	["LastPlayerFullName"] = "機動-暗影之月",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
@@ -16,7 +16,7 @@ PawnOptions = {
 					["Type"] = "Iron",
 				}, -- [2]
 				{
-					["ItemLevel"] = 45,
+					["ItemLevel"] = 55,
 					["Type"] = "Blood",
 				}, -- [3]
 			},
@@ -42,7 +42,7 @@ PawnOptions = {
 		[128826] = {
 			["Relics"] = {
 				{
-					["ItemLevel"] = 52,
+					["ItemLevel"] = 55,
 					["Type"] = "Wind",
 				}, -- [1]
 				{

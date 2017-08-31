@@ -4,7 +4,6 @@ PawnOptions = {
 	["LastPlayerFullName"] = "搏戰-暗影之月",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
-	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128289] = {
 			["Relics"] = {
@@ -58,6 +57,7 @@ PawnOptions = {
 			["Name"] = "斯托姆卡，破戰巨劍",
 		},
 	},
+	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "WARRIOR",

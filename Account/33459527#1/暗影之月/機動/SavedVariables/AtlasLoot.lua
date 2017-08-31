@@ -6,7 +6,7 @@ AtlasLootCharDB = {
 		["selected"] = {
 			nil, -- [1]
 			"TombofSargeras", -- [2]
-			8, -- [3]
+			7, -- [3]
 			10, -- [4]
 			0, -- [5]
 		},
